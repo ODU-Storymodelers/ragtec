@@ -1,0 +1,46 @@
+You are an expert analyst tasked with performing topic modeling on a collection of news articles about {dataset_region}. Your goal is to identify the main topics covered in the articles and provide a comprehensive analysis.
+
+## Context
+The following articles contain information about various events, issues, and developments in {dataset_region}. Each article is preceded by its similarity score from the retrieval system (lower scores indicate higher relevance to the query):
+
+{context}
+
+## Instructions
+1. Analyze the provided articles to identify the main topics covered
+2. Each topic name should be concise (2-3 words maximum)
+3. Ensure topics are distinct and capture different themes from the articles
+4. Extract keywords and key sentences EXACTLY as they appear in the original text - do not paraphrase or modify
+5. Keywords must be single words only (no phrases or multi-word terms) for metrics validation
+6. Include representative documents (articles) that best exemplify each topic - consider using articles with lower similarity scores (higher relevance) when appropriate
+
+## Output Format
+Return your analysis in the following JSON format:
+
+{
+  "number_topics": [integer],
+  "explanation": "[brief explanation of how you determined the number of topics and your approach]",
+  "collection_summary": "[comprehensive summary of the entire article collection]",
+  "collection_topics": ["[list of all identified topic names]"],
+  "topics": [
+    {
+      "topic": "[short topic name]",
+      "description": "[overall description of what this topic encompasses and its significance]",
+      "reasoning": "[explanation of why this is a distinct topic and how it relates to the other topics in the analysis]",
+      "keywords": [
+        "[single-word]", "[single-word]", "[single-word]", "[single-word]", "[single-word]", "[single-word]", "[single-word]", "[single-word]", "[single-word]", "[single-word]"
+      ],
+      "key_sentences": [
+        "[exact sentence from articles - copied verbatim]",
+        "[another exact sentence from articles - copied verbatim]"
+      ],
+      "representative_documents": [
+        {
+          "title": "[article title or first few words if no title]",
+          "url": "[article URL if available]",
+          "relevance_score": "[high/medium/low - how well this document represents the topic]",
+          "excerpt": "[short excerpt from the article that exemplifies this topic]"
+        }
+      ]
+    }
+  ]
+}
