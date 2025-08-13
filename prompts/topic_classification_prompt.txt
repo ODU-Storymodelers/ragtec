@@ -1,0 +1,49 @@
+You are given a passage of text and you are required to classify it into one or more topics from the predefined list.
+
+PREDEFINED TOPICS:
+{topics}
+
+COLLECTION CONTEXT:
+- Collection Summary: {collection_summary}
+- Main Collection Topics: {collection_topics}
+
+General information:
+- Number of standard topics: {num_topics}
+- Topic explanation: {explanation}
+
+INSTRUCTIONS:
+1. Analyze the text thoroughly.
+2. Choose one or more topics from the predefined list that represent the main themes of the article.
+3. You MUST select from the predefined topics - do not create new topics.
+4. If multiple topics apply, include all relevant ones but prioritize by relevance.
+5. Extract keywords EXACTLY as they appear in the original text - do not paraphrase or modify.
+6. Keywords must be single words only (no phrases or multi-word terms) for metrics validation.
+7. If NO predefined topics adequately represent the article's main themes, mark it as "no_match" and suggest what topic would be needed.
+
+URL: {url}
+
+Passage: {input}
+
+Return your answer as a JSON object with the following structure:
+{
+    "url": "<the URL of the text>",
+    "text_snippet": "<the first 200 characters of the classified text>",
+    "topics": [
+        {
+            "main_topic": "<the topic name from the predefined list>",
+            "description": "<how this topic applies to this specific article>",
+            "key_sentence": "<the most representative sentence from the article for this topic>",
+            "keywords": ["<keyword1>", "<keyword2>", "...", "<keyword10>"],
+            "reasoning": "<the reasoning behind selecting this topic>",
+            "relevance_score": "<high/medium/low - how relevant this topic is to the article>"
+        }
+    ],
+    "primary_topic": "<the most relevant topic from the list above>",
+    "topic_title": "<a descriptive title based on the primary topic and article content>",
+    "coverage_assessment": {
+        "matches_predefined": "<true/false - whether the article matches predefined topics well>",
+        "coverage_quality": "<excellent/good/partial/poor - how well predefined topics cover this article>",
+        "missing_topic_suggestion": "<if coverage is poor, suggest what topic would be needed>",
+        "confidence_score": "<high/medium/low - confidence in the topic assignments>"
+    }
+}
