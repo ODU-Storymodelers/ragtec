@@ -73,6 +73,7 @@ def export_distribution(csv_path, out_png):
                   bottom=roles["primary_count"], color="#4CAE4C", label="Secondary Topic")
 
     ax.set_ylabel("Number of articles")
+    ax.set_xlabel("Topics")
     ax.legend(frameon=False, loc="best")
     # No title; legend moved to caption; keep labels short
     fig.subplots_adjust(left=LEFT, right=RIGHT, bottom=BOTTOM, top=TOP)
@@ -99,6 +100,8 @@ def export_importance(csv_path, out_png):
     
     ax.set_ylabel("Topic importance (%)")
     ax.set_ylim(0, 100)
+    
+    ax.set_xlabel("Topics")
 
     # Remove y-axis tick labels entirely
     ax.set_yticklabels([])
