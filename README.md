@@ -33,15 +33,26 @@ Data Collection → Content Extraction → Preprocessing → Topic Modeling → 
 ```
 ragtec/
 ├── code/                                    # Source code implementation
-│   ├── 1_data.py                           # Stage 1: Data collection and URL processing
-│   ├── 2_news_extraction.py               # Stage 2: News content extraction
+│   ├── 1_*.py                             # Stage 1: Data collection and URL processing
+│   │   ├── 1_data.py                      #   - Combined data collection pipeline
+│   │   ├── 1_schema-exctration.py         #   - Schema extraction utilities
+│   │   └── 1_url-formatting.py            #   - URL formatting and validation
+│   ├── 2_*.py                             # Stage 2: News content extraction
+│   │   ├── 2_news_extraction.py           #   - Primary news extraction pipeline
+│   │   └── 2_gnews-content-scrapper.py    #   - Google News specific scraper
 │   ├── 3_news-formatting-document.py      # Stage 3: Document preprocessing
 │   ├── 4_topic_modeling_*.py              # Stage 4: Topic modeling implementations
 │   │   ├── 4_topic_modeling_ragtec.py     #   - RAGTEC implementation
 │   │   ├── 4_topic_modeling_lda.py        #   - LDA baseline
 │   │   └── 4_topic_modeling_bertopic.py   #   - BERTopic baseline
-│   ├── 5_topic_*_classification.py        # Stage 5: Topic classification
+│   ├── 5_topic_*.py                       # Stage 5: Topic classification
+│   │   ├── 5_topic_ragtec_classifcation.py #   - RAGTEC classification
+│   │   └── 5_topic_ragtec_assignation.py  #   - Topic assignment utilities
 │   ├── 6_metrics_document_*.py            # Stage 6: Evaluation metrics
+│   │   ├── 6_metrics_document_ragtec.py   #   - RAGTEC metrics
+│   │   ├── 6_metrics_document_lda.py      #   - LDA metrics
+│   │   ├── 6_metrics_document_bert.py     #   - BERTopic metrics
+│   │   └── 6_metrics_document_ragtec_keybert.py # - RAGTEC+KeyBERT metrics
 │   └── 7_topic_storytelling_ragtec.py     # Stage 7: Results visualization
 │   ├── utils/                              # Core utility modules
 │   │   ├── ragtec_topic_extraction.py     #   - RAGTEC extraction logic
@@ -75,40 +86,41 @@ Each dataset contains news articles collected from multiple sources, preprocesse
 
 ## Implementation Details
 
-### Stage 1: Data Collection (`1_data.py`)
-- URL collection and validation
-- Schema extraction from news sources
-- Multi-source aggregation
+### Stage 1: Data Collection (`1_*.py`)
+- **`1_data.py`**: Combined data collection pipeline
+- **`1_url-formatting.py`**: URL validation and formatting utilities  
+- **`1_schema-exctration.py`**: Website schema extraction
 
-### Stage 2: Content Extraction (`2_news_extraction.py`)
-- Web scraping with robust error handling
-- Content cleaning and normalization
-- Metadata preservation
+### Stage 2: Content Extraction (`2_*.py`)
+- **`2_news_extraction.py`**: Primary news content extraction pipeline
+- **`2_gnews-content-scrapper.py`**: Google News specific scraping utilities
 
 ### Stage 3: Preprocessing (`3_news-formatting-document.py`)
 - Text normalization and tokenization
 - Document formatting for downstream processing
-- Quality filtering
+- Quality filtering and metadata preservation
 
 ### Stage 4: Topic Modeling (`4_topic_modeling_*.py`)
 - **RAGTEC**: LLM-based extraction with retrieval augmentation
 - **LDA**: Traditional statistical approach with optimal hyperparameter tuning
 - **BERTopic**: Transformer-based embeddings with UMAP dimensionality reduction
 
-### Stage 5: Classification (`5_topic_*_classification.py`)
-- Document-level topic assignment
-- Multi-topic classification support
-- Confidence scoring
+### Stage 5: Classification (`5_topic_*.py`)
+- **`5_topic_ragtec_classifcation.py`**: RAGTEC-based document classification
+- **`5_topic_ragtec_assignation.py`**: Topic assignment utilities
+- Multi-topic classification support with confidence scoring
 
 ### Stage 6: Evaluation (`6_metrics_document_*.py`)
-- Coherence metrics (CV, UMass, C_NPMI)
+- **RAGTEC**: Comprehensive coherence and quality metrics
+- **LDA/BERTopic**: Baseline comparison metrics
+- **KeyBERT Integration**: Enhanced keyword-based evaluation
 - Topic diversity and coverage analysis
-- Inter-method comparison
 
 ### Stage 7: Visualization (`7_topic_storytelling_ragtec.py`)
 - Topic distribution analysis
-- Temporal pattern visualization
+- Temporal pattern visualization  
 - Comparative performance charts
+- Research output generation
 
 ## Installation and Setup
 
@@ -155,14 +167,14 @@ Run the full RAGTEC pipeline for a specific dataset:
 conda activate ragtec
 cd code
 
-# Example: Process DRC dataset
-python 1_data.py --dataset drc
-python 2_news_extraction.py --dataset drc  
-python 3_news-formatting-document.py --dataset drc
-python 4_topic_modeling_ragtec.py --dataset drc
-python 5_topic_ragtec_classification.py --dataset drc
-python 6_metrics_document_ragtec.py --dataset drc
-python 7_topic_storytelling_ragtec.py --dataset drc
+# Example: Process DRC dataset through complete pipeline
+python 1_data.py          # Data collection and schema extraction
+python 2_news_extraction.py # News content extraction  
+python 3_news-formatting-document.py # Document preprocessing
+python 4_topic_modeling_ragtec.py # RAGTEC topic modeling
+python 5_topic_ragtec_classifcation.py # Topic classification
+python 6_metrics_document_ragtec.py # Evaluation metrics
+python 7_topic_storytelling_ragtec.py # Visualization
 ```
 
 ### Individual Component Usage
@@ -170,6 +182,11 @@ python 7_topic_storytelling_ragtec.py --dataset drc
 **RAGTEC Topic Extraction**:
 ```bash
 python 4_topic_modeling_ragtec.py
+```
+
+**Topic Classification**:
+```bash
+python 5_topic_ragtec_classifcation.py
 ```
 
 **Metrics Calculation**:
@@ -181,6 +198,8 @@ python 6_metrics_document_ragtec.py
 ```bash
 python 4_topic_modeling_lda.py      # LDA baseline
 python 4_topic_modeling_bertopic.py # BERTopic baseline
+python 6_metrics_document_lda.py    # LDA metrics
+python 6_metrics_document_bert.py   # BERTopic metrics
 ```
 
 ## Evaluation Metrics
