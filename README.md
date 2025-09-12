@@ -2,31 +2,40 @@
 
 ## Abstract
 
-This repository implements RAGTEC (Retrieval-Augmented Generation for Topic Extraction and Classification), a novel approach to topic modeling that leverages Large Language Models (LLMs) with retrieval-augmented generation for enhanced topic discovery and classification in news corpora. The framework provides a comprehensive pipeline for analyzing news articles from conflict-affected regions, comparing RAGTEC performance against traditional methods like LDA and BERT-based topic modeling.
+This repository implements RAG-TEC (Retrieval-Augmented Generation for Topic Extraction and Classification), a novel approach addressing redundancy and interpretability challenges in topic modeling of news corpora. RAG-TEC leverages Large Language Models (LLMs) with retrieval-augmented generation to improve unsupervised topic discovery. The framework demonstrates superior performance compared to traditional methods such as LDA, BERTopic, and the enhanced RAG-TEC+KeyBERT hybrid. Additionally, it produces rich storytelling outputs including Topic Dictionary, Collection Context, Topic Distribution, and Topic Co-occurrence Network, facilitating deeper insights into news collections.
 
 ## Research Objectives
 
-- **Primary**: Develop and evaluate RAGTEC methodology for topic modeling in news corpora
-- **Secondary**: Compare performance across multiple topic modeling approaches (LDA, BERTopic, RAGTEC)
-- **Application**: Analyze news coverage patterns in conflict-affected African regions
+- **Primary**: Introduce and evaluate RAG-TEC for unsupervised topic discovery in news collections  
+- **Secondary**: Compare against LDA, BERTopic, and RAG-TEC+KeyBERT in coherence and diversity  
+- **Application**: Case studies on four African crisis-related news collections
 
 ## Methodology Overview
 
-### RAGTEC Framework
+The research methodology follows a systematic 5-stage pipeline:
 
-RAGTEC combines retrieval-augmented generation with structured prompting to achieve:
-1. **Context-Aware Topic Extraction**: Uses retrieval systems to provide relevant context for LLM-based topic discovery
-2. **Hierarchical Topic Classification**: Employs predefined topic taxonomies for consistent classification
-3. **Quality Metrics Integration**: Implements comprehensive evaluation metrics including coherence, diversity, and coverage
+![RAGTEC Pipeline Overview](image/ragtec.png)
 
-### Workflow Pipeline
+### Collection Generation
 
-The research methodology follows a systematic 7-stage pipeline:
+Curate news collections by manually selecting URLs from diverse outlets (e.g., Reuters, DW), archiving each page via the Internet Archive’s Wayback Machine to ensure persistence. Validate URLs by checking for successful responses and exclude inaccessible or paywalled links. For each valid URL, extract metadata (title, author, images) using schema.org standards and retrieve full-text content with tools like Gnews Web Scraper. Apply random delays and retry logic to minimize blocking and maximize completeness. Merge metadata and content into a standardized format, providing rich context for topic discovery via retrieval systems.
 
-```
-Data Collection → Content Extraction → Preprocessing → Topic Modeling → Classification → Evaluation → Visualization
-     (1)              (2)               (3)           (4)            (5)           (6)          (7)
-```
+### Topic Extraction
+
+Perform context-aware topic extraction using retrieval-augmented LLMs and utility functions (`utils/ragtec_topic_extraction.py`) to identify meaningful topics with reduced redundancy.
+
+### Topic Classification
+
+Assign multiple topics per document with multi-topic classification techniques and supporting utilities (`utils/ragtec_topic_classification.py`) to capture complex thematic structures.
+
+### Topic Quality
+
+Evaluate topics with a focus on coherence and diversity tradeoffs, integrating metrics and utility modules (`utils/ragtec_topic_quality.py`) to assess quality comprehensively.
+
+### Topic Storytelling
+
+Produce storytelling outputs including Topic Dictionary, Collection Context, Topic Distribution, and Topic Co-occurrence Network to enhance interpretability, supported by utility scripts for data formatting and visualization.
+
 
 ## Repository Structure
 
@@ -65,57 +74,36 @@ ragtec/
 
 ## Datasets
 
-The research analyzes news corpora from four conflict-affected African regions:
-- **Burundi**: Political crisis and electoral violence
-- **Democratic Republic of Congo (DRC)**: Armed conflict and humanitarian crisis  
-- **Mozambique**: Insurgency and climate-related disasters
-- **Sudan**: Political transition and ethnic conflicts
-
-Each dataset contains news articles collected from multiple sources, preprocessed and formatted for topic modeling analysis.
+The research analyzes curated news collections from Mozambique, Burundi, Democratic Republic of Congo (DRC), and Sudan. These collections are archived via the Internet Archive’s Wayback Machine and focus on political, humanitarian, and climate crises in these regions. The datasets are formatted and processed to support comprehensive topic modeling analysis.
 
 ## Implementation Details
 
-### Stage 1: Data Collection (`1_data.py`)
-- URL collection and validation
-- Schema extraction from news sources
-- Multi-source aggregation
+### Stage 1: Collection Generation
+- URL collection and validation  
+- Schema extraction from news sources  
+- Multi-source aggregation  
 
-### Stage 2: Content Extraction (`2_news_extraction.py`)
-- Web scraping with robust error handling
-- Content cleaning and normalization
-- Metadata preservation
+### Stage 2: Topic Extraction (`4_topic_modeling_ragtec.py`)
+- Context-aware topic discovery using retrieval-augmented LLMs  
+- Redundancy reduction and interpretability enhancements  
 
-### Stage 3: Preprocessing (`3_news-formatting-document.py`)
-- Text normalization and tokenization
-- Document formatting for downstream processing
-- Quality filtering
+### Stage 3: Topic Classification (`5_topic_ragtec_classification.py`)
+- Multi-topic assignment per document  
+- Confidence scoring and classification logic  
 
-### Stage 4: Topic Modeling (`4_topic_modeling_*.py`)
-- **RAGTEC**: LLM-based extraction with retrieval augmentation
-- **LDA**: Traditional statistical approach with optimal hyperparameter tuning
-- **BERTopic**: Transformer-based embeddings with UMAP dimensionality reduction
+### Stage 4: Topic Quality (`6_metrics_document_ragtec.py`, `6_metrics_document_ragtec_keybert.py`)
+- Coherence and diversity tradeoff evaluation  
 
-### Stage 5: Classification (`5_topic_*_classification.py`)
-- Document-level topic assignment
-- Multi-topic classification support
-- Confidence scoring
 
-### Stage 6: Evaluation (`6_metrics_document_*.py`)
-- Coherence metrics (CV, UMass, C_NPMI)
-- Topic diversity and coverage analysis
-- Inter-method comparison
-
-### Stage 7: Visualization (`7_topic_storytelling_ragtec.py`)
-- Topic distribution analysis
-- Temporal pattern visualization
-- Comparative performance charts
+### Stage 5: Topic Storytelling (`7_topic_storytelling_ragtec.py`)
+- Generation of Topic Dictionary, Collection Context, Topic Distribution, and Topic Co-occurrence Network  
 
 ## Installation and Setup
 
 ### Environment Requirements
 
-- **Python**: 3.11.13
-- **Primary Dependencies**: gensim==4.3.3, numpy==1.26.4, scipy==1.13.1
+- **Python**: 3.11.13  
+- **Primary Dependencies**: gensim==4.3.3, numpy==1.26.4, scipy==1.13.1  
 
 ### Installation Steps
 
@@ -185,16 +173,11 @@ python 4_topic_modeling_bertopic.py # BERTopic baseline
 
 ## Evaluation Metrics
 
-The framework implements comprehensive evaluation metrics:
-
-- **Coherence Measures**: CV, UMass, C_NPMI coherence scores
-- **Topic Diversity**: Intra-topic and inter-topic diversity analysis  
-- **Coverage Analysis**: Document and vocabulary coverage assessment
-- **Classification Quality**: Precision, recall, and F1 scores for topic assignment
+The framework focuses on evaluating topic coherence (CV) and diversity (Jaccard Diversity), emphasizing the tradeoff between these metrics. While KeyBERT integration improves coherence scores, it slightly reduces topic diversity, highlighting the balance required for optimal topic quality.
 
 ## Results and Outputs
 
-Results are organized by dataset and method:
+Results are organized by dataset and method, aligned with the storytelling stage outputs:
 ```
 output/
 ├── {dataset}/
@@ -206,32 +189,20 @@ output/
 │   └── bertopic/          # BERTopic baseline results
 ```
 
+Storytelling outputs include Topic Dictionary, Collection Context, Topic Distribution, and Topic Co-occurrence Network to facilitate comprehensive understanding.
+
 ## Contributing
 
 For research collaboration or technical contributions:
 
-1. Fork the repository
-2. Create feature branches for specific improvements
-3. Ensure all tests pass and code follows project standards
-4. Submit pull requests with detailed descriptions
+1. Fork the repository  
+2. Create feature branches for specific improvements  
+3. Ensure all tests pass and code follows project standards  
+4. Submit pull requests with detailed descriptions  
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this work in your research, please cite:
-
-```bibtex
-@article{ragtec2024,
-  title={RAGTEC: Retrieval-Augmented Generation for Topic Extraction and Classification in News Corpora},
-  author={[Authors]},
-  journal={[Journal]},
-  year={2024},
-  publisher={[Publisher]}
-}
-```
 
 ## Contact
 

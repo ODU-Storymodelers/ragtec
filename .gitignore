@@ -9,3 +9,6 @@ code/lib/
 
 # Ignore test folder
 test/
+
+# Ignore topic_extraction_prompt_original.txt
+topic_extraction_prompt_original.txt
