@@ -18,23 +18,23 @@ The research methodology follows a systematic 5-stage pipeline:
 
 ### Collection Generation
 
-Curate news collections by manually selecting URLs from diverse outlets (e.g., Reuters, DW), archiving each page via the Internet Archive’s Wayback Machine to ensure persistence. Validate URLs by checking for successful responses and exclude inaccessible or paywalled links. For each valid URL, extract metadata (title, author, images) using schema.org standards and retrieve full-text content with tools like Gnews Web Scraper. Apply random delays and retry logic to minimize blocking and maximize completeness. Merge metadata and content into a standardized format, providing rich context for topic discovery via retrieval systems.
+Manually curate URLs from diverse news outlets (e.g., Reuters, DW), archive each page using the Internet Archive’s Wayback Machine to ensure persistence, and validate accessibility by checking for successful responses. For each valid URL, extract metadata (title, author, images) using schema.org standards and retrieve full-text content with tools such as Gnews Web Scraper. Implement random delays and retry logic to minimize blocking and maximize completeness. Merge metadata and content into a standardized document format, providing rich context for topic discovery via retrieval-augmented generation (RAG) systems.
 
 ### Topic Extraction
 
-Perform context-aware topic extraction using retrieval-augmented LLMs, utility functions (`utils/ragtec_topic_extraction.py`), and custom prompt templates (`prompts/topic_extraction_prompt.txt`, `prompts/docs_retrieve_query.txt`) to identify meaningful topics with reduced redundancy.
+Retrieve representative subsets of the archived news collection using a retrieval query and vector database, then use an LLM (e.g., GPT-4o-mini) with a topic-extraction prompt (`prompts/topic_extraction_prompt.txt`) to extract structured topics and collection context. Embeddings are generated for all articles and stored for efficient retrieval. The optimal number of articles for extraction is determined by a heuristic balancing coverage and efficiency (see `prompts/docs_retrieve_query.txt`). The LLM produces a collection-level analysis, topic list, descriptions, keywords, and representative documents. All prompt and query templates are available in the repository.
 
 ### Topic Classification
 
-Assign multiple topics per document with multi-topic classification techniques, supporting utilities (`utils/ragtec_topic_classification.py`), and tailored prompt templates (`prompts/topic_classification_prompt.txt`) to capture complex thematic structures.
+Assign each article to one or more predefined topics identified in the extraction step, allowing for multi-topic assignments. The LLM receives the article’s URL and full text, guided by a topic-classification prompt (`prompts/topic_classification_prompt.txt`) that incorporates the topic list and collection context. The model identifies main and primary topics, generates supporting details, and can create new topics if needed, serving as a diagnostic for topic coverage. Implementation scripts and prompt templates are available in the repository.
 
 ### Topic Quality
 
-Evaluate topics with a focus on coherence and diversity tradeoffs, integrating metrics and utility modules (`utils/ragtec_topic_quality.py`) to assess quality comprehensively.
+Evaluate the quality of extracted topics using two complementary metrics: topic coherence (C_V) and topic diversity (Jaccard Diversity). Coherence is measured by the semantic relatedness of top keywords, while diversity quantifies vocabulary overlap between topics. Keywords are sourced both from the LLM (during extraction) and from KeyBERT applied to the entire collection. Implementation scripts and metric details are available in the repository (`utils/ragtec_topic_quality.py`, `code/6_metrics_document_ragtec.py`, `code/6_metrics_document_ragtec_keybert.py`).
 
 ### Topic Storytelling
 
-Produce storytelling outputs including Topic Dictionary, Collection Context, Topic Distribution, and Topic Co-occurrence Network to enhance interpretability, supported by utility scripts for data formatting and visualization.
+Synthesize outputs from previous stages to provide a comprehensive, narrative-driven understanding of the collection. Generate four complementary views: Topic Dictionary (labels, descriptions, keywords), Collection Context (summary and main themes), Topic Distribution (primary/secondary appearances and importance ratio), and Topic Co-occurrence Network (visualizing topic relationships and overlaps). These outputs combine descriptive text, quantitative measures, and relational structures, supported by utility scripts for formatting and visualization. All implementation scripts and prompt templates are available in the repository.
 
 
 ## Repository Structure
