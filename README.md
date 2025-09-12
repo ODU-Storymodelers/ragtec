@@ -144,13 +144,16 @@ conda activate ragtec
 cd code
 
 # Example: Process DRC dataset
-python 1_data.py --dataset drc
-python 2_news_extraction.py --dataset drc  
-python 3_news-formatting-document.py --dataset drc
-python 4_topic_modeling_ragtec.py --dataset drc
-python 5_topic_ragtec_classification.py --dataset drc
-python 6_metrics_document_ragtec.py --dataset drc
-python 7_topic_storytelling_ragtec.py --dataset drc
+python 1_url-formatting.py --dataset drc                # Format and extract URLs from source lists
+python 1_schema-exctration.py --dataset drc             # Extract schema metadata from URLs
+python 1_data.py --dataset drc                          # Scrape metadata and articles
+python 2_gnews-content-scrapper.py --dataset drc        # Scrape news content from Gnews
+python 3_news-formatting-document.py --dataset drc      # Format and merge articles for modeling
+python 4_topic_modeling_ragtec.py --dataset drc         # Topic extraction with RAGTEC
+python 5_topic_ragtec_classification.py --dataset drc   # Topic classification
+python 6_metrics_document_ragtec.py --dataset drc       # Topic quality metrics (LLM)
+python 6_metrics_document_ragtec_keybert.py --dataset drc # Topic quality metrics (KeyBERT)
+python 7_topic_storytelling_ragtec.py --dataset drc      # Storytelling and visualization
 ```
 
 ### Individual Component Usage
