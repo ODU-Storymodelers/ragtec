@@ -1,4 +1,4 @@
-# RAGTEC: Retrieval-Augmented Generation for Topic Extraction and Classification
+# RAG-TEC: Extracting and Classifying Topics in Digital News Collections Using LLMs
 
 ## Abstract
 
