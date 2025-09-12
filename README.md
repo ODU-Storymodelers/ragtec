@@ -115,14 +115,14 @@ The research analyzes curated news collections from Mozambique, Burundi, Democra
 
 ### Environment Requirements
 
-- **Python**: 3.12.3  
+- **Python**: 3.11
 - **Primary Dependencies**: gensim==4.3.3, numpy==1.26.4, scipy==1.13.1  
 
 ### Installation Steps
 
 1. **Create conda environment**:
 ```bash
-conda create -n ragtec python=3.12 -y
+conda create -n ragtec python=3.11 -y
 conda activate ragtec
 ```
 
