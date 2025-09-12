@@ -51,12 +51,12 @@ FIGSIZE = (3.2, 3.2)   # square; matches network
 LEFT, RIGHT, BOTTOM, TOP = 0.12, 0.98, 0.14, 0.98  # consistent margins
 
 LETTER_MAP = {
-    "Election Violence": "A",
-    "Climate Challenges": "B",
-    "Insurgency Crisis": "C",
-    "Social Media Restrictions": "D",
-    "Economic Disparities": "E",
-    "Humanitarian Response": "F",
+    "Election Violence": "EV",
+    "Climate Challenges": "CC",
+    "Insurgency Crisis": "IC",
+    "Social Media Restrictions": "SMR",
+    "Economic Disparities": "ED",
+    "Humanitarian Response": "HR",
 }
 
 PRIMARY_COLOR = "#4E4E4E"   # dark gray (primary)

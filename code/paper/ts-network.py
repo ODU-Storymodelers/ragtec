@@ -33,12 +33,12 @@ mpl.rcParams.update({
 FIGSIZE = (3.2, 3.2)  # same as barplots
 
 LETTER_MAP = {
-    "Election Violence": "A",
-    "Climate Challenges": "B",
-    "Insurgency Crisis": "C",
-    "Social Media Restrictions": "D",
-    "Economic Disparities": "E",
-    "Humanitarian Response": "F",
+    "Election Violence": "EV",
+    "Climate Challenges": "CC",
+    "Insurgency Crisis": "IC",
+    "Social Media Restrictions": "SMR",
+    "Economic Disparities": "ED",
+    "Humanitarian Response": "HR",
 }
 
 def export_network_square():
