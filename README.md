@@ -48,32 +48,26 @@ ragtec/
 │   ├── 2_gnews-content-scrapper.py          # Scrape news content from Gnews
 │   ├── 2_news_extraction.py                 # News content extraction (legacy/alt)
 │   ├── 3_news-formatting-document.py        # Format and merge articles for modeling
-│   ├── 4_topic_modeling_ragtec.py           # Topic extraction with RAGTEC
+│   ├── 4_topic_modeling_ragtec.py           # RAGTEC implementation
 │   ├── 4_topic_modeling_lda.py              # LDA baseline
 │   ├── 4_topic_modeling_bertopic.py         # BERTopic baseline
-│   ├── 4_topic_modeling_general_llm.py      # General LLM topic modeling
-│   ├── 4_topic_modeling_ragtec.py           # RAGTEC implementation
-│   ├── 5_topic_ragtec_classification.py     # Topic classification
-│   ├── 5_topic_ragtec_assignation.py        # RAGTEC topic assignation
-│   ├── 5_topic_ragtec_classifcation.py      # RAGTEC topic classification (alt)
+│   ├── 5_topic_ragtec_classifcation.py      # RAGTEC topic classification
 │   ├── 6_metrics_document_ragtec.py         # Topic quality metrics (LLM)
 │   ├── 6_metrics_document_ragtec_keybert.py # Topic quality metrics (KeyBERT)
 │   ├── 6_metrics_document_lda.py            # LDA metrics
-│   ├── 6_metrics_document_llm_general.py    # General LLM metrics
-│   ├── 6_metrics_document_llm_standard.py   # Standard LLM metrics
-│   ├── 6_metrics_document_ragtec_keybert.py # KeyBERT metrics
+│   ├── 6_metrics_document_bert.py           # BERT metrics
 │   ├── 7_topic_storytelling_ragtec.py       # Storytelling and visualization
+│   ├── combined_scraper.py                  # Combined scraping utilities
+│   ├── simple_flatten.py                    # Data flattening utilities
 │   ├── utils/                              # Core utility modules
 │   │   ├── ragtec_topic_extraction.py      #   - RAGTEC extraction logic
 │   │   ├── ragtec_topic_classification.py  #   - RAGTEC classification logic
 │   │   ├── ragtec_topic_quality.py         #   - Quality assessment metrics
 │   │   ├── ragtec_topic_quality_keybert.py #   - KeyBERT quality metrics
+│   │   ├── ragtec_topic_storytelling.py    #   - Storytelling utilities
 │   │   ├── news_extraction.py              #   - News scraping utilities
-│   │   ├── optimal_k.py                    #   - Optimal k calculation
-│   │   ├── ragtec_topic_extraction.py      #   - Topic extraction logic
-│   │   ├── ragtec_topic_classification.py  #   - Topic classification logic
-│   │   ├── ragtec_topic_quality.py         #   - Quality assessment metrics
-│   │   └── ragtec_topic_quality_keybert.py #   - KeyBERT quality metrics
+│   │   ├── scraping_utils.py               #   - Additional scraping utilities
+│   │   └── optimal_k.py                    #   - Optimal k calculation
 │   └── paper/                             # Research output scripts
 ├── data/                                  # Dataset storage
 │   ├── burundi/                           # Burundi news corpus
@@ -83,6 +77,7 @@ ragtec/
 ├── output/                                # Results and generated outputs
 ├── prompts/                               # LLM prompt templates
 │   ├── topic_extraction_prompt.txt        # RAGTEC extraction prompts
+│   ├── topic_extraction_prompt_original.txt # Original extraction prompts
 │   ├── topic_classification_prompt.txt    # RAGTEC classification prompts
 │   └── docs_retrieve_query.txt            # Retrieval query templates
 ├── image/                                 # Generated visualizations
@@ -104,12 +99,13 @@ The research analyzes curated news collections from Mozambique, Burundi, Democra
 - Context-aware topic discovery using retrieval-augmented LLMs  
 - Redundancy reduction and interpretability enhancements  
 
-### Stage 3: Topic Classification (`5_topic_ragtec_classification.py`)
+### Stage 3: Topic Classification (`5_topic_ragtec_classifcation.py`)
 - Multi-topic assignment per document  
 - Confidence scoring and classification logic  
 
 ### Stage 4: Topic Quality (`6_metrics_document_ragtec.py`, `6_metrics_document_ragtec_keybert.py`)
-- Coherence and diversity tradeoff evaluation  
+- Coherence and diversity tradeoff evaluation
+- Additional metrics available for baseline comparisons (`6_metrics_document_lda.py`, `6_metrics_document_bert.py`)  
 
 
 ### Stage 5: Topic Storytelling (`7_topic_storytelling_ragtec.py`)
@@ -119,14 +115,14 @@ The research analyzes curated news collections from Mozambique, Burundi, Democra
 
 ### Environment Requirements
 
-- **Python**: 3.11.13  
+- **Python**: 3.12.3  
 - **Primary Dependencies**: gensim==4.3.3, numpy==1.26.4, scipy==1.13.1  
 
 ### Installation Steps
 
 1. **Create conda environment**:
 ```bash
-conda create -n ragtec python=3.11 -y
+conda create -n ragtec python=3.12 -y
 conda activate ragtec
 ```
 
@@ -138,6 +134,13 @@ pip install -r requirements.txt
 3. **Verify installation**:
 ```bash
 python -c "from gensim.models.coherencemodel import CoherenceModel; print('Installation successful!')"
+```
+
+**Note**: If you encounter timeout errors during installation, try:
+```bash
+pip install -r requirements.txt --timeout 1000
+# or install key packages individually:
+pip install gensim==4.3.3 numpy==1.26.4 scipy==1.13.1
 ```
 
 ### Environment Variables
@@ -161,31 +164,60 @@ conda activate ragtec
 cd code
 
 # Example: Process DRC dataset
-python 1_url-formatting.py --dataset drc                # Format and extract URLs from source lists
-python 1_schema-exctration.py --dataset drc             # Extract schema metadata from URLs
-python 1_data.py --dataset drc                          # Scrape metadata and articles
-python 2_gnews-content-scrapper.py --dataset drc        # Scrape news content from Gnews
-python 3_news-formatting-document.py --dataset drc      # Format and merge articles for modeling
-python 4_topic_modeling_ragtec.py --dataset drc         # Topic extraction with RAGTEC
-python 5_topic_ragtec_classification.py --dataset drc   # Topic classification
-python 6_metrics_document_ragtec.py --dataset drc       # Topic quality metrics (LLM)
-python 6_metrics_document_ragtec_keybert.py --dataset drc # Topic quality metrics (KeyBERT)
-python 7_topic_storytelling_ragtec.py --dataset drc      # Storytelling and visualization
+# Note: Most scripts require manual configuration of dataset_name variable within the script
+
+# Step 1: URL formatting and extraction
+python 1_url-formatting.py                     # Configure dataset_name in script
+
+# Step 2: Schema extraction and data scraping  
+python 1_schema-exctration.py                  # Configure dataset_name in script
+python 1_data.py --dataset drc                 # Has CLI support
+# OR use combined scraper:
+python combined_scraper.py --dataset drc --mode both
+
+# Step 3: Content scraping and formatting
+python 2_gnews-content-scrapper.py             # Configure dataset_name in script
+python 3_news-formatting-document.py           # Configure dataset_name in script
+
+# Step 4: Topic modeling
+python 4_topic_modeling_ragtec.py              # Configure dataset_name in script
+
+# Step 5: Topic classification  
+python 5_topic_ragtec_classifcation.py         # Configure dataset_name in script
+
+# Step 6: Metrics calculation
+python 6_metrics_document_ragtec.py            # Configure dataset_name in script
+python 6_metrics_document_ragtec_keybert.py    # Configure dataset_name in script
+
+# Step 7: Storytelling and visualization
+python 7_topic_storytelling_ragtec.py          # Configure dataset_name in script
 ```
 
 ### Individual Component Usage
 
-**RAGTEC Topic Extraction**:
+**RAGTEC Topic Extraction** (configure dataset_name in script):
 ```bash
 python 4_topic_modeling_ragtec.py
 ```
 
-**Metrics Calculation**:
+**Topic Classification** (configure dataset_name in script):
+```bash  
+python 5_topic_ragtec_classifcation.py
+```
+
+**Metrics Calculation** (configure dataset_name in script):
 ```bash
 python 6_metrics_document_ragtec.py
 ```
 
-**Baseline Comparisons**:
+**Combined Scraper** (has CLI support):
+```bash
+python combined_scraper.py --dataset mozambique --mode both
+python combined_scraper.py --dataset sudan --mode schema  
+python combined_scraper.py --dataset drc --mode articles
+```
+
+**Baseline Comparisons** (configure dataset_name in script):
 ```bash
 python 4_topic_modeling_lda.py      # LDA baseline
 python 4_topic_modeling_bertopic.py # BERTopic baseline
