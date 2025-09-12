@@ -42,34 +42,51 @@ Synthesize outputs from previous stages to provide a comprehensive, narrative-dr
 ```
 ragtec/
 ├── code/                                    # Source code implementation
-│   ├── 1_data.py                           # Stage 1: Data collection and URL processing
-│   ├── 2_news_extraction.py               # Stage 2: News content extraction
-│   ├── 3_news-formatting-document.py      # Stage 3: Document preprocessing
-│   ├── 4_topic_modeling_*.py              # Stage 4: Topic modeling implementations
-│   │   ├── 4_topic_modeling_ragtec.py     #   - RAGTEC implementation
-│   │   ├── 4_topic_modeling_lda.py        #   - LDA baseline
-│   │   └── 4_topic_modeling_bertopic.py   #   - BERTopic baseline
-│   ├── 5_topic_*_classification.py        # Stage 5: Topic classification
-│   ├── 6_metrics_document_*.py            # Stage 6: Evaluation metrics
-│   └── 7_topic_storytelling_ragtec.py     # Stage 7: Results visualization
+│   ├── 1_url-formatting.py                  # Format and extract URLs from source lists
+│   ├── 1_schema-exctration.py               # Extract schema metadata from URLs
+│   ├── 1_data.py                            # Scrape metadata and articles
+│   ├── 2_gnews-content-scrapper.py          # Scrape news content from Gnews
+│   ├── 2_news_extraction.py                 # News content extraction (legacy/alt)
+│   ├── 3_news-formatting-document.py        # Format and merge articles for modeling
+│   ├── 4_topic_modeling_ragtec.py           # Topic extraction with RAGTEC
+│   ├── 4_topic_modeling_lda.py              # LDA baseline
+│   ├── 4_topic_modeling_bertopic.py         # BERTopic baseline
+│   ├── 4_topic_modeling_general_llm.py      # General LLM topic modeling
+│   ├── 4_topic_modeling_ragtec.py           # RAGTEC implementation
+│   ├── 5_topic_ragtec_classification.py     # Topic classification
+│   ├── 5_topic_ragtec_assignation.py        # RAGTEC topic assignation
+│   ├── 5_topic_ragtec_classifcation.py      # RAGTEC topic classification (alt)
+│   ├── 6_metrics_document_ragtec.py         # Topic quality metrics (LLM)
+│   ├── 6_metrics_document_ragtec_keybert.py # Topic quality metrics (KeyBERT)
+│   ├── 6_metrics_document_lda.py            # LDA metrics
+│   ├── 6_metrics_document_llm_general.py    # General LLM metrics
+│   ├── 6_metrics_document_llm_standard.py   # Standard LLM metrics
+│   ├── 6_metrics_document_ragtec_keybert.py # KeyBERT metrics
+│   ├── 7_topic_storytelling_ragtec.py       # Storytelling and visualization
 │   ├── utils/                              # Core utility modules
-│   │   ├── ragtec_topic_extraction.py     #   - RAGTEC extraction logic
-│   │   ├── ragtec_topic_classification.py #   - RAGTEC classification logic
-│   │   ├── ragtec_topic_quality.py        #   - Quality assessment metrics
-│   │   └── news_extraction.py             #   - News scraping utilities
-│   └── paper/                              # Research output scripts
-├── data/                                    # Dataset storage
-│   ├── burundi/                            # Burundi news corpus
-│   ├── drc/                                # Democratic Republic of Congo corpus
-│   ├── mozambique/                         # Mozambique news corpus
-│   └── sudan/                              # Sudan news corpus
-├── output/                                  # Results and generated outputs
-├── prompts/                                 # LLM prompt templates
-│   ├── topic_extraction_prompt.txt         # RAGTEC extraction prompts
-│   ├── topic_classification_prompt.txt     # RAGTEC classification prompts
-│   └── docs_retrieve_query.txt             # Retrieval query templates
-├── image/                                   # Generated visualizations
-└── requirements.txt                         # Dependencies specification
+│   │   ├── ragtec_topic_extraction.py      #   - RAGTEC extraction logic
+│   │   ├── ragtec_topic_classification.py  #   - RAGTEC classification logic
+│   │   ├── ragtec_topic_quality.py         #   - Quality assessment metrics
+│   │   ├── ragtec_topic_quality_keybert.py #   - KeyBERT quality metrics
+│   │   ├── news_extraction.py              #   - News scraping utilities
+│   │   ├── optimal_k.py                    #   - Optimal k calculation
+│   │   ├── ragtec_topic_extraction.py      #   - Topic extraction logic
+│   │   ├── ragtec_topic_classification.py  #   - Topic classification logic
+│   │   ├── ragtec_topic_quality.py         #   - Quality assessment metrics
+│   │   └── ragtec_topic_quality_keybert.py #   - KeyBERT quality metrics
+│   └── paper/                             # Research output scripts
+├── data/                                  # Dataset storage
+│   ├── burundi/                           # Burundi news corpus
+│   ├── drc/                               # Democratic Republic of Congo corpus
+│   ├── mozambique/                        # Mozambique news corpus
+│   └── sudan/                             # Sudan news corpus
+├── output/                                # Results and generated outputs
+├── prompts/                               # LLM prompt templates
+│   ├── topic_extraction_prompt.txt        # RAGTEC extraction prompts
+│   ├── topic_classification_prompt.txt    # RAGTEC classification prompts
+│   └── docs_retrieve_query.txt            # Retrieval query templates
+├── image/                                 # Generated visualizations
+└── requirements.txt                       # Dependencies specification
 ```
 
 ## Datasets
