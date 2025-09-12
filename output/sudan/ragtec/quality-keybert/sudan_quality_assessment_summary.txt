@@ -1,0 +1,104 @@
+================================================================================
+RAGTEC TOPIC QUALITY ASSESSMENT SUMMARY (KeyBERT)
+================================================================================
+
+CONFIGURATION:
+----------------------------------------
+Model: all-MiniLM-L6-v2
+Keywords per topic: 20
+N-gram range: (1, 1)
+Extraction method: KeyBERT (content-based)
+
+MULTI-TOPIC ASSIGNMENT STATISTICS:
+----------------------------------------
+Total documents: 109
+Total topic assignments: 367
+Average topics per document: 3.37
+Topic assignment distribution:
+  3 documents (2.8%) → 1 topic(s)
+  21 documents (19.3%) → 2 topic(s)
+  38 documents (34.9%) → 3 topic(s)
+  30 documents (27.5%) → 4 topic(s)
+  15 documents (13.8%) → 5 topic(s)
+  1 documents (0.9%) → 6 topic(s)
+  1 documents (0.9%) → 7 topic(s)
+
+TOPIC OVERVIEW:
+----------------------------------------
+Total topics identified: 8
+Average keywords per topic: 20.0
+Average topic name length: 2.0 words
+
+QUALITY METRICS:
+----------------------------------------
+Coherence (Topic Consistency):
+  • C_V Coherence: 0.552 (Excellent)
+  • UMass Coherence: -20.058 (Very Poor)
+
+Diversity (Topic Distinctiveness):
+  • Jaccard Diversity: 0.875 (Excellent)
+  • Unique Word Proportion: 0.637 (Good)
+
+OVERALL ASSESSMENT:
+----------------------------------------
+Quality Rating: Good
+Summary: Well-formed topics with reasonable quality
+
+TOPIC DOCUMENT DISTRIBUTION:
+----------------------------------------
+  Humanitarian Crisis: 86 documents
+  Conflict Dynamics: 90 documents
+  Displacement Issues: 78 documents
+  Health Crisis: 25 documents
+  Gender-Based Violence: 37 documents
+  Climate Change: 2 documents
+  International Response: 9 documents
+  Food Insecurity: 40 documents
+
+KEYBERT EXTRACTED KEYWORDS BY TOPIC:
+----------------------------------------
+Humanitarian Crisis:
+  All Keywords (20): massacre, war, refugee, libya, besieged, aid, refugees, famine, casualties, crisis, sudanese, genocide, outbreak, khartoum, crises, cholera, epidemic, humanitarian, darfur, sudan
+  Top 10 for Evaluation: massacre, war, refugee, libya, besieged, aid, refugees, famine, casualties, crisis
+
+Conflict Dynamics:
+  All Keywords (20): war, terrorizing, egypt, casualties, rebels, militias, aid, civilians, refugee, crisis, besieged, refugees, crises, genocide, abu, sudanese, khartoum, humanitarian, darfur, sudan
+  Top 10 for Evaluation: war, terrorizing, egypt, casualties, rebels, militias, aid, civilians, refugee, crisis
+
+Displacement Issues:
+  All Keywords (20): massacre, war, refugee, libya, besieged, aid, refugees, famine, casualties, crisis, sudanese, genocide, outbreak, khartoum, crises, cholera, epidemic, humanitarian, darfur, sudan
+  Top 10 for Evaluation: massacre, war, refugee, libya, besieged, aid, refugees, famine, casualties, crisis
+
+Health Crisis:
+  All Keywords (20): healthcare, health, nile, clinic, population, abu, deaths, medics, refugee, crisis, infected, famine, sudanese, outbreak, humanitarian, khartoum, epidemic, sudan, cholera, darfur
+  Top 10 for Evaluation: healthcare, health, nile, clinic, population, abu, deaths, medics, refugee, crisis
+
+Gender-Based Violence:
+  All Keywords (20): africa, farouk, massacre, nile, idris, crisis, crises, civilians, terrorizing, mohammed, arab, abu, refugee, refugees, genocide, humanitarian, khartoum, sudanese, sudan, darfur
+  Top 10 for Evaluation: africa, farouk, massacre, nile, idris, crisis, crises, civilians, terrorizing, mohammed
+
+Climate Change:
+  All Keywords (20): anniversary, activist, effects, year, august, dam, war, catastrophically, conflict, torn, peace, elsaim, nisreen, collapsed, rains, climate, arbaat, netherlands, delft, sudan
+  Top 10 for Evaluation: anniversary, activist, effects, year, august, dam, war, catastrophically, conflict, torn
+
+International Response:
+  All Keywords (20): violence, abeche, chemical, khor, armed, war, weapons, nations, arabic, sharif, ahmed, saf, emirates, arab, paramilitary, genocide, sanctions, sudanese, darfur, sudan
+  Top 10 for Evaluation: violence, abeche, chemical, khor, armed, war, weapons, nations, arabic, sharif
+
+Food Insecurity:
+  All Keywords (20): terrorizing, cholera, idris, 2024, 2025, 2023, mohamed, abu, refugee, aid, refugees, crisis, famine, crises, khartoum, genocide, sudanese, humanitarian, sudan, darfur
+  Top 10 for Evaluation: terrorizing, cholera, idris, 2024, 2025, 2023, mohamed, abu, refugee, aid
+
+PROCESSING NOTES:
+----------------------------------------
+• Keywords extracted using KeyBERT from document content
+• Multi-topic assignment: Documents can belong to multiple topics
+• All metrics use top 10 keywords per topic for fair method comparison
+• Coherence measures topic internal consistency
+• Diversity measures topic distinctiveness
+• Higher coherence = more coherent topics
+• Higher diversity = more distinct topics
+
+================================================================================
+End of Summary
+================================================================================

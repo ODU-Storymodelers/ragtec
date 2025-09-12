@@ -1,0 +1,13 @@
+{
+  "collection_size": 77,
+  "optimal_k": 30,
+  "selection_strategy": {
+    "collection_size": 77,
+    "optimal_k": 30,
+    "selection_ratio": 0.38961038961038963,
+    "percentage_selected": 38.961038961038966,
+    "strategy_type": "Logarithmic Scaling",
+    "formula_used": "k = \u230828 + log\u2081\u2080(|N|)\u2309",
+    "description": "Fixed base (28) + logarithmic adjustment to balance coverage and efficiency"
+  }
+}

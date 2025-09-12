@@ -1,0 +1,23 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS (KEYBERT)
+============================================================
+Number of Topics,8
+CV Coherence,0.552,Higher is better (0-1 range)
+UMass Coherence,-20.058,Less negative is better
+Jaccard Diversity,0.875,Higher is better (0-1 range)
+Unique Word Proportion,0.637,Higher is better (0-1 range)
+Avg Keywords per Topic,20.0,
+Avg Topic Name Length,2.0 words,
+KeyBERT Model,all-MiniLM-L6-v2,
+N-gram Range,(1, 1),
+Keywords per Topic,20,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Humanitarian Crisis,20,massacre, war, refugee, libya, besieged, aid, refugees, famine, casualties, crisis
+1,Conflict Dynamics,20,war, terrorizing, egypt, casualties, rebels, militias, aid, civilians, refugee, crisis
+2,Displacement Issues,20,massacre, war, refugee, libya, besieged, aid, refugees, famine, casualties, crisis
+3,Health Crisis,20,healthcare, health, nile, clinic, population, abu, deaths, medics, refugee, crisis
+4,Gender-Based Violence,20,africa, farouk, massacre, nile, idris, crisis, crises, civilians, terrorizing, mohammed
+5,Climate Change,20,anniversary, activist, effects, year, august, dam, war, catastrophically, conflict, torn
+6,International Response,20,violence, abeche, chemical, khor, armed, war, weapons, nations, arabic, sharif
+7,Food Insecurity,20,terrorizing, cholera, idris, 2024, 2025, 2023, mohamed, abu, refugee, aid

@@ -1,0 +1,13 @@
+OVERALL METRICS
+Number of Topics,4
+CV Coherence,0.660,Higher is better
+UMass Coherence,-0.707,Closer to 0 is better
+Jaccard Diversity,0.812,Higher is better
+Unique Word Proportion,0.675,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,0_mozambique_mozambiques_frelimo,28,mozambique, mozambiques, frelimo, chapo, frelimos, unrest, mozambican, protests, elections, mozambicans
+1,1_mozambique_malawi_cyclone,7,mozambique, malawi, cyclone, cyclones, tropical, africa, disasters, storms, zimbabwe, storm
+2,2_mozambique_mozambiques_mozambican,7,mozambique, mozambiques, mozambican, delgado, africa, insurgency, africas, protests, cabo, insurgents
+-1,-1_mozambique_mozambiques_unrest,9,mozambique, mozambiques, unrest, mozambicans, protests, malawi, fled, frelimo, maputo, refugees

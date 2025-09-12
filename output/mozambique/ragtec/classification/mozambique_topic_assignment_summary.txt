@@ -1,0 +1,49 @@
+MOZAMBIQUE TOPIC ASSIGNMENT SUMMARY
+Generated on: 2025-08-06 15:19:16
+===================================================
+
+DATASET OVERVIEW:
+- Total articles processed: 51
+- Predefined topics available: 6
+- Topic names: Election Violence, Climate Challenges, Insurgency Crisis, Social Media Restrictions, Economic Disparities, Humanitarian Response
+
+ALL TOPIC ASSIGNMENTS:
+- Election Violence: 41 articles
+- Social Media Restrictions: 8 articles
+- Climate Challenges: 8 articles
+- Insurgency Crisis: 5 articles
+- Humanitarian Response: 5 articles
+- Economic Disparities: 2 articles
+
+PRIMARY TOPIC DISTRIBUTION:
+- Election Violence: 39 articles
+- Climate Challenges: 7 articles
+- Insurgency Crisis: 3 articles
+- Social Media Restrictions: 1 articles
+- Economic Disparities: 1 articles
+
+RAG TOPIC EXTRACTION EVALUATION:
+==================================================
+Total articles analyzed: 51
+
+Coverage Quality Distribution:
+- Excellent: 39 articles (76.5%)
+- Good: 12 articles (23.5%)
+- Partial: 0 articles (0.0%)
+- Poor: 0 articles (0.0%)
+
+Confidence Score Distribution:
+- High: 51 articles (100.0%)
+- Medium: 0 articles (0.0%)
+- Low: 0 articles (0.0%)
+
+RAG Topic Extraction Effectiveness: 100.0% (excellent + good coverage)
+
+TOKEN USAGE AND COST SUMMARY:
+- Input tokens: 89,649
+- Output tokens: 18,820
+- Total tokens: 108,469
+- Input cost: $0.013447
+- Output cost: $0.011292
+- Total cost: $0.024739
+- Model: gpt-4o-mini

@@ -1,0 +1,16 @@
+OVERALL METRICS
+Number of Topics,5
+Log-Likelihood,-7.005,Higher is better (primary optimization metric)
+Perplexity,1102.350,Lower is better
+UMass Coherence,-0.753,Closer to 0 is better
+CV Coherence,0.518,Higher is better
+Jaccard Diversity,0.857,Higher is better
+Unique Word Proportion,0.700,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,Topic 0: election; frelimo; mondlane; december; electoral,2,election, frelimo, mondlane, december, electoral, south, result, local, year, could
+1,Topic 1: said; election; opposition; protest; violence,6,said, election, opposition, protest, violence, police, government, frelimo, mondlane, simao
+2,Topic 2: delgado; cabo; police; frelimo; said,5,delgado, cabo, police, frelimo, said, government, group, one, demonstrator, crisis
+3,Topic 3: cyclone; malawi; said; africa; chido,10,cyclone, malawi, said, africa, chido, affected, food, southern, disaster, storm
+4,Topic 4: election; party; protest; result; frelimo,28,election, party, protest, result, frelimo, country, opposition, chapo, mondlane, said

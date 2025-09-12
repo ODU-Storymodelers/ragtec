@@ -1,0 +1,152 @@
+{
+  "model_info": {
+    "num_topics": 3,
+    "cv_coherence": 0.628,
+    "umass_coherence": -1.076,
+    "jaccard_diversity": 0.963,
+    "uwp_diversity": 0.933
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "0_congo_congos_rwandan",
+      "Count": 212,
+      "TopWords": [
+        {
+          "word": "congo",
+          "weight": 1.0
+        },
+        {
+          "word": "congos",
+          "weight": 1.0
+        },
+        {
+          "word": "rwandan",
+          "weight": 1.0
+        },
+        {
+          "word": "rwanda",
+          "weight": 1.0
+        },
+        {
+          "word": "rwandas",
+          "weight": 1.0
+        },
+        {
+          "word": "ceasefire",
+          "weight": 1.0
+        },
+        {
+          "word": "uganda",
+          "weight": 1.0
+        },
+        {
+          "word": "congolese",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "rebels",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "2_volunteers_volunteer_failures",
+      "Count": 12,
+      "TopWords": [
+        {
+          "word": "volunteers",
+          "weight": 1.0
+        },
+        {
+          "word": "volunteer",
+          "weight": 1.0
+        },
+        {
+          "word": "failures",
+          "weight": 1.0
+        },
+        {
+          "word": "providing",
+          "weight": 1.0
+        },
+        {
+          "word": "dying",
+          "weight": 1.0
+        },
+        {
+          "word": "projects",
+          "weight": 1.0
+        },
+        {
+          "word": "destroyed",
+          "weight": 1.0
+        },
+        {
+          "word": "manifestos",
+          "weight": 1.0
+        },
+        {
+          "word": "wayside",
+          "weight": 1.0
+        },
+        {
+          "word": "crashes",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "1_congo_congos_africa",
+      "Count": 19,
+      "TopWords": [
+        {
+          "word": "congo",
+          "weight": 1.0
+        },
+        {
+          "word": "congos",
+          "weight": 1.0
+        },
+        {
+          "word": "africa",
+          "weight": 1.0
+        },
+        {
+          "word": "organization",
+          "weight": 1.0
+        },
+        {
+          "word": "unicef",
+          "weight": 1.0
+        },
+        {
+          "word": "authorities",
+          "weight": 1.0
+        },
+        {
+          "word": "million",
+          "weight": 1.0
+        },
+        {
+          "word": "response",
+          "weight": 1.0
+        },
+        {
+          "word": "african",
+          "weight": 1.0
+        },
+        {
+          "word": "democratic",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

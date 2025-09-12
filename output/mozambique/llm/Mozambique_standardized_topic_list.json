@@ -1,0 +1,1152 @@
+{
+    "main_topics": [
+        {
+            "name": "Political Violence",
+            "description": "Political violence in Mozambique has escalated following contested elections, marked by protests, allegations of fraud, and government crackdowns, leading to significant unrest and human rights concerns.",
+            "keywords": [
+                "mozambique",
+                "violence",
+                "election",
+                "protests",
+                "fraud",
+                "government",
+                "opposition",
+                "tensions",
+                "corruption",
+                "unrest"
+            ],
+            "original_topics": [
+                "Political Violence and Election Integrity in Mozambique",
+                "Mozambique's Political Tensions and Social Media Restrictions",
+                "Mozambique Election Controversy",
+                "Post-Election Protests in Mozambique",
+                "Mozambique's Political Landscape",
+                "Political Unrest in Mozambique",
+                "Post-Election Violence in Mozambique",
+                "Mozambique's Post-Election Unrest",
+                "Mozambique Post-Election Unrest",
+                "Political Violence and Corruption in Mozambique",
+                "Mozambique Political Unrest",
+                "Mozambique Protests",
+                "Political Crisis in Mozambique",
+                "Mozambique Prison Break and Post-Election Violence",
+                "Political Instability and Violence in Mozambique",
+                "Mozambique Political Crisis",
+                "Mozambique Post-Election Violence",
+                "Political Tensions in Mozambique",
+                "Political Situation in Mozambique"
+            ]
+        },
+        {
+            "name": "Election Irregularities",
+            "description": "The topic of Election Irregularities in Mozambique highlights the violence, protests, and political unrest surrounding recent elections, marked by allegations of fraud, the role of EU observers, and the response of security forces to opposition demonstrations.",
+            "keywords": [
+                "mozambique",
+                "election",
+                "irregularities",
+                "protests",
+                "violence",
+                "opposition",
+                "eu",
+                "results",
+                "unrest",
+                "fraud"
+            ],
+            "original_topics": [
+                "Mozambique Election Irregularities",
+                "Mozambique Election Protests",
+                "Mozambique Elections and Political Unrest"
+            ]
+        },
+        {
+            "name": "Hunger Crisis",
+            "description": "The hunger crisis in Southern Africa is a dire situation exacerbated by drought conditions linked to the El Ni\u00f1o phenomenon, impacting millions and resulting in widespread malnutrition and national emergencies across several countries.",
+            "keywords": [
+                "hunger",
+                "crisis",
+                "southern",
+                "africa",
+                "drought",
+                "el",
+                "nino",
+                "malnutrition",
+                "aid",
+                "climate"
+            ],
+            "original_topics": [
+                "Hunger Crisis in Southern Africa"
+            ]
+        },
+        {
+            "name": "Insurgency Conflict",
+            "description": "The insurgency conflict in Mozambique's Cabo Delgado province is characterized by a violent Islamist uprising linked to the Islamic State, driven by local grievances, governance failures, and the exploitation of natural resources, leading to a severe humanitarian crisis.",
+            "keywords": [
+                "mozambique",
+                "insurgency",
+                "cabo",
+                "delgado",
+                "violence",
+                "islamic",
+                "state",
+                "governance",
+                "humanitarian",
+                "crisis"
+            ],
+            "original_topics": [
+                "Mozambique's Insurgency",
+                "Cabo Delgado Insurgency and Humanitarian Crisis",
+                "Islamic State and Insurgency in Mozambique"
+            ]
+        },
+        {
+            "name": "Natural Disasters",
+            "description": "Natural disasters, particularly Cyclone Chido, have had a devastating impact on Mozambique, leading to significant destruction, loss of life, and highlighting the urgent need for climate resilience and emergency preparedness in the region.",
+            "keywords": [
+                "cyclone",
+                "chido",
+                "mozambique",
+                "disaster",
+                "climate",
+                "resilience",
+                "infrastructure",
+                "aid",
+                "floods",
+                "devastation"
+            ],
+            "original_topics": [
+                "Cyclone Chido and its Impact on Mozambique",
+                "Tropical Cyclone Chido Impact",
+                "Impact of Tropical Cyclone Chido in Mozambique",
+                "Climate Change and Natural Disasters",
+                "Cyclone Chido Impact"
+            ]
+        },
+        {
+            "name": "Political and Economic Turmoil",
+            "description": "The topic of 'Political and Economic Turmoil' in Mozambique explores the interplay between recent demonstrations, governance issues, and political crises, highlighting the challenges faced by the government, local communities, and foreign investors amidst a backdrop of contested elections and resource management.",
+            "keywords": [
+                "mozambique",
+                "political",
+                "economic",
+                "demonstrations",
+                "governance",
+                "elections",
+                "protests",
+                "crisis",
+                "resources",
+                "investors"
+            ],
+            "original_topics": [
+                "Mozambique's Political and Economic Turmoil",
+                "Mozambique Governance",
+                "Mozambique's Political Crisis"
+            ]
+        },
+        {
+            "name": "Refugee Crisis",
+            "description": "The refugee crisis in Malawi has intensified due to an influx of Mozambican refugees fleeing violence from a disputed presidential election, presenting significant challenges for both the refugees and the Malawian authorities in terms of humanitarian support and resources.",
+            "keywords": [
+                "refugees",
+                "malawi",
+                "mozambique",
+                "violence",
+                "election",
+                "food",
+                "asylum-seekers",
+                "humanitarian",
+                "support",
+                "crisis"
+            ],
+            "original_topics": [
+                "Refugee Crisis in Malawi"
+            ]
+        },
+        {
+            "name": "Public Health Crisis",
+            "description": "This topic examines the detrimental effects of misinformation on cholera outbreaks in Mozambique, emphasizing how false narratives can incite violence and hinder public health efforts.",
+            "keywords": [
+                "cholera",
+                "mozambique",
+                "misinformation",
+                "outbreaks",
+                "protests",
+                "violence",
+                "health",
+                "sanitation",
+                "WHO",
+                "public"
+            ],
+            "original_topics": [
+                "Cholera Outbreaks and Misinformation in Mozambique"
+            ]
+        }
+    ],
+    "main_topics_mapping": {
+        "Political Violence and Election Integrity in Mozambique": "Political Violence",
+        "Mozambique's Political Tensions and Social Media Restrictions": "Political Violence",
+        "Mozambique Election Controversy": "Political Violence",
+        "Post-Election Protests in Mozambique": "Political Violence",
+        "Mozambique Election Irregularities": "Election Irregularities",
+        "Mozambique's Political Landscape": "Political Violence",
+        "Hunger Crisis in Southern Africa": "Hunger Crisis",
+        "Political Unrest in Mozambique": "Political Violence",
+        "Post-Election Violence in Mozambique": "Political Violence",
+        "Mozambique's Post-Election Unrest": "Political Violence",
+        "Mozambique Post-Election Unrest": "Political Violence",
+        "Political Violence and Corruption in Mozambique": "Political Violence",
+        "Mozambique Political Unrest": "Political Violence",
+        "Mozambique's Insurgency": "Insurgency Conflict",
+        "Mozambique Election Protests": "Election Irregularities",
+        "Mozambique Protests": "Political Violence",
+        "Political Crisis in Mozambique": "Political Violence",
+        "Cyclone Chido and its Impact on Mozambique": "Natural Disasters",
+        "Tropical Cyclone Chido Impact": "Natural Disasters",
+        "Impact of Tropical Cyclone Chido in Mozambique": "Natural Disasters",
+        "Climate Change and Natural Disasters": "Natural Disasters",
+        "Cyclone Chido Impact": "Natural Disasters",
+        "Mozambique Elections and Political Unrest": "Election Irregularities",
+        "Mozambique's Political and Economic Turmoil": "Political and Economic Turmoil",
+        "Mozambique Governance": "Political and Economic Turmoil",
+        "Cabo Delgado Insurgency and Humanitarian Crisis": "Insurgency Conflict",
+        "Mozambique Prison Break and Post-Election Violence": "Political Violence",
+        "Refugee Crisis in Malawi": "Refugee Crisis",
+        "Political Instability and Violence in Mozambique": "Political Violence",
+        "Mozambique Political Crisis": "Political Violence",
+        "Mozambique Post-Election Violence": "Political Violence",
+        "Mozambique's Political Crisis": "Political and Economic Turmoil",
+        "Islamic State and Insurgency in Mozambique": "Insurgency Conflict",
+        "Political Tensions in Mozambique": "Political Violence",
+        "Political Situation in Mozambique": "Political Violence",
+        "Cholera Outbreaks and Misinformation in Mozambique": "Public Health Crisis"
+    },
+    "sub_topics": [
+        {
+            "name": "Opposition Assassinations",
+            "description": "The topic of Opposition Assassinations highlights the alarming trend of political violence in Mozambique, marked by the murders of key opposition figures and the resulting protests from their supporters.",
+            "keywords": [
+                "murder",
+                "opposition",
+                "violence",
+                "protests",
+                "figures",
+                "tensions",
+                "supporters",
+                "political",
+                "security",
+                "grievances"
+            ],
+            "original_topics": [
+                "Murder of Opposition Figures",
+                "Opposition Violence"
+            ]
+        },
+        {
+            "name": "Election Integrity",
+            "description": "Election integrity in Mozambique has been called into question due to allegations of fraud, irregularities, and protests following the recent election results, leading to significant political tensions and demands for transparency from opposition parties.",
+            "keywords": [
+                "election",
+                "integrity",
+                "fraud",
+                "protests",
+                "transparency",
+                "irregularities",
+                "opposition",
+                "results",
+                "violence",
+                "democracy"
+            ],
+            "original_topics": [
+                "Election Integrity Concerns",
+                "Election Results and Protests",
+                "Calls for Electoral Transparency",
+                "Election Disputes",
+                "EU Observers' Report",
+                "Election Results and Reactions",
+                "Allegations of Electoral Fraud",
+                "Election Irregularities and Allegations",
+                "Election Results and Allegations",
+                "Election Irregularities",
+                "Election Results and Delays",
+                "Electoral Fraud and Political Instability",
+                "Election Results Confirmation",
+                "International Observations",
+                "Election Results Controversy",
+                "Opposition Response",
+                "Election Results and Controversy",
+                "Election Integrity",
+                "Disputed Election Results",
+                "Election Disputes and Protests",
+                "Election Dispute",
+                "Return of Venancio Mondlane",
+                "Election Controversy",
+                "Election Tampering"
+            ]
+        },
+        {
+            "name": "Protests and Tensions",
+            "description": "The topic 'Protests and Tensions' explores the widespread unrest in Mozambique following disputed election results, highlighting the violent responses from security forces, opposition protests, and the broader implications for public sentiment and human rights.",
+            "keywords": [
+                "protests",
+                "tensions",
+                "violence",
+                "elections",
+                "opposition",
+                "government",
+                "security",
+                "public",
+                "casualties",
+                "unrest"
+            ],
+            "original_topics": [
+                "Protests and Political Tensions",
+                "Opposition Protests",
+                "Police Response",
+                "Government Response",
+                "Casualties and Violence During Protests",
+                "Protests and Government Response",
+                "Public Response and Protests",
+                "Calls for Justice and Peace",
+                "Public Sentiment",
+                "Threats of Violence and Strikes",
+                "Impact of Demonstrations on Foreign Investments",
+                "Opposition Response and Protests",
+                "Public Unrest and Protests",
+                "Violent Protests and Human Rights Issues",
+                "Public Protests",
+                "Suspension of Protests",
+                "Violence and Escalation of Unrest",
+                "Protests and Violence",
+                "Protests Against Government",
+                "Violent Protests Related to Cholera"
+            ]
+        },
+        {
+            "name": "Social Media Restrictions",
+            "description": "The topic covers the restrictions imposed on social media access in Mozambique due to heightened political tensions and protests following recent election results, as reported by the global internet watchdog NetBlocks.",
+            "keywords": [
+                "social",
+                "media",
+                "restrictions",
+                "access",
+                "internet",
+                "disruptions",
+                "netblocks",
+                "election",
+                "protests",
+                "tensions"
+            ],
+            "original_topics": [
+                "Social Media Restrictions"
+            ]
+        },
+        {
+            "name": "Election Violence",
+            "description": "Election violence in Mozambique has escalated significantly, marked by the killing of opposition figures, widespread protests, and allegations of electoral fraud, leading to severe political unrest and numerous casualties.",
+            "keywords": [
+                "violence",
+                "election",
+                "opposition",
+                "protests",
+                "fraud",
+                "unrest",
+                "casualties",
+                "political",
+                "Mozambique",
+                "tension"
+            ],
+            "original_topics": [
+                "Election Violence",
+                "Violence and Political Tensions",
+                "Political Unrest",
+                "Election Protests",
+                "Post-Election Violence",
+                "Violence and Casualties",
+                "Impact of Political Violence",
+                "Violence and Warfare",
+                "Electoral Fraud and Violence"
+            ]
+        },
+        {
+            "name": "Human Rights Violations",
+            "description": "The topic of Human Rights Violations addresses the serious concerns regarding casualties and abuses during protests, including the killing of children and the unlawful detention of minors by security forces, highlighting the need for accountability and adherence to international law.",
+            "keywords": [
+                "human",
+                "rights",
+                "violations",
+                "protests",
+                "casualties",
+                "detention",
+                "minors",
+                "security",
+                "forces",
+                "international"
+            ],
+            "original_topics": [
+                "Human Rights Concerns",
+                "Human Rights Violations"
+            ]
+        },
+        {
+            "name": "International Response",
+            "description": "The topic of International Response examines the global reactions to the political crisis in Mozambique, highlighting calls for peaceful resolution, support for the ruling party, and concerns from neighboring countries and international organizations regarding stability and legitimacy.",
+            "keywords": [
+                "international",
+                "response",
+                "mozambique",
+                "crisis",
+                "elections",
+                "support",
+                "concerns",
+                "dialogue",
+                "mediation",
+                "stability"
+            ],
+            "original_topics": [
+                "International Response",
+                "International Support and Political Legitimacy",
+                "International Concerns and Reactions",
+                "Regional and International Reactions",
+                "International Concern and Calls for Dialogue",
+                "International Involvement",
+                "South Africa's Diplomatic Efforts",
+                "Role of SADC"
+            ]
+        },
+        {
+            "name": "Socio-Economic Challenges",
+            "description": "The socio-economic challenges in Mozambique are characterized by high unemployment, hunger exacerbated by drought, and the impact of terrorism, particularly in Cabo Delgado. These issues are further complicated by the effects of El Ni\u00f1o on agriculture, economic unrest, and the exploitation of natural resources.",
+            "keywords": [
+                "unemployment",
+                "hunger",
+                "terrorism",
+                "drought",
+                "agriculture",
+                "protests",
+                "poverty",
+                "inequality",
+                "conflict",
+                "malnutrition"
+            ],
+            "original_topics": [
+                "Socio-Economic Challenges",
+                "Impact of El Ni\u00f1o on Agriculture",
+                "Economic Impact of Protests",
+                "Economic Factors Behind Unrest",
+                "Natural Resource Curse",
+                "Impact on Society",
+                "Challenges in the Region",
+                "Impact on Daily Life"
+            ]
+        },
+        {
+            "name": "International Aid",
+            "description": "International Aid encompasses the global response to humanitarian crises, including funding for food assistance and emergency relief efforts in the wake of disasters such as cyclones.",
+            "keywords": [
+                "aid",
+                "humanitarian",
+                "emergency",
+                "funding",
+                "crisis",
+                "response",
+                "food",
+                "relief",
+                "coordination",
+                "disaster"
+            ],
+            "original_topics": [
+                "International Aid Response",
+                "Humanitarian Response to Cyclone Chido"
+            ]
+        },
+        {
+            "name": "Climate Change Effects",
+            "description": "The topic 'Climate Change Effects' explores the multifaceted impacts of climate change on southern Africa, including increased vulnerability to drought, severe cyclones, and humanitarian crises, particularly in countries like Mozambique and Malawi.",
+            "keywords": [
+                "climate",
+                "change",
+                "drought",
+                "cyclones",
+                "vulnerability",
+                "humanitarian",
+                "crisis",
+                "southern",
+                "africa",
+                "floods"
+            ],
+            "original_topics": [
+                "Climate Change Effects",
+                "Impact of Cyclones in Southern Africa",
+                "Humanitarian Crisis and Climate Change",
+                "Climate Change and Future Risks",
+                "Impact of Cyclone Chido",
+                "Long-term Effects of Climate Change",
+                "Climate Change Crisis"
+            ]
+        },
+        {
+            "name": "Government Response",
+            "description": "The topic 'Government Response' examines the various actions and statements made by government officials in reaction to protests, political unrest, and humanitarian crises, highlighting the interplay between military intervention, political dialogue, and public safety.",
+            "keywords": [
+                "government",
+                "response",
+                "protests",
+                "dialogue",
+                "politics",
+                "humanitarian",
+                "intervention",
+                "violence",
+                "election",
+                "opposition"
+            ],
+            "original_topics": [
+                "Government Response to Protests",
+                "Presidential Dialogue",
+                "Political Response",
+                "Government Response to the Crisis",
+                "Government and Opposition Response"
+            ]
+        },
+        {
+            "name": "Police Violence",
+            "description": "Police violence encompasses the brutal and often lethal responses of law enforcement to protests, including the use of excessive force, targeted killings, and widespread human rights violations, raising significant concerns about government repression and public safety.",
+            "keywords": [
+                "police",
+                "violence",
+                "protests",
+                "brutality",
+                "killings",
+                "rights",
+                "repression",
+                "demonstrators",
+                "excessive",
+                "safety"
+            ],
+            "original_topics": [
+                "Police Response to Protests",
+                "Police Brutality and Human Rights Violations",
+                "Impact of Police Violence",
+                "Violence and Repression in Response to Protests",
+                "Police Brutality Allegations",
+                "Allegations of Police Violence"
+            ]
+        },
+        {
+            "name": "Historical Political Violence",
+            "description": "Historical Political Violence examines the legacy of Mozambique's civil war and its impact on contemporary political unrest, highlighting the ongoing struggles between the Frelimo party and the Renamo insurgency.",
+            "keywords": [
+                "civil",
+                "war",
+                "frelimo",
+                "renamo",
+                "history",
+                "violence",
+                "insurgency",
+                "politics",
+                "elections",
+                "resources"
+            ],
+            "original_topics": [
+                "Historical Context of Political Violence"
+            ]
+        },
+        {
+            "name": "Radicalization and Extremism",
+            "description": "This topic explores the dynamics of radicalization and extremism, focusing on the extremist ideology and recruitment strategies employed by the group Ahlu-Sunnah wal Jama\u2019a (ASWJ), highlighting the significant role of religion and local mosques in this process.",
+            "keywords": [
+                "radicalization",
+                "extremism",
+                "aswj",
+                "religion",
+                "mosques",
+                "recruitment",
+                "violence",
+                "ideology",
+                "conflict",
+                "community"
+            ],
+            "original_topics": [
+                "Radicalization and Extremism"
+            ]
+        },
+        {
+            "name": "Illicit Economy",
+            "description": "The illicit economy plays a crucial role in funding insurgent activities, primarily through local donations and raids, rather than relying on organized crime networks. This study highlights the significance of these alternative funding sources in sustaining conflict.",
+            "keywords": [
+                "illicit",
+                "economy",
+                "funding",
+                "insurgents",
+                "donations",
+                "raids",
+                "conflict",
+                "resources",
+                "financing",
+                "crime"
+            ],
+            "original_topics": [
+                "Illicit Economy and Funding"
+            ]
+        },
+        {
+            "name": "Political Repression",
+            "description": "Political repression in Mozambique is characterized by government crackdowns on peaceful protests, challenges to democratic governance, concerns over political stability, and criticism from legal authorities, all amidst a tense political climate following disputed elections.",
+            "keywords": [
+                "repression",
+                "government",
+                "democracy",
+                "protests",
+                "stability",
+                "corruption",
+                "opposition",
+                "authority",
+                "elections",
+                "tension"
+            ],
+            "original_topics": [
+                "Government Crackdown",
+                "Challenges to Democratic Governance",
+                "Political Stability",
+                "Criticism of Government Authority",
+                "Opposition Leader's Return",
+                "Political Climate and Governance"
+            ]
+        },
+        {
+            "name": "Historical Political Context",
+            "description": "The Historical Political Context of Mozambique examines the evolution of its political landscape from independence in 1975, through a civil war, to the establishment of multiparty democracy in 1990, highlighting the role of Frelimo as a former guerrilla movement and its ongoing controversies regarding election integrity.",
+            "keywords": [
+                "independence",
+                "civil",
+                "war",
+                "frelimo",
+                "guerrilla",
+                "democracy",
+                "elections",
+                "colonialism",
+                "politics",
+                "history"
+            ],
+            "original_topics": [
+                "Historical Context of Mozambique's Politics",
+                "Historical Context of Frelimo"
+            ]
+        },
+        {
+            "name": "Rebuilding Efforts",
+            "description": "Rebuilding efforts in Pemba, Mozambique, focus on recovery and restoration following the destruction caused by Cyclone Chido, emphasizing the need for shelters and support for displaced residents.",
+            "keywords": [
+                "pemba",
+                "rebuilding",
+                "cleanup",
+                "cyclone",
+                "chido",
+                "shelters",
+                "displaced",
+                "recovery",
+                "restoration",
+                "support"
+            ],
+            "original_topics": [
+                "Rebuilding Efforts in Pemba"
+            ]
+        },
+        {
+            "name": "Casualties and Injuries",
+            "description": "The topic 'Casualties and Injuries' addresses the human toll and physical damage caused by natural disasters and civil unrest in Mozambique, highlighting the death toll, injuries, and ongoing rescue efforts.",
+            "keywords": [
+                "casualties",
+                "injuries",
+                "death",
+                "rescue",
+                "violence",
+                "protests",
+                "damage",
+                "clashes",
+                "impact",
+                "unrest"
+            ],
+            "original_topics": [
+                "Casualties and Injuries",
+                "Death Toll and Damage",
+                "Casualties and Violence",
+                "Death Toll from Protests"
+            ]
+        },
+        {
+            "name": "Damage Assessment",
+            "description": "Damage assessment reveals extensive destruction in Cabo Delgado and Nampula provinces, with significant loss of housing and infrastructure due to severe weather conditions, including winds reaching 260 km/h.",
+            "keywords": [
+                "damage",
+                "assessment",
+                "infrastructure",
+                "destruction",
+                "houses",
+                "cabo",
+                "delgado",
+                "nampula",
+                "severe",
+                "winds"
+            ],
+            "original_topics": [
+                "Damage Assessment",
+                "Destruction of Infrastructure"
+            ]
+        },
+        {
+            "name": "Disaster Response",
+            "description": "Disaster Response encompasses the actions taken to prepare for and respond to natural disasters, such as Cyclone Chido, focusing on emergency aid, community impact, and institutional readiness in affected regions like Malawi and Mozambique.",
+            "keywords": [
+                "response",
+                "preparedness",
+                "disaster",
+                "cyclone",
+                "aid",
+                "communities",
+                "mourning",
+                "institutions",
+                "relief",
+                "impact"
+            ],
+            "original_topics": [
+                "Response and Preparedness",
+                "Natural Disaster Response"
+            ]
+        },
+        {
+            "name": "Disaster Impact",
+            "description": "The topic 'Disaster Impact' examines the extensive regional consequences of Cyclone Chido, highlighting its devastating effects in Malawi and the potential increase in fatalities among undocumented migrants in Mayotte.",
+            "keywords": [
+                "disaster",
+                "impact",
+                "malawi",
+                "mayotte",
+                "migrants",
+                "death",
+                "toll",
+                "cyclone",
+                "regional",
+                "effects"
+            ],
+            "original_topics": [
+                "Regional Effects"
+            ]
+        },
+        {
+            "name": "Infrastructure Damage",
+            "description": "The cyclone inflicted extensive damage on Mozambique's infrastructure, particularly affecting schools and healthcare facilities, which disrupted essential services for over 109,000 students and rendered 52 healthcare units inoperable.",
+            "keywords": [
+                "infrastructure",
+                "damage",
+                "schools",
+                "healthcare",
+                "students",
+                "units",
+                "inoperable",
+                "access",
+                "services",
+                "essential"
+            ],
+            "original_topics": [
+                "Infrastructure Damage"
+            ]
+        },
+        {
+            "name": "Local Grievances",
+            "description": "Local grievances in Mozambique stem from unfulfilled promises by resource companies and discrimination against the Muslim population, leading to community protests and insurgency fueled by government abuses.",
+            "keywords": [
+                "local",
+                "grievances",
+                "resource",
+                "management",
+                "discrimination",
+                "muslim",
+                "government",
+                "abuses",
+                "protests",
+                "community"
+            ],
+            "original_topics": [
+                "Local Grievances and Resource Management",
+                "Local Grievances and Discrimination"
+            ]
+        },
+        {
+            "name": "Prisoner Pardon",
+            "description": "President Nyusi of Mozambique announced a presidential pardon for 1,119 prisoners, highlighting issues within the justice system and addressing the needs of those suffering from chronic illnesses.",
+            "keywords": [
+                "pardon",
+                "prisoners",
+                "justice",
+                "system",
+                "sentences",
+                "chronic",
+                "illness",
+                "president",
+                "announcement",
+                "Mozambique"
+            ],
+            "original_topics": [
+                "Prisoner Pardon"
+            ]
+        },
+        {
+            "name": "Political Reforms",
+            "description": "Political reforms in Mozambique highlight the urgent need for a new democratic framework and address the aspirations of citizens, particularly the youth, amidst challenges of public distrust and economic instability under the leadership of President-Elect Chapo.",
+            "keywords": [
+                "reforms",
+                "governance",
+                "democracy",
+                "change",
+                "youth",
+                "economy",
+                "corruption",
+                "challenges",
+                "politics",
+                "leadership"
+            ],
+            "original_topics": [
+                "Political Reforms and Future Governance",
+                "Desire for Political Change",
+                "Challenges for President-Elect Chapo"
+            ]
+        },
+        {
+            "name": "Displacement Crisis",
+            "description": "The Displacement Crisis in Mozambique is characterized by the mass exodus of individuals and families fleeing violence and insurgency, leading to dire humanitarian conditions in camps and neighboring countries like Malawi. Personal accounts highlight the traumatic experiences of those affected by the conflict.",
+            "keywords": [
+                "displacement",
+                "violence",
+                "insurgency",
+                "refugees",
+                "malawi",
+                "camps",
+                "humanitarian",
+                "families",
+                "survival",
+                "trauma"
+            ],
+            "original_topics": [
+                "Impact of Insurgency on Displacement",
+                "Exodus of Families to Malawi",
+                "Personal Accounts of Displacement"
+            ]
+        },
+        {
+            "name": "Foreign Military Intervention",
+            "description": "Foreign military intervention, particularly by Rwandan forces, plays a crucial role in combating insurgency in Mozambique's Cabo Delgado region, highlighting the challenges faced by local military forces in terms of training and efficiency.",
+            "keywords": [
+                "foreign",
+                "military",
+                "intervention",
+                "rwanda",
+                "insurgency",
+                "cabo",
+                "delgado",
+                "security",
+                "government",
+                "forces"
+            ],
+            "original_topics": [
+                "Foreign Military Intervention"
+            ]
+        },
+        {
+            "name": "Prison Escape",
+            "description": "The topic covers the mass escape of over 1,500 prisoners from a Mozambique prison amid political unrest and violence, highlighting the challenges of security and control in the region.",
+            "keywords": [
+                "prison",
+                "escape",
+                "unrest",
+                "violence",
+                "maputo",
+                "riot",
+                "inmates",
+                "jailbreak",
+                "security",
+                "protests"
+            ],
+            "original_topics": [
+                "Prison Escape",
+                "Prison Riot and Escape",
+                "Prison Escape Details",
+                "Jailbreak and Prisoner Escape"
+            ]
+        },
+        {
+            "name": "Humanitarian Response",
+            "description": "The humanitarian response in Malawi addresses the urgent needs of Mozambican refugees facing a crisis characterized by inadequate resources, food, and shelter in makeshift camps. Efforts by local organizations and authorities aim to provide essential support amidst challenging conditions.",
+            "keywords": [
+                "humanitarian",
+                "refugees",
+                "malawi",
+                "crisis",
+                "support",
+                "resources",
+                "food",
+                "shelter",
+                "displacement",
+                "organizations"
+            ],
+            "original_topics": [
+                "Humanitarian Response",
+                "Humanitarian Crisis"
+            ]
+        },
+        {
+            "name": "Vulnerable Populations",
+            "description": "The topic of vulnerable populations highlights the specific needs and risks faced by women, children, and individuals with disabilities within refugee communities, emphasizing the importance of tailored support and protection measures.",
+            "keywords": [
+                "vulnerable",
+                "women",
+                "children",
+                "disabilities",
+                "protection",
+                "crisis",
+                "accommodation",
+                "security",
+                "food",
+                "support"
+            ],
+            "original_topics": [
+                "Vulnerable Populations"
+            ]
+        },
+        {
+            "name": "Opposition Leadership",
+            "description": "Opposition leadership plays a crucial role in shaping political discourse and mobilizing public sentiment, as exemplified by figures like Ven\u00e2ncio Mondlane in Mozambique, who actively calls for civic engagement and protests against perceived injustices.",
+            "keywords": [
+                "opposition",
+                "leadership",
+                "politics",
+                "protests",
+                "democracy",
+                "sentiment",
+                "elections",
+                "engagement",
+                "mondlane",
+                "public"
+            ],
+            "original_topics": [
+                "Role of Opposition Leaders"
+            ]
+        },
+        {
+            "name": "Political Leadership",
+            "description": "Political leadership in Mozambique is marked by the inauguration of Daniel Chapo as president, succeeding Filipe Nyusi, and significant changes in the police force aimed at addressing public concerns.",
+            "keywords": [
+                "chapo",
+                "inauguration",
+                "president",
+                "frelim",
+                "leadership",
+                "changes",
+                "police",
+                "appointment",
+                "security",
+                "trust"
+            ],
+            "original_topics": [
+                "Inauguration of Daniel Chapo",
+                "Leadership Changes"
+            ]
+        },
+        {
+            "name": "Misinformation Impact",
+            "description": "Misinformation significantly undermines public health efforts by fostering distrust in health authorities and inciting violence, as seen in cholera outbreaks where false information exacerbates disease spread.",
+            "keywords": [
+                "misinformation",
+                "public",
+                "health",
+                "violence",
+                "distrust",
+                "cholera",
+                "outbreaks",
+                "social",
+                "media",
+                "response"
+            ],
+            "original_topics": [
+                "Impact of Misinformation on Public Health"
+            ]
+        },
+        {
+            "name": "Public Health Issues",
+            "description": "Public health issues related to cholera highlight the critical link between inadequate water sanitation and disease outbreaks, underscoring the importance of effective health measures to ensure community safety.",
+            "keywords": [
+                "cholera",
+                "water",
+                "sanitation",
+                "health",
+                "disease",
+                "outbreak",
+                "safety",
+                "measures",
+                "public",
+                "WHO"
+            ],
+            "original_topics": [
+                "Cholera and Water Sanitation Issues"
+            ]
+        },
+        {
+            "name": "Youth Impact of Protests",
+            "description": "The youth in Mozambique are profoundly affected by protests, experiencing both violence and a heightened desire for political change, as evidenced by the tragic casualties among children. This unrest underscores the urgent need for a safer and more equitable future for the younger generation.",
+            "keywords": [
+                "youth",
+                "protests",
+                "casualties",
+                "change",
+                "political",
+                "impact",
+                "children",
+                "violence",
+                "demonstrations",
+                "future"
+            ],
+            "original_topics": [
+                "Impact of Protests on Youth"
+            ]
+        }
+    ],
+    "sub_topics_mapping": {
+        "Murder of Opposition Figures": "Opposition Assassinations",
+        "Election Integrity Concerns": "Election Integrity",
+        "Protests and Political Tensions": "Protests and Tensions",
+        "Social Media Restrictions": "Social Media Restrictions",
+        "Election Results and Protests": "Election Integrity",
+        "Calls for Electoral Transparency": "Election Integrity",
+        "Opposition Protests": "Protests and Tensions",
+        "Police Response": "Protests and Tensions",
+        "Election Violence": "Election Violence",
+        "Election Disputes": "Election Integrity",
+        "Government Response": "Protests and Tensions",
+        "Human Rights Concerns": "Human Rights Violations",
+        "EU Observers' Report": "Election Integrity",
+        "Opposition Violence": "Opposition Assassinations",
+        "International Response": "International Response",
+        "Election Results and Reactions": "Election Integrity",
+        "Violence and Political Tensions": "Election Violence",
+        "Socio-Economic Challenges": "Socio-Economic Challenges",
+        "Impact of El Ni\u00f1o on Agriculture": "Socio-Economic Challenges",
+        "International Aid Response": "International Aid",
+        "Climate Change Effects": "Climate Change Effects",
+        "Government Response to Protests": "Government Response",
+        "Allegations of Electoral Fraud": "Election Integrity",
+        "Casualties and Violence During Protests": "Protests and Tensions",
+        "Protests and Government Response": "Protests and Tensions",
+        "Election Irregularities and Allegations": "Election Integrity",
+        "Election Results and Allegations": "Election Integrity",
+        "Police Response to Protests": "Police Violence",
+        "Historical Context of Political Violence": "Historical Political Violence",
+        "Presidential Dialogue": "Government Response",
+        "Election Irregularities": "Election Integrity",
+        "Economic Impact of Protests": "Socio-Economic Challenges",
+        "Police Brutality and Human Rights Violations": "Police Violence",
+        "International Support and Political Legitimacy": "International Response",
+        "Public Response and Protests": "Protests and Tensions",
+        "Impact of Police Violence": "Police Violence",
+        "Economic Factors Behind Unrest": "Socio-Economic Challenges",
+        "Calls for Justice and Peace": "Protests and Tensions",
+        "Natural Resource Curse": "Socio-Economic Challenges",
+        "Radicalization and Extremism": "Radicalization and Extremism",
+        "Illicit Economy and Funding": "Illicit Economy",
+        "Human Rights Violations": "Human Rights Violations",
+        "Political Unrest": "Election Violence",
+        "Impact on Society": "Socio-Economic Challenges",
+        "Government Crackdown": "Political Repression",
+        "Public Sentiment": "Protests and Tensions",
+        "Historical Context of Mozambique's Politics": "Historical Political Context",
+        "Violence and Repression in Response to Protests": "Police Violence",
+        "Challenges to Democratic Governance": "Political Repression",
+        "Rebuilding Efforts in Pemba": "Rebuilding Efforts",
+        "Impact of Cyclones in Southern Africa": "Climate Change Effects",
+        "Humanitarian Crisis and Climate Change": "Climate Change Effects",
+        "Casualties and Injuries": "Casualties and Injuries",
+        "Damage Assessment": "Damage Assessment",
+        "Climate Change and Future Risks": "Climate Change Effects",
+        "Humanitarian Response to Cyclone Chido": "International Aid",
+        "Destruction of Infrastructure": "Damage Assessment",
+        "Challenges in the Region": "Socio-Economic Challenges",
+        "Impact of Cyclone Chido": "Climate Change Effects",
+        "Response and Preparedness": "Disaster Response",
+        "Long-term Effects of Climate Change": "Climate Change Effects",
+        "Death Toll and Damage": "Casualties and Injuries",
+        "Political Response": "Government Response",
+        "Regional Effects": "Disaster Impact",
+        "Infrastructure Damage": "Infrastructure Damage",
+        "Climate Change Crisis": "Climate Change Effects",
+        "Election Results and Delays": "Election Integrity",
+        "Threats of Violence and Strikes": "Protests and Tensions",
+        "International Concerns and Reactions": "International Response",
+        "Impact of Demonstrations on Foreign Investments": "Protests and Tensions",
+        "Electoral Fraud and Political Instability": "Election Integrity",
+        "Local Grievances and Resource Management": "Local Grievances",
+        "Political Stability": "Political Repression",
+        "Natural Disaster Response": "Disaster Response",
+        "Prisoner Pardon": "Prisoner Pardon",
+        "Election Results Confirmation": "Election Integrity",
+        "Opposition Response and Protests": "Protests and Tensions",
+        "International Observations": "Election Integrity",
+        "Election Results Controversy": "Election Integrity",
+        "Public Unrest and Protests": "Protests and Tensions",
+        "Opposition Response": "Election Integrity",
+        "Election Results and Controversy": "Election Integrity",
+        "Violent Protests and Human Rights Issues": "Protests and Tensions",
+        "Political Reforms and Future Governance": "Political Reforms",
+        "Impact of Insurgency on Displacement": "Displacement Crisis",
+        "Government Response to the Crisis": "Government Response",
+        "Foreign Military Intervention": "Foreign Military Intervention",
+        "Prison Escape": "Prison Escape",
+        "Casualties and Violence": "Casualties and Injuries",
+        "Prison Riot and Escape": "Prison Escape",
+        "Election Protests": "Election Violence",
+        "Election Integrity": "Election Integrity",
+        "Public Protests": "Protests and Tensions",
+        "Prison Escape Details": "Prison Escape",
+        "Post-Election Violence": "Election Violence",
+        "Regional and International Reactions": "International Response",
+        "Impact on Daily Life": "Socio-Economic Challenges",
+        "Government and Opposition Response": "Government Response",
+        "International Concern and Calls for Dialogue": "International Response",
+        "Exodus of Families to Malawi": "Displacement Crisis",
+        "Disputed Election Results": "Election Integrity",
+        "Suspension of Protests": "Protests and Tensions",
+        "International Involvement": "International Response",
+        "Violence and Casualties": "Election Violence",
+        "Impact of Political Violence": "Election Violence",
+        "Humanitarian Response": "Humanitarian Response",
+        "Vulnerable Populations": "Vulnerable Populations",
+        "Death Toll from Protests": "Casualties and Injuries",
+        "Jailbreak and Prisoner Escape": "Prison Escape",
+        "Criticism of Government Authority": "Political Repression",
+        "South Africa's Diplomatic Efforts": "International Response",
+        "Election Disputes and Protests": "Election Integrity",
+        "Violence and Escalation of Unrest": "Protests and Tensions",
+        "Opposition Leader's Return": "Political Repression",
+        "Election Dispute": "Election Integrity",
+        "Protests and Violence": "Protests and Tensions",
+        "Humanitarian Crisis": "Humanitarian Response",
+        "Personal Accounts of Displacement": "Displacement Crisis",
+        "Return of Venancio Mondlane": "Election Integrity",
+        "Desire for Political Change": "Political Reforms",
+        "Challenges for President-Elect Chapo": "Political Reforms",
+        "Role of Opposition Leaders": "Opposition Leadership",
+        "Violence and Warfare": "Election Violence",
+        "Local Grievances and Discrimination": "Local Grievances",
+        "Protests Against Government": "Protests and Tensions",
+        "Inauguration of Daniel Chapo": "Political Leadership",
+        "Election Controversy": "Election Integrity",
+        "Historical Context of Frelimo": "Historical Political Context",
+        "Electoral Fraud and Violence": "Election Violence",
+        "Role of SADC": "International Response",
+        "Impact of Misinformation on Public Health": "Misinformation Impact",
+        "Violent Protests Related to Cholera": "Protests and Tensions",
+        "Cholera and Water Sanitation Issues": "Public Health Issues",
+        "Police Brutality Allegations": "Police Violence",
+        "Election Tampering": "Election Integrity",
+        "Leadership Changes": "Political Leadership",
+        "Impact of Protests on Youth": "Youth Impact of Protests",
+        "Allegations of Police Violence": "Police Violence",
+        "Political Climate and Governance": "Political Repression"
+    }
+}

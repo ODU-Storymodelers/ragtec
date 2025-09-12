@@ -1,0 +1,267 @@
+{
+  "network_statistics": {
+    "threshold_1": {
+      "nodes": 8,
+      "edges": 24,
+      "density": 0.8571428571428571,
+      "components": 1,
+      "clustering": 0.9285714285714285,
+      "top_degree_centrality": [
+        [
+          "Conflict Dynamics",
+          1.0
+        ],
+        [
+          "Displacement Issues",
+          1.0
+        ],
+        [
+          "Humanitarian Crisis",
+          1.0
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Conflict Dynamics",
+          0.06349206349206349
+        ],
+        [
+          "Displacement Issues",
+          0.06349206349206349
+        ],
+        [
+          "Humanitarian Crisis",
+          0.06349206349206349
+        ]
+      ]
+    },
+    "threshold_2": {
+      "nodes": 8,
+      "edges": 22,
+      "density": 0.7857142857142857,
+      "components": 1,
+      "clustering": 0.9035714285714286,
+      "top_degree_centrality": [
+        [
+          "Displacement Issues",
+          1.0
+        ],
+        [
+          "Humanitarian Crisis",
+          1.0
+        ],
+        [
+          "Conflict Dynamics",
+          0.8571428571428571
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Displacement Issues",
+          0.1285714285714286
+        ],
+        [
+          "Humanitarian Crisis",
+          0.1285714285714286
+        ],
+        [
+          "Conflict Dynamics",
+          0.009523809523809525
+        ]
+      ]
+    },
+    "threshold_3": {
+      "nodes": 8,
+      "edges": 19,
+      "density": 0.6785714285714286,
+      "components": 2,
+      "clustering": 0.8083333333333333,
+      "top_degree_centrality": [
+        [
+          "Conflict Dynamics",
+          0.8571428571428571
+        ],
+        [
+          "Displacement Issues",
+          0.8571428571428571
+        ],
+        [
+          "Food Insecurity",
+          0.8571428571428571
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Conflict Dynamics",
+          0.023809523809523808
+        ],
+        [
+          "Displacement Issues",
+          0.023809523809523808
+        ],
+        [
+          "Food Insecurity",
+          0.023809523809523808
+        ]
+      ]
+    }
+  },
+  "topic_roles": {
+    "Climate Change": {
+      "primary_count": 1,
+      "secondary_count": 1,
+      "total_count": 2,
+      "primary_ratio": 0.5
+    },
+    "Conflict Dynamics": {
+      "primary_count": 52,
+      "secondary_count": 38,
+      "total_count": 90,
+      "primary_ratio": 0.5777777777777777
+    },
+    "Displacement Issues": {
+      "primary_count": 16,
+      "secondary_count": 62,
+      "total_count": 78,
+      "primary_ratio": 0.20512820512820512
+    },
+    "Food Insecurity": {
+      "primary_count": 1,
+      "secondary_count": 39,
+      "total_count": 40,
+      "primary_ratio": 0.025
+    },
+    "Gender-Based Violence": {
+      "primary_count": 5,
+      "secondary_count": 32,
+      "total_count": 37,
+      "primary_ratio": 0.13513513513513514
+    },
+    "Health Crisis": {
+      "primary_count": 7,
+      "secondary_count": 18,
+      "total_count": 25,
+      "primary_ratio": 0.28
+    },
+    "Humanitarian Crisis": {
+      "primary_count": 26,
+      "secondary_count": 60,
+      "total_count": 86,
+      "primary_ratio": 0.3023255813953488
+    },
+    "International Response": {
+      "primary_count": 1,
+      "secondary_count": 8,
+      "total_count": 9,
+      "primary_ratio": 0.1111111111111111
+    }
+  },
+  "topic_frequencies": {
+    "Humanitarian Crisis": 86,
+    "Food Insecurity": 40,
+    "Displacement Issues": 78,
+    "Health Crisis": 25,
+    "Conflict Dynamics": 90,
+    "Gender-Based Violence": 37,
+    "International Response": 9,
+    "Climate Change": 2
+  },
+  "co_occurrence_matrix": [
+    [
+      0.0,
+      1.0,
+      2.0,
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      62.0,
+      32.0,
+      29.0,
+      14.0,
+      69.0,
+      8.0
+    ],
+    [
+      2.0,
+      62.0,
+      0.0,
+      36.0,
+      32.0,
+      19.0,
+      65.0,
+      3.0
+    ],
+    [
+      0.0,
+      32.0,
+      36.0,
+      0.0,
+      18.0,
+      12.0,
+      32.0,
+      3.0
+    ],
+    [
+      0.0,
+      29.0,
+      32.0,
+      18.0,
+      0.0,
+      8.0,
+      27.0,
+      1.0
+    ],
+    [
+      0.0,
+      14.0,
+      19.0,
+      12.0,
+      8.0,
+      0.0,
+      19.0,
+      2.0
+    ],
+    [
+      2.0,
+      69.0,
+      65.0,
+      32.0,
+      27.0,
+      19.0,
+      0.0,
+      5.0
+    ],
+    [
+      0.0,
+      8.0,
+      3.0,
+      3.0,
+      1.0,
+      2.0,
+      5.0,
+      0.0
+    ]
+  ],
+  "topic_names": [
+    "Climate Change",
+    "Conflict Dynamics",
+    "Displacement Issues",
+    "Food Insecurity",
+    "Gender-Based Violence",
+    "Health Crisis",
+    "Humanitarian Crisis",
+    "International Response"
+  ],
+  "analysis_metadata": {
+    "total_articles": 116,
+    "total_topics": 8,
+    "size_multiplier": 50.0,
+    "articles_with_multiple_topics": 106
+  }
+}

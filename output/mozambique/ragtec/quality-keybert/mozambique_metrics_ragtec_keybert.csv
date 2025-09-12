@@ -1,0 +1,21 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS (KEYBERT)
+============================================================
+Number of Topics,6
+CV Coherence,0.474,Higher is better (0-1 range)
+UMass Coherence,-17.467,Less negative is better
+Jaccard Diversity,0.968,Higher is better (0-1 range)
+Unique Word Proportion,0.867,Higher is better (0-1 range)
+Avg Keywords per Topic,20.0,
+Avg Topic Name Length,2.2 words,
+KeyBERT Model,all-MiniLM-L6-v2,
+N-gram Range,(1, 1),
+Keywords per Topic,20,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Election Violence,20,riot, mozambican, candidates, irregularities, protested, rallies, africa, supporters, election, opposition
+1,Climate Challenges,20,killed, death, resilience, pemba, devastating, weather, crisis, drought, mozambican, disaster
+2,Insurgency Crisis,20,polls, islamic, elect, strike, demonstrators, violent, violence, terrorists, islamist, elections
+3,Social Media Restrictions,20,news, disputed, struck, elect, flagged, polls, strikes, african, podemos, election
+4,Economic Disparities,20,people, continue, continues, exporti, government, weeks, killed, cost, general, projects
+5,Humanitarian Response,20,million, nations, hundreds, nsanje, metuge, election, crisis, thousands, elections, cabo

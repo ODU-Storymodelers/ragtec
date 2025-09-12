@@ -1,0 +1,16 @@
+OVERALL METRICS
+Number of Topics,5
+Log-Likelihood,-6.871,Higher is better (primary optimization metric)
+Perplexity,963.521,Lower is better
+UMass Coherence,-0.598,Closer to 0 is better
+CV Coherence,0.698,Higher is better
+Jaccard Diversity,0.894,Higher is better
+Unique Word Proportion,0.740,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,Topic 0: said; government; country; people; right,38,said, government, country, people, right, president, burundian, refugee, opposition, political
+1,Topic 1: people; water; flood; flooding; lake,10,people, water, flood, flooding, lake, country, displaced, bujumbura, said, affected
+2,Topic 2: said; rwanda; congo; rebel; group,11,said, rwanda, congo, rebel, group, burundian, attack, border, red-tabara, government
+3,Topic 3: red-tabara; burundian; rebel; group; attack,7,red-tabara, burundian, rebel, group, attack, rwanda, drc, mai-mai, government, kivu
+4,Topic 4: team; archive; project; data; site,9,team, archive, project, data, site, history, website, collection, volunteer, future

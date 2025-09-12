@@ -1,0 +1,20 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS (KEYBERT)
+============================================================
+Number of Topics,5
+CV Coherence,0.526,Higher is better (0-1 range)
+UMass Coherence,-20.082,Less negative is better
+Jaccard Diversity,0.919,Higher is better (0-1 range)
+Unique Word Proportion,0.740,Higher is better (0-1 range)
+Avg Keywords per Topic,20.0,
+Avg Topic Name Length,2.0 words,
+KeyBERT Model,all-MiniLM-L6-v2,
+N-gram Range,(1, 1),
+Keywords per Topic,20,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Flooding Crisis,20,rain, landslides, resilience, rains, refugees, mitigation, rainfall, aid, congo, nairobi
+1,Humanitarian Aid,20,camps, asha, plight, fleeing, tanganyika, nkurunziza, atrocities, aid, malaria, kenya
+2,Political Instability,20,unrest, african, congolese, malaria, rebels, humanitarian, fleeing, refugees, congo, refugee
+3,Climate Change,20,river, resilience, climate, crisis, rain, mitigation, rains, landslides, rainfall, bujumbura
+4,Economic Challenges,20,border, abating, reporting, rehabilitation, crisis, democratic, malnutrition, arm, opposition, humanitarian

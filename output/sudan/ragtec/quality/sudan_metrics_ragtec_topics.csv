@@ -1,0 +1,20 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS
+==================================================
+Number of Topics,8
+CV Coherence,0.391,Higher is better (0-1 range)
+UMass Coherence,-3.571,Less negative is better
+Jaccard Diversity,0.972,Higher is better (0-1 range)
+Unique Word Proportion,0.875,Higher is better (0-1 range)
+Avg Keywords per Topic,10.0,
+Avg Topic Name Length,2.0 words,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Humanitarian Crisis,10,humanitarian, crisis, aid, displaced, emergency, needs, suffering, conditions, access, funding
+1,Conflict Dynamics,10,conflict, military, forces, control, violence, attacks, strategies, territory, fighting, escalation
+2,Displacement Issues,10,displacement, refugees, idps, returnees, camps, migration, shelter, crisis, communities, safety
+3,Health Crisis,10,health, crisis, cholera, disease, malnutrition, care, treatment, outbreak, services, access
+4,Gender-Based Violence,10,violence, gender, sexual, abuse, survivors, crimes, assault, trauma, protection, rights
+5,Climate Change,10,climate, change, floods, drought, environment, disasters, resources, vulnerability, adaptation, impact
+6,International Response,10,international, response, aid, diplomacy, funding, support, intervention, cooperation, efforts, challenges
+7,Food Insecurity,10,food, insecurity, hunger, famine, malnutrition, crisis, access, prices, supplies, needs

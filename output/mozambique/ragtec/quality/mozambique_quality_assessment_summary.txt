@@ -1,0 +1,111 @@
+RAGTEC TOPIC QUALITY ASSESSMENT - DETAILED EXECUTION SUMMARY
+================================================================================
+
+ASSESSMENT INFORMATION
+----------------------------------------
+Framework: RAGTEC Quality Assessment
+Assessment Type: RAG-Generated Topics with LLM Keywords
+Number of Topics: 6
+RAG Results File: ../output/mozambique/ragtec/extraction/mozambique_ragtec_topic_results.json
+Classification File: ../output/mozambique/ragtec/classification/mozambique_ragtec_classification_results.json
+Articles File: ../data/mozambique/mozambique_articles_formatted.txt
+
+DATA LOADING SUMMARY
+----------------------------------------
+Classification Results: Loaded from ../output/mozambique/ragtec/classification/mozambique_ragtec_classification_results.json
+Valid Document-Topic Assignments: 51 (multi-topic)
+Excluded Documents: 0 with 'no_match' or invalid topic assignments
+Article Texts: Loaded 51 articles for coherence calculation
+
+MULTI-TOPIC ASSIGNMENT STATISTICS
+----------------------------------------
+Documents with valid topic assignments: 51
+Total topic assignments: 69
+Average topics per document: 1.35
+Topic assignment distribution:
+  36 documents (70.6%) assigned to 1 topic(s)
+  12 documents (23.5%) assigned to 2 topic(s)
+  3 documents (5.9%) assigned to 3 topic(s)
+
+DATA PREPARATION DETAILS
+----------------------------------------
+Tokenization and Dictionary Building:
+  Original dictionary size: 4711
+  Filtered dictionary size: 4708
+  Removed terms: 3
+  Corpus size: 51 documents
+  Keyword coverage: 100.0%
+
+KEYWORD VALIDATION DETAILS
+----------------------------------------
+Topic Election Violence:
+  Keywords (10): election, violence, protests, frelimo, mondlane, results, deaths, police, demonstrators, unrest
+  Valid in dictionary: 10/10
+
+Topic Climate Challenges:
+  Keywords (10): climate, cyclone, chido, devastation, displaced, rain, infrastructure, humanitarian, resilience, disease
+  Valid in dictionary: 10/10
+
+Topic Insurgency Crisis:
+  Keywords (10): insurgency, cabo, delgado, violence, displaced, militants, humanitarian, conflict, terrorism, resources
+  Valid in dictionary: 10/10
+
+Topic Social Media Restrictions:
+  Keywords (10): social, media, restrictions, internet, protests, frelimo, mondlane, access, communication, violence
+  Valid in dictionary: 10/10
+
+Topic Economic Disparities:
+  Keywords (10): economic, disparities, resources, protests, inequality, local, demands, development, extraction, grievances
+  Valid in dictionary: 10/10
+
+Topic Humanitarian Response:
+  Keywords (10): humanitarian, response, aid, displaced, emergency, relief, needs, assistance, food, water
+  Valid in dictionary: 10/10
+
+Overall Keyword Validation:
+  Total keywords checked: 60
+  Valid keywords: 60
+  Validation rate: 100.0%
+
+COHERENCE CALCULATION DETAILS
+----------------------------------------
+Calculation method: topic-specific documents
+Topics used for coherence: 6
+Topic-specific documents used: 69
+
+QUALITY METRICS SUMMARY
+----------------------------------------
+Coherence Metrics:
+  C_V Coherence Score: 0.363
+    Interpretation: Good
+  UMass Coherence Score: -1.699
+    Interpretation: Fair
+
+Diversity Metrics:
+  Jaccard Diversity Score: 0.944
+    Interpretation: Excellent
+  Unique Word Proportion Score: 0.817
+    Interpretation: Excellent
+
+Statistical Metrics:
+  Average Keywords per Topic: 10.0
+  Average Topic Name Length: 2.2 words
+  Min Keywords per Topic: 10
+  Max Keywords per Topic: 10
+
+TOPIC DOCUMENT DISTRIBUTION
+----------------------------------------
+  Climate Challenges: 8 documents
+  Economic Disparities: 2 documents
+  Election Violence: 41 documents
+  Humanitarian Response: 5 documents
+  Insurgency Crisis: 5 documents
+  Social Media Restrictions: 8 documents
+
+ASSESSMENT CONCLUSIONS
+----------------------------------------
+Overall Quality Assessment:
+  Average Quality Score: 0.708
+  Overall Rating: Excellent topic quality
+
+Assessment completed successfully with 6 topics analyzed.

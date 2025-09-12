@@ -1,0 +1,1703 @@
+{
+  "model_info": {
+    "num_topics": 36,
+    "cv_coherence": 0.383,
+    "umass_coherence": -3.08,
+    "jaccard_diversity": 0.872,
+    "uwp_diversity": 0.408
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "Political Violence and Election Integrity in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "investigation",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "tensions",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "podemos",
+          "weight": 1.0
+        },
+        {
+          "word": "murder",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "Mozambique's Political Tensions and Social Media Restrictions",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "restrictions",
+          "weight": 1.0
+        },
+        {
+          "word": "tensions",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "justice",
+          "weight": 1.0
+        },
+        {
+          "word": "media",
+          "weight": 1.0
+        },
+        {
+          "word": "transparency",
+          "weight": 1.0
+        },
+        {
+          "word": "social",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "Mozambique Election Controversy",
+      "Count": 2,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "police",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrations",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "politics",
+          "weight": 1.0
+        },
+        {
+          "word": "ruling",
+          "weight": 1.0
+        },
+        {
+          "word": "fraud",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "democracy",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "Post-Election Protests in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "injuries",
+          "weight": 1.0
+        },
+        {
+          "word": "fraud",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "deaths",
+          "weight": 1.0
+        },
+        {
+          "word": "teargas",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "Mozambique Election Irregularities",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "observers",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "irregularities",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "eu",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "results",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 5,
+      "Name": "Mozambique's Political Landscape",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "dialogue",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "food shortages",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "challenges",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "president",
+          "weight": 1.0
+        },
+        {
+          "word": "unemployment",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 6,
+      "Name": "Hunger Crisis in Southern Africa",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "southern",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "hunger",
+          "weight": 1.0
+        },
+        {
+          "word": "el",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        },
+        {
+          "word": "nino",
+          "weight": 1.0
+        },
+        {
+          "word": "africa",
+          "weight": 1.0
+        },
+        {
+          "word": "malnutrition",
+          "weight": 1.0
+        },
+        {
+          "word": "drought",
+          "weight": 1.0
+        },
+        {
+          "word": "aid",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 7,
+      "Name": "Political Unrest in Mozambique",
+      "Count": 7,
+      "TopWords": [
+        {
+          "word": "mondlane",
+          "weight": 1.0
+        },
+        {
+          "word": "security",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "refugees",
+          "weight": 1.0
+        },
+        {
+          "word": "children",
+          "weight": 1.0
+        },
+        {
+          "word": "public order",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "southafrica",
+          "weight": 1.0
+        },
+        {
+          "word": "riot",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 8,
+      "Name": "Post-Election Violence in Mozambique",
+      "Count": 2,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrations",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "internet",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "un",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "sadc",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 9,
+      "Name": "Mozambique's Post-Election Unrest",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "police",
+          "weight": 1.0
+        },
+        {
+          "word": "mondlane",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "fraud",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "civil war",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 10,
+      "Name": "Mozambique Post-Election Unrest",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "economy",
+          "weight": 1.0
+        },
+        {
+          "word": "nyusi",
+          "weight": 1.0
+        },
+        {
+          "word": "grievances",
+          "weight": 1.0
+        },
+        {
+          "word": "dialogue",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "candidates",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 11,
+      "Name": "Political Violence and Corruption in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "police",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "donors",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "delgado",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrators",
+          "weight": 1.0
+        },
+        {
+          "word": "cabo",
+          "weight": 1.0
+        },
+        {
+          "word": "corruption",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 12,
+      "Name": "Mozambique Political Unrest",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "police",
+          "weight": 1.0
+        },
+        {
+          "word": "general",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrators",
+          "weight": 1.0
+        },
+        {
+          "word": "poverty",
+          "weight": 1.0
+        },
+        {
+          "word": "strike",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 13,
+      "Name": "Mozambique's Insurgency",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "terrorism",
+          "weight": 1.0
+        },
+        {
+          "word": "conflict",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "delgado",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "resources",
+          "weight": 1.0
+        },
+        {
+          "word": "natural",
+          "weight": 1.0
+        },
+        {
+          "word": "cabo",
+          "weight": 1.0
+        },
+        {
+          "word": "governance",
+          "weight": 1.0
+        },
+        {
+          "word": "insurgency",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 14,
+      "Name": "Mozambique Election Protests",
+      "Count": 3,
+      "TopWords": [
+        {
+          "word": "mondlane",
+          "weight": 1.0
+        },
+        {
+          "word": "security",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "children",
+          "weight": 1.0
+        },
+        {
+          "word": "southafrica",
+          "weight": 1.0
+        },
+        {
+          "word": "irregularities",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "humanrights",
+          "weight": 1.0
+        },
+        {
+          "word": "deaths",
+          "weight": 1.0
+        },
+        {
+          "word": "mediators",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 15,
+      "Name": "Mozambique Protests",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "injuries",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "democracy",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "supporters",
+          "weight": 1.0
+        },
+        {
+          "word": "justice",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "death",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 16,
+      "Name": "Political Crisis in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "democracy",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "renamo",
+          "weight": 1.0
+        },
+        {
+          "word": "governance",
+          "weight": 1.0
+        },
+        {
+          "word": "corruption",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 17,
+      "Name": "Cyclone Chido and its Impact on Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "rebuilding",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "devastation",
+          "weight": 1.0
+        },
+        {
+          "word": "cleanup",
+          "weight": 1.0
+        },
+        {
+          "word": "chido",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "flooding",
+          "weight": 1.0
+        },
+        {
+          "word": "landslides",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 18,
+      "Name": "Tropical Cyclone Chido Impact",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "change",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "injuries",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "casualties",
+          "weight": 1.0
+        },
+        {
+          "word": "chido",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        },
+        {
+          "word": "damage",
+          "weight": 1.0
+        },
+        {
+          "word": "disaster",
+          "weight": 1.0
+        },
+        {
+          "word": "floods",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 19,
+      "Name": "Impact of Tropical Cyclone Chido in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "emergency",
+          "weight": 1.0
+        },
+        {
+          "word": "relief",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "injured",
+          "weight": 1.0
+        },
+        {
+          "word": "chido",
+          "weight": 1.0
+        },
+        {
+          "word": "houses",
+          "weight": 1.0
+        },
+        {
+          "word": "displaced",
+          "weight": 1.0
+        },
+        {
+          "word": "aid",
+          "weight": 1.0
+        },
+        {
+          "word": "death",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 20,
+      "Name": "Climate Change and Natural Disasters",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "change",
+          "weight": 1.0
+        },
+        {
+          "word": "resilience",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        },
+        {
+          "word": "chido",
+          "weight": 1.0
+        },
+        {
+          "word": "infrastructure",
+          "weight": 1.0
+        },
+        {
+          "word": "preparedness",
+          "weight": 1.0
+        },
+        {
+          "word": "disasters",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 21,
+      "Name": "Cyclone Chido Impact",
+      "Count": 2,
+      "TopWords": [
+        {
+          "word": "toll",
+          "weight": 1.0
+        },
+        {
+          "word": "storm",
+          "weight": 1.0
+        },
+        {
+          "word": "homes",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "injuries",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "mayotte",
+          "weight": 1.0
+        },
+        {
+          "word": "chido",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 22,
+      "Name": "Mozambique Elections and Political Unrest",
+      "Count": 2,
+      "TopWords": [
+        {
+          "word": "mondlane",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "rigging",
+          "weight": 1.0
+        },
+        {
+          "word": "human rights",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "fraud",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 23,
+      "Name": "Mozambique's Political and Economic Turmoil",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrations",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "local",
+          "weight": 1.0
+        },
+        {
+          "word": "economic",
+          "weight": 1.0
+        },
+        {
+          "word": "renegotiation",
+          "weight": 1.0
+        },
+        {
+          "word": "resources",
+          "weight": 1.0
+        },
+        {
+          "word": "investors",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 24,
+      "Name": "Mozambique Governance",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "emergency",
+          "weight": 1.0
+        },
+        {
+          "word": "nyusi",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "term",
+          "weight": 1.0
+        },
+        {
+          "word": "governance",
+          "weight": 1.0
+        },
+        {
+          "word": "president",
+          "weight": 1.0
+        },
+        {
+          "word": "politics",
+          "weight": 1.0
+        },
+        {
+          "word": "mourning",
+          "weight": 1.0
+        },
+        {
+          "word": "pardon",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 25,
+      "Name": "Cabo Delgado Insurgency and Humanitarian Crisis",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "delgado",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "cabo",
+          "weight": 1.0
+        },
+        {
+          "word": "aid",
+          "weight": 1.0
+        },
+        {
+          "word": "insurgency",
+          "weight": 1.0
+        },
+        {
+          "word": "displacement",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 26,
+      "Name": "Mozambique Prison Break and Post-Election Violence",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "security",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "tensions",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "inmates",
+          "weight": 1.0
+        },
+        {
+          "word": "break",
+          "weight": 1.0
+        },
+        {
+          "word": "deaths",
+          "weight": 1.0
+        },
+        {
+          "word": "prison",
+          "weight": 1.0
+        },
+        {
+          "word": "jihadists",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 27,
+      "Name": "Refugee Crisis in Malawi",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "refugees",
+          "weight": 1.0
+        },
+        {
+          "word": "food",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "support",
+          "weight": 1.0
+        },
+        {
+          "word": "asylum-seekers",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 28,
+      "Name": "Political Instability and Violence in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "prisoners",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "instability",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "jailbreak",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "chaos",
+          "weight": 1.0
+        },
+        {
+          "word": "death",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 29,
+      "Name": "Mozambique Political Crisis",
+      "Count": 3,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "mondlane",
+          "weight": 1.0
+        },
+        {
+          "word": "change",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "return",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "protest",
+          "weight": 1.0
+        },
+        {
+          "word": "rafael",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 30,
+      "Name": "Mozambique Post-Election Violence",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "refugees",
+          "weight": 1.0
+        },
+        {
+          "word": "conflict",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "displacement",
+          "weight": 1.0
+        },
+        {
+          "word": "survival",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 31,
+      "Name": "Mozambique's Political Crisis",
+      "Count": 2,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrations",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "legitimacy",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 32,
+      "Name": "Islamic State and Insurgency in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "grievances",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "delgado",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "cabo",
+          "weight": 1.0
+        },
+        {
+          "word": "islamic",
+          "weight": 1.0
+        },
+        {
+          "word": "state",
+          "weight": 1.0
+        },
+        {
+          "word": "jihadist",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "insurgency",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 33,
+      "Name": "Political Tensions in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "mondlane",
+          "weight": 1.0
+        },
+        {
+          "word": "fatalities",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "tensions",
+          "weight": 1.0
+        },
+        {
+          "word": "chapo",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "president",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 34,
+      "Name": "Political Situation in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "rights",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "civil war",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        },
+        {
+          "word": "democracy",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "chapo",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 35,
+      "Name": "Cholera Outbreaks and Misinformation in Mozambique",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "sanitation",
+          "weight": 1.0
+        },
+        {
+          "word": "cholera",
+          "weight": 1.0
+        },
+        {
+          "word": "health",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "who",
+          "weight": 1.0
+        },
+        {
+          "word": "misinformation",
+          "weight": 1.0
+        },
+        {
+          "word": "public health",
+          "weight": 1.0
+        },
+        {
+          "word": "outbreaks",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

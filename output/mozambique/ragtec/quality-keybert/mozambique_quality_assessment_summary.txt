@@ -1,0 +1,90 @@
+================================================================================
+RAGTEC TOPIC QUALITY ASSESSMENT SUMMARY (KeyBERT)
+================================================================================
+
+CONFIGURATION:
+----------------------------------------
+Model: all-MiniLM-L6-v2
+Keywords per topic: 20
+N-gram range: (1, 1)
+Extraction method: KeyBERT (content-based)
+
+MULTI-TOPIC ASSIGNMENT STATISTICS:
+----------------------------------------
+Total documents: 51
+Total topic assignments: 69
+Average topics per document: 1.35
+Topic assignment distribution:
+  36 documents (70.6%) → 1 topic(s)
+  12 documents (23.5%) → 2 topic(s)
+  3 documents (5.9%) → 3 topic(s)
+
+TOPIC OVERVIEW:
+----------------------------------------
+Total topics identified: 6
+Average keywords per topic: 20.0
+Average topic name length: 2.2 words
+
+QUALITY METRICS:
+----------------------------------------
+Coherence (Topic Consistency):
+  • C_V Coherence: 0.474 (Good)
+  • UMass Coherence: -17.467 (Very Poor)
+
+Diversity (Topic Distinctiveness):
+  • Jaccard Diversity: 0.968 (Excellent)
+  • Unique Word Proportion: 0.867 (Excellent)
+
+OVERALL ASSESSMENT:
+----------------------------------------
+Quality Rating: Good
+Summary: Well-formed topics with reasonable quality
+
+TOPIC DOCUMENT DISTRIBUTION:
+----------------------------------------
+  Election Violence: 41 documents
+  Climate Challenges: 8 documents
+  Insurgency Crisis: 5 documents
+  Social Media Restrictions: 8 documents
+  Economic Disparities: 2 documents
+  Humanitarian Response: 5 documents
+
+KEYBERT EXTRACTED KEYWORDS BY TOPIC:
+----------------------------------------
+Election Violence:
+  All Keywords (20): riot, mozambican, candidates, irregularities, protested, rallies, africa, supporters, election, opposition, chapo, elections, malawi, demonstrators, protest, protesters, protests, protesting, unrest, mozambique
+  Top 10 for Evaluation: riot, mozambican, candidates, irregularities, protested, rallies, africa, supporters, election, opposition
+
+Climate Challenges:
+  All Keywords (20): killed, death, resilience, pemba, devastating, weather, crisis, drought, mozambican, disaster, devastation, storm, storms, africa, landfall, malawi, tropical, chido, cyclone, mozambique
+  Top 10 for Evaluation: killed, death, resilience, pemba, devastating, weather, crisis, drought, mozambican, disaster
+
+Insurgency Crisis:
+  All Keywords (20): polls, islamic, elect, strike, demonstrators, violent, violence, terrorists, islamist, elections, protest, frelimo, chapo, africa, rebellion, cabo, insurgency, mozambicans, delgado, mozambique
+  Top 10 for Evaluation: polls, islamic, elect, strike, demonstrators, violent, violence, terrorists, islamist, elections
+
+Social Media Restrictions:
+  All Keywords (20): news, disputed, struck, elect, flagged, polls, strikes, african, podemos, election, irregularities, frelimo, demonstrations, opposition, chapo, supporters, protested, unrest, protests, mozambique
+  Top 10 for Evaluation: news, disputed, struck, elect, flagged, polls, strikes, african, podemos, election
+
+Economic Disparities:
+  All Keywords (20): people, continue, continues, exporti, government, weeks, killed, cost, general, projects, march, police, economy, renegotiation, terrorists, demonstrations, demonstrators, mozambique, strike, protest
+  Top 10 for Evaluation: people, continue, continues, exporti, government, weeks, killed, cost, general, projects
+
+Humanitarian Response:
+  All Keywords (20): million, nations, hundreds, nsanje, metuge, election, crisis, thousands, elections, cabo, fled, frelimo, cyclone, delgado, drought, tropical, mozambicans, africa, mozambique, malawi
+  Top 10 for Evaluation: million, nations, hundreds, nsanje, metuge, election, crisis, thousands, elections, cabo
+
+PROCESSING NOTES:
+----------------------------------------
+• Keywords extracted using KeyBERT from document content
+• Multi-topic assignment: Documents can belong to multiple topics
+• All metrics use top 10 keywords per topic for fair method comparison
+• Coherence measures topic internal consistency
+• Diversity measures topic distinctiveness
+• Higher coherence = more coherent topics
+• Higher diversity = more distinct topics
+
+================================================================================
+End of Summary
+================================================================================

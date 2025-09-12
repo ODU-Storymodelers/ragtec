@@ -1,0 +1,107 @@
+RAGTEC TOPIC QUALITY ASSESSMENT - DETAILED EXECUTION SUMMARY
+================================================================================
+
+ASSESSMENT INFORMATION
+----------------------------------------
+Framework: RAGTEC Quality Assessment
+Assessment Type: RAG-Generated Topics with LLM Keywords
+Number of Topics: 5
+RAG Results File: ../output/burundi/ragtec/extraction/burundi_ragtec_topic_results.json
+Classification File: ../output/burundi/ragtec/classification/burundi_ragtec_classification_results.json
+Articles File: ../data/burundi/burundi_articles_formatted.txt
+
+DATA LOADING SUMMARY
+----------------------------------------
+Classification Results: Loaded from ../output/burundi/ragtec/classification/burundi_ragtec_classification_results.json
+Valid Document-Topic Assignments: 65 (multi-topic)
+Excluded Documents: 10 with 'no_match' or invalid topic assignments
+Article Texts: Loaded 76 articles for coherence calculation
+
+MULTI-TOPIC ASSIGNMENT STATISTICS
+----------------------------------------
+Documents with valid topic assignments: 65
+Total topic assignments: 104
+Average topics per document: 1.60
+Topic assignment distribution:
+  37 documents (56.9%) assigned to 1 topic(s)
+  19 documents (29.2%) assigned to 2 topic(s)
+  7 documents (10.8%) assigned to 3 topic(s)
+  2 documents (3.1%) assigned to 4 topic(s)
+
+DATA PREPARATION DETAILS
+----------------------------------------
+Tokenization and Dictionary Building:
+  Original dictionary size: 4878
+  Filtered dictionary size: 4876
+  Removed terms: 2
+  Corpus size: 76 documents
+  Keyword coverage: 94.0%
+
+KEYWORD VALIDATION DETAILS
+----------------------------------------
+Topic Flooding Crisis:
+  Keywords (10): floods, displaced, lake, tanganyika, rainfall, homes, infrastructure, emergency, aid, evacuate
+  Valid in dictionary: 10/10
+
+Topic Humanitarian Aid:
+  Keywords (10): aid, support, un, appeal, resources, humanitarian, assistance, funding, displaced, emergency
+  Valid in dictionary: 9/10
+
+Topic Political Instability:
+  Keywords (10): government, political, crisis, opposition, ndayishimiye, civil, society, repression, elections, violence
+  Valid in dictionary: 10/10
+
+Topic Climate Change:
+  Keywords (10): climate, change, el, nino, environment, impact, weather, extreme, conditions, vulnerable
+  Valid in dictionary: 9/10
+
+Topic Economic Challenges:
+  Keywords (10): economy, shortages, inflation, poverty, trade, exports, imports, aid, development, resources
+  Valid in dictionary: 9/10
+
+Overall Keyword Validation:
+  Total keywords checked: 50
+  Valid keywords: 47
+  Validation rate: 94.0%
+
+COHERENCE CALCULATION DETAILS
+----------------------------------------
+Calculation method: topic-specific documents
+Topics used for coherence: 5
+Topic-specific documents used: 104
+
+QUALITY METRICS SUMMARY
+----------------------------------------
+Coherence Metrics:
+  C_V Coherence Score: 0.358
+    Interpretation: Good
+  UMass Coherence Score: -4.141
+    Interpretation: Poor
+
+Diversity Metrics:
+  Jaccard Diversity Score: 0.966
+    Interpretation: Excellent
+  Unique Word Proportion Score: 0.900
+    Interpretation: Excellent
+
+Statistical Metrics:
+  Average Keywords per Topic: 10.0
+  Average Topic Name Length: 2.0 words
+  Min Keywords per Topic: 10
+  Max Keywords per Topic: 10
+
+TOPIC DOCUMENT DISTRIBUTION
+----------------------------------------
+  Climate Change: 14 documents
+  Economic Challenges: 5 documents
+  Flooding Crisis: 17 documents
+  Humanitarian Aid: 20 documents
+  Political Instability: 48 documents
+
+ASSESSMENT CONCLUSIONS
+----------------------------------------
+Overall Quality Assessment:
+  Average Quality Score: 0.741
+  Overall Rating: Excellent topic quality
+
+Assessment completed successfully with 5 topics analyzed.

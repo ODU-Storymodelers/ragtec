@@ -1,0 +1,461 @@
+{
+  "model_info": {
+    "num_topics": 7,
+    "log_likelihood": -7.339,
+    "perplexity": 1539.798,
+    "umass_coherence": -1.139,
+    "cv_coherence": 0.546,
+    "jaccard_diversity": 0.908,
+    "uwp_diversity": 0.771
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "Topic 0: mineral, drc, conflict, people, said",
+      "Count": 20,
+      "TopWords": [
+        {
+          "word": "mineral",
+          "weight": 0.014
+        },
+        {
+          "word": "drc",
+          "weight": 0.013
+        },
+        {
+          "word": "conflict",
+          "weight": 0.012
+        },
+        {
+          "word": "people",
+          "weight": 0.009
+        },
+        {
+          "word": "said",
+          "weight": 0.007
+        },
+        {
+          "word": "supply",
+          "weight": 0.007
+        },
+        {
+          "word": "country",
+          "weight": 0.007
+        },
+        {
+          "word": "food",
+          "weight": 0.006
+        },
+        {
+          "word": "need",
+          "weight": 0.006
+        },
+        {
+          "word": "goma",
+          "weight": 0.005
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 213,
+          "text": "the tech giant has been accused of sourcing conflict minerals from sub-saharan africa. the democratic republic of the congo drc has filed criminal complaints against tech giant apples subsidiaries in ...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 147,
+          "text": "dr congo joins east africa trade bloc: who gains? 29 march 2022 share save peter mwangangi bbc africa business reporter, nairobi share save afp dr congo has some of the highest levels of poverty in th...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 148,
+          "text": "dr congo data leak: millions transferred to joseph kabila allies 19 november 2021 share save africa eye bbc world service share save afp joseph kabila was president of dr congo from 2001-2019 companie...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "Topic 1: park, said, virunga, killed, attack",
+      "Count": 9,
+      "TopWords": [
+        {
+          "word": "park",
+          "weight": 0.011
+        },
+        {
+          "word": "said",
+          "weight": 0.01
+        },
+        {
+          "word": "virunga",
+          "weight": 0.009
+        },
+        {
+          "word": "killed",
+          "weight": 0.008
+        },
+        {
+          "word": "attack",
+          "weight": 0.008
+        },
+        {
+          "word": "one",
+          "weight": 0.007
+        },
+        {
+          "word": "year",
+          "weight": 0.006
+        },
+        {
+          "word": "two",
+          "weight": 0.006
+        },
+        {
+          "word": "people",
+          "weight": 0.006
+        },
+        {
+          "word": "ranger",
+          "weight": 0.005
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 126,
+          "text": "dr congo: why tourists go to virunga national park 14 may 2018 share save share save getty images mountain gorillas are one of virungas main attractions one of africas most stunning parks - virunga in...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 142,
+          "text": "dr congo floods leave more than 120 dead in kinshasa more than 120 people have been killed following the worst floods in years in the capital of the democratic republic of congo, kinshasa, the authori...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 135,
+          "text": "dr congo floods: digging through mud to find relatives the villages of bushushu and nyamukubi were engulfed by flood water they are having to pile up the bodies wrapped up in blankets in the villages ...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "Topic 2: election, country, said, people, opposition",
+      "Count": 24,
+      "TopWords": [
+        {
+          "word": "election",
+          "weight": 0.011
+        },
+        {
+          "word": "country",
+          "weight": 0.007
+        },
+        {
+          "word": "said",
+          "weight": 0.006
+        },
+        {
+          "word": "people",
+          "weight": 0.006
+        },
+        {
+          "word": "opposition",
+          "weight": 0.005
+        },
+        {
+          "word": "president",
+          "weight": 0.005
+        },
+        {
+          "word": "congolese",
+          "weight": 0.005
+        },
+        {
+          "word": "child",
+          "weight": 0.005
+        },
+        {
+          "word": "kabila",
+          "weight": 0.005
+        },
+        {
+          "word": "result",
+          "weight": 0.004
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 87,
+          "text": "some fifteen embassies in kinshasa on saturday called for restraint after the elections in the drc, described as a sham by the opposition, which is already planning a demonstration, as the first resul...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 48,
+          "text": "uganda protest organisers playing with fire, president says ugandas president yoweri museveni has been in power since 1986 in a televised address, mr museveni warned the ugandan organisers that their ...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 117,
+          "text": "dr congo elections: fayulus supporters clash with police in kinshasa 27 december 2023 share save byobe malenga emery makumeno bbc news, kinshasa share save getty images the government banned the prote...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "Topic 3: m23, rwanda, rebel, said, group",
+      "Count": 146,
+      "TopWords": [
+        {
+          "word": "m23",
+          "weight": 0.02
+        },
+        {
+          "word": "rwanda",
+          "weight": 0.016
+        },
+        {
+          "word": "rebel",
+          "weight": 0.015
+        },
+        {
+          "word": "said",
+          "weight": 0.012
+        },
+        {
+          "word": "group",
+          "weight": 0.012
+        },
+        {
+          "word": "eastern",
+          "weight": 0.01
+        },
+        {
+          "word": "congolese",
+          "weight": 0.01
+        },
+        {
+          "word": "force",
+          "weight": 0.009
+        },
+        {
+          "word": "goma",
+          "weight": 0.008
+        },
+        {
+          "word": "drc",
+          "weight": 0.008
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 194,
+          "text": "the evidence that shows rwanda is backing rebels in dr congo 29 january 2025 ian wafula africa security correspondent, bbc news epa protesters in kinshasa, the capital of democratic republic of congo,...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 170,
+          "text": "fighting between the democratic republic of congos national army and the rebel group m23 has displaced thousands of people in the eastern border city of goma. formed 10 years ago, the rwanda-backed mo...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 221,
+          "text": "whos pulling the strings in the dr congo crisis? 8 february 2025 share save barbara plett usher africa correspondent share save afp the rwandan-backed m23 group has said they want to liberate dr congo...",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "Topic 4: said, people, goma, one, lake",
+      "Count": 14,
+      "TopWords": [
+        {
+          "word": "said",
+          "weight": 0.011
+        },
+        {
+          "word": "people",
+          "weight": 0.01
+        },
+        {
+          "word": "goma",
+          "weight": 0.008
+        },
+        {
+          "word": "one",
+          "weight": 0.007
+        },
+        {
+          "word": "lake",
+          "weight": 0.007
+        },
+        {
+          "word": "lumumba",
+          "weight": 0.007
+        },
+        {
+          "word": "eruption",
+          "weight": 0.007
+        },
+        {
+          "word": "city",
+          "weight": 0.006
+        },
+        {
+          "word": "would",
+          "weight": 0.006
+        },
+        {
+          "word": "volcano",
+          "weight": 0.006
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 120,
+          "text": "mount nyiragongo: why dr congo fears the explosive power of a lake 29 may 2021 share save share save volcanologist dario tedesco says that goma is one of the most dangerous cities to live in because o...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 154,
+          "text": "dr congo: thousands flee goma after second volcano warning 27 may 2021 share save share save bbc around a third of gomas residents have been ordered to evacuate tens of thousands of people have been e...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 131,
+          "text": "us and british citizens among 37 sentenced to death in dr congo coup trial l-r benjamin zalman-polun, marcel malanga and tyler thompson are the three us citizens sentenced to death for the coup attemp...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 5,
+      "Name": "Topic 5: mpox, health, disease, outbreak, case",
+      "Count": 19,
+      "TopWords": [
+        {
+          "word": "mpox",
+          "weight": 0.02
+        },
+        {
+          "word": "health",
+          "weight": 0.018
+        },
+        {
+          "word": "disease",
+          "weight": 0.016
+        },
+        {
+          "word": "outbreak",
+          "weight": 0.014
+        },
+        {
+          "word": "case",
+          "weight": 0.012
+        },
+        {
+          "word": "said",
+          "weight": 0.011
+        },
+        {
+          "word": "people",
+          "weight": 0.011
+        },
+        {
+          "word": "africa",
+          "weight": 0.009
+        },
+        {
+          "word": "vaccine",
+          "weight": 0.008
+        },
+        {
+          "word": "country",
+          "weight": 0.008
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 241,
+          "text": "kamituga, congo ap slumped on the ground over a mound of dirt, divine wisoba pulled weeds from her daughters grave. the 1-month-old died from mpox in eastern congo in august, but wisoba, 21, was too t...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 111,
+          "text": "bbc visits mpox clinic as who says dr congo cases plateauing 22 november 2024 share save anne soy senior africa correspondent, bbc news share save bbc nurse jackson murhula says lwiro clinic is only r...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 124,
+          "text": "covid: dr congo in race against time to vaccinate people 10 may 2021 share save philippa roxby health reporter share save olivia acland unicef jeanne dusungu prepares to vaccinate people against covid...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 6,
+      "Name": "Topic 6: archive, team, data, project, history",
+      "Count": 11,
+      "TopWords": [
+        {
+          "word": "archive",
+          "weight": 0.02
+        },
+        {
+          "word": "team",
+          "weight": 0.02
+        },
+        {
+          "word": "data",
+          "weight": 0.014
+        },
+        {
+          "word": "project",
+          "weight": 0.013
+        },
+        {
+          "word": "history",
+          "weight": 0.012
+        },
+        {
+          "word": "collection",
+          "weight": 0.01
+        },
+        {
+          "word": "site",
+          "weight": 0.01
+        },
+        {
+          "word": "website",
+          "weight": 0.01
+        },
+        {
+          "word": "volunteer",
+          "weight": 0.01
+        },
+        {
+          "word": "well",
+          "weight": 0.008
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 6,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.998
+        },
+        {
+          "doc_idx": 7,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.998
+        },
+        {
+          "doc_idx": 27,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.998
+        }
+      ]
+    }
+  ]
+}

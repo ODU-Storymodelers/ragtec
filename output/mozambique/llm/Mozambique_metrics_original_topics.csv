@@ -1,0 +1,45 @@
+OVERALL METRICS
+Number of Main Topics,36
+CV Coherence,0.383,Higher is better
+UMass Coherence,-3.080,Closer to 0 is better
+Jaccard Diversity,0.872,Higher is better
+Unique Word Proportion,0.408,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,Political Violence and Election Integrity in Mozambique,1,protests, investigation, opposition, mozambique, tensions, violence, election, frelimo, podemos, murder
+1,Mozambique's Political Tensions and Social Media Restrictions,1,protests, political, mozambique, restrictions, tensions, election, justice, media, transparency, social
+2,Mozambique Election Controversy,2,protests, police, demonstrations, opposition, mozambique, politics, ruling, fraud, violence, democracy
+3,Post-Election Protests in Mozambique,1,protests, opposition, mozambique, injuries, fraud, violence, election, frelimo, deaths, teargas
+4,Mozambique Election Irregularities,1,protests, observers, opposition, mozambique, irregularities, violence, election, eu, frelimo, results
+5,Mozambique's Political Landscape,1,opposition, dialogue, mozambique, food shortages, violence, challenges, election, frelimo, president, unemployment
+6,Hunger Crisis in Southern Africa,1,southern, crisis, hunger, el, climate, nino, africa, malnutrition, drought, aid
+7,Political Unrest in Mozambique,7,mondlane, security, opposition, refugees, children, public order, elections, southafrica, riot, political
+8,Post-Election Violence in Mozambique,2,protests, demonstrations, opposition, mozambique, violence, internet, election, un, frelimo, sadc
+9,Mozambique's Post-Election Unrest,1,protests, police, mondlane, opposition, mozambique, fraud, violence, civil war, election, frelimo
+10,Mozambique Post-Election Unrest,1,protests, economy, nyusi, grievances, dialogue, mozambique, violence, unrest, election, candidates
+11,Political Violence and Corruption in Mozambique,1,police, political, donors, violence, elections, delgado, frelimo, demonstrators, cabo, corruption
+12,Mozambique Political Unrest,1,police, general, political, mozambique, elections, violence, unrest, demonstrators, poverty, strike
+13,Mozambique's Insurgency,1,terrorism, conflict, mozambique, delgado, violence, resources, natural, cabo, governance, insurgency
+14,Mozambique Election Protests,3,mondlane, security, opposition, children, southafrica, irregularities, violence, humanrights, deaths, mediators
+15,Mozambique Protests,1,protests, mozambique, injuries, elections, democracy, violence, supporters, justice, government, death
+16,Political Crisis in Mozambique,1,protests, political, crisis, mozambique, elections, democracy, frelimo, renamo, governance, corruption
+17,Cyclone Chido and its Impact on Mozambique,1,rebuilding, mozambique, cyclone, devastation, cleanup, chido, climate, humanitarian, flooding, landslides
+18,Tropical Cyclone Chido Impact,1,change, mozambique, injuries, cyclone, casualties, chido, climate, damage, disaster, floods
+19,Impact of Tropical Cyclone Chido in Mozambique,1,emergency, relief, mozambique, cyclone, injured, chido, houses, displaced, aid, death
+20,Climate Change and Natural Disasters,1,change, resilience, mozambique, malawi, cyclone, climate, chido, infrastructure, preparedness, disasters
+21,Cyclone Chido Impact,2,toll, storm, homes, mozambique, malawi, injuries, cyclone, mayotte, chido, climate
+22,Mozambique Elections and Political Unrest,2,mondlane, protests, rigging, human rights, political, mozambique, fraud, elections, violence, unrest
+23,Mozambique's Political and Economic Turmoil,1,protests, demonstrations, political, mozambique, local, economic, renegotiation, resources, investors, government
+24,Mozambique Governance,1,emergency, nyusi, mozambique, cyclone, term, governance, president, politics, mourning, pardon
+25,Cabo Delgado Insurgency and Humanitarian Crisis,1,crisis, delgado, elections, humanitarian, violence, frelimo, cabo, aid, insurgency, displacement
+26,Mozambique Prison Break and Post-Election Violence,1,security, mozambique, violence, tensions, election, inmates, break, deaths, prison, jihadists
+27,Refugee Crisis in Malawi,1,refugees, food, mozambique, malawi, crisis, violence, election, humanitarian, support, asylum-seekers
+28,Political Instability and Violence in Mozambique,1,protests, prisoners, mozambique, political, instability, violence, jailbreak, government, chaos, death
+29,Mozambique Political Crisis,3,protests, mondlane, change, opposition, return, political, mozambique, crisis, protest, rafael
+30,Mozambique Post-Election Violence,1,protests, refugees, conflict, malawi, mozambique, violence, election, humanitarian, displacement, survival
+31,Mozambique's Political Crisis,2,protests, demonstrations, opposition, political, mozambique, crisis, government, legitimacy, elections, violence
+32,Islamic State and Insurgency in Mozambique,1,grievances, mozambique, delgado, violence, cabo, islamic, state, jihadist, government, insurgency
+33,Political Tensions in Mozambique,1,protests, mondlane, fatalities, opposition, political, mozambique, tensions, chapo, frelimo, president
+34,Political Situation in Mozambique,1,protests, opposition, rights, mozambique, violence, civil war, election, democracy, frelimo, chapo
+35,Cholera Outbreaks and Misinformation in Mozambique,1,protests, mozambique, sanitation, cholera, health, violence, who, misinformation, public health, outbreaks

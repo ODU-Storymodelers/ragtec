@@ -1,0 +1,18 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS
+==================================================
+Number of Topics,6
+CV Coherence,0.384,Higher is better (0-1 range)
+UMass Coherence,-2.160,Less negative is better
+Jaccard Diversity,0.971,Higher is better (0-1 range)
+Unique Word Proportion,0.900,Higher is better (0-1 range)
+Avg Keywords per Topic,10.0,
+Avg Topic Name Length,2.0 words,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Media Freedom,10,journalists, reporting, silence, media, goma, crisis, information, attacks, freedom, violence
+1,Humanitarian Crisis,10,displacement, food, crisis, health, violence, humanitarian, emergency, injuries, access, suffering
+2,Regional Conflict,10,rwanda, uganda, regional, conflict, military, intervention, tensions, diplomacy, peace, alliances
+3,Armed Groups,10,m23, rebels, violence, militia, conflict, control, attacks, civilians, power, territory
+4,Mineral Wealth,10,minerals, wealth, exploitation, resources, cobalt, coltan, gold, conflict, trade, economy
+5,Political Landscape,10,elections, governance, politics, tshisekedi, protests, democracy, international, community, response, stability

@@ -1,0 +1,201 @@
+{
+  "assessment_info": {
+    "framework": "RAGTEC_Quality_Assessment",
+    "version": "1.0",
+    "model_type": "RAG_Topic_Modeling",
+    "num_topics": 6,
+    "timestamp": 1754513443.0
+  },
+  "quality_metrics": {
+    "coherence": {
+      "cv_coherence": 0.384,
+      "umass_coherence": -2.16
+    },
+    "diversity": {
+      "jaccard_diversity": 0.971,
+      "uwp_diversity": 0.9
+    },
+    "statistical": {
+      "avg_keywords_per_topic": 10.0,
+      "avg_topic_name_length": 2.0,
+      "min_keywords_per_topic": 10,
+      "max_keywords_per_topic": 10
+    }
+  },
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic_name": "Media Freedom",
+      "keywords_count": 10,
+      "keywords": [
+        "journalists",
+        "reporting",
+        "silence",
+        "media",
+        "goma",
+        "crisis",
+        "information",
+        "attacks",
+        "freedom",
+        "violence"
+      ],
+      "all_keywords": [
+        "journalists",
+        "reporting",
+        "silence",
+        "media",
+        "goma",
+        "crisis",
+        "information",
+        "attacks",
+        "freedom",
+        "violence"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "Humanitarian Crisis",
+      "keywords_count": 10,
+      "keywords": [
+        "displacement",
+        "food",
+        "crisis",
+        "health",
+        "violence",
+        "humanitarian",
+        "emergency",
+        "injuries",
+        "access",
+        "suffering"
+      ],
+      "all_keywords": [
+        "displacement",
+        "food",
+        "crisis",
+        "health",
+        "violence",
+        "humanitarian",
+        "emergency",
+        "injuries",
+        "access",
+        "suffering"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Regional Conflict",
+      "keywords_count": 10,
+      "keywords": [
+        "rwanda",
+        "uganda",
+        "regional",
+        "conflict",
+        "military",
+        "intervention",
+        "tensions",
+        "diplomacy",
+        "peace",
+        "alliances"
+      ],
+      "all_keywords": [
+        "rwanda",
+        "uganda",
+        "regional",
+        "conflict",
+        "military",
+        "intervention",
+        "tensions",
+        "diplomacy",
+        "peace",
+        "alliances"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Armed Groups",
+      "keywords_count": 10,
+      "keywords": [
+        "m23",
+        "rebels",
+        "violence",
+        "militia",
+        "conflict",
+        "control",
+        "attacks",
+        "civilians",
+        "power",
+        "territory"
+      ],
+      "all_keywords": [
+        "m23",
+        "rebels",
+        "violence",
+        "militia",
+        "conflict",
+        "control",
+        "attacks",
+        "civilians",
+        "power",
+        "territory"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Mineral Wealth",
+      "keywords_count": 10,
+      "keywords": [
+        "minerals",
+        "wealth",
+        "exploitation",
+        "resources",
+        "cobalt",
+        "coltan",
+        "gold",
+        "conflict",
+        "trade",
+        "economy"
+      ],
+      "all_keywords": [
+        "minerals",
+        "wealth",
+        "exploitation",
+        "resources",
+        "cobalt",
+        "coltan",
+        "gold",
+        "conflict",
+        "trade",
+        "economy"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Political Landscape",
+      "keywords_count": 10,
+      "keywords": [
+        "elections",
+        "governance",
+        "politics",
+        "tshisekedi",
+        "protests",
+        "democracy",
+        "international",
+        "community",
+        "response",
+        "stability"
+      ],
+      "all_keywords": [
+        "elections",
+        "governance",
+        "politics",
+        "tshisekedi",
+        "protests",
+        "democracy",
+        "international",
+        "community",
+        "response",
+        "stability"
+      ]
+    }
+  ]
+}

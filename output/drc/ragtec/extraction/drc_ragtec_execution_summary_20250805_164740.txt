@@ -1,0 +1,102 @@
+RAGTEC EXECUTION SUMMARY
+Generated: 2025-08-05 16:47:40
+Dataset: drc
+================================================================================
+
+RAGTEC: Retrieval-Augmented Generation for Topic Extraction and Classification
+======================================================================
+Using custom k value: 120
+
+============================================================
+STARTING RAGTEC TOPIC EXTRACTION
+Retrieval-Augmented Generation for Topic Extraction
+============================================================
+Loading articles from: ../data/drc/drc_articles_formatted.txt
+Loaded 243 articles.
+Using custom k: 120 (capped at collection size: 120)
+
+Collection Analysis:
+  Total articles: 243
+  Optimal k: 120 articles (49.4% selection)
+  Strategy: Custom Selection
+  Formula used: Custom k=120
+Building vector store...
+Vector store created with 243 documents.
+Retrieving 120 most relevant articles...
+Retrieved 120 articles with cosine similarity scores: 0.7769 - 0.8231
+Context built: 113,536 tokens
+Final prompt: 114,019 tokens
+Calling LLM for topic extraction...
+Processing: 100%|████████████████████████████████████████| 1/1 [00:48<00:00, 48.36s/it]
+
+Token Usage Summary:
+  Input tokens: 114,019 ($0.017103)
+  Output tokens: 2,177 ($0.001306)
+  Total cost: $0.018409
+Saved topic extraction results to: ../output/drc/ragtec/extraction/drc_ragtec_topic_results.json
+Results saved to: ../output/drc/ragtec/extraction
+  - drc_ragtec_complete_results.json
+  - drc_token_usage_and_cost.json
+  - drc_retrieved_articles_with_scores.json
+  - drc_collection_analysis.json
+
+==================================================
+COLLECTION SUMMARY
+==================================================
+Summary: The collection of articles provides a comprehensive overview of the ongoing conflict in the Democratic Republic of the Congo (DRC), particularly focusing on the resurgence of the M23 rebel group, the humanitarian crisis resulting from the violence, and the geopolitical implications involving neighboring countries like Rwanda and Uganda. The articles highlight the severe impact on civilians, including mass displacements, human rights abuses, and the challenges faced by humanitarian organizations. Additionally, the political landscape, including elections and international responses, is discussed, revealing the complexities of achieving peace in the region.
+
+Topics identified: 6
+Approach: I identified six distinct topics based on the recurring themes and issues present in the articles. Each topic captures a unique aspect of the ongoing conflict in the DRC, including humanitarian crises, political dynamics, and the role of external actors. The articles were analyzed for key themes, and keywords were extracted to ensure distinctiveness.
+
+Identified Topics:
+  1. Humanitarian Crisis
+  2. Political Dynamics
+  3. Regional Conflict
+  4. Media and Information Access
+  5. Mineral Wealth and Exploitation
+  6. International Relations
+
+TOPIC DETAILS:
+--------------------------------------------------
+
+1. Humanitarian Crisis
+   Description: This topic encompasses the severe humanitarian impact of the conflict in the DRC, including mass displacements, food insecurity, and health crises.
+   Keywords: humanitarian, displacement, violence, food, health (and 5 more)
+   Representative documents: 1
+
+2. Political Dynamics
+   Description: This topic covers the political landscape in the DRC, including elections, government responses, and the role of political leaders in the ongoing conflict.
+   Keywords: politics, elections, government, leadership, Tshisekedi (and 5 more)
+   Representative documents: 1
+
+3. Regional Conflict
+   Description: This topic addresses the implications of the conflict in the DRC on regional stability, including the involvement of neighboring countries like Rwanda and Uganda.
+   Keywords: regional, Rwanda, Uganda, conflict, military (and 5 more)
+   Representative documents: 1
+
+4. Media and Information Access
+   Description: This topic focuses on the challenges faced by journalists and media in reporting on the conflict, including censorship and violence against media personnel.
+   Keywords: media, journalism, censorship, reporting, freedom (and 5 more)
+   Representative documents: 1
+
+5. Mineral Wealth and Exploitation
+   Description: This topic examines the role of the DRC's vast mineral resources in fueling the conflict, including issues of illegal mining and exploitation by armed groups.
+   Keywords: minerals, wealth, exploitation, coltan, gold (and 5 more)
+   Representative documents: 1
+
+6. International Relations
+   Description: This topic covers the international community's response to the DRC conflict, including diplomatic efforts, sanctions, and humanitarian aid.
+   Keywords: international, diplomacy, sanctions, aid, negotiations (and 5 more)
+   Representative documents: 1
+--------------------------------------------------
+
+RAGTEC Pipeline completed successfully!
+Results saved to: ../output/drc/ragtec/extraction
+
+Summary:
+  Collection size: 243 articles
+  Optimal k used: 120 articles
+  Selection ratio: 49.4%
+  Total cost: $0.018409
+  Total tokens: 116,196
+  Topics extracted: Available in results['parsed_output']

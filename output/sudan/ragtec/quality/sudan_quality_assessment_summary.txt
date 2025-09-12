@@ -1,0 +1,125 @@
+RAGTEC TOPIC QUALITY ASSESSMENT - DETAILED EXECUTION SUMMARY
+================================================================================
+
+ASSESSMENT INFORMATION
+----------------------------------------
+Framework: RAGTEC Quality Assessment
+Assessment Type: RAG-Generated Topics with LLM Keywords
+Number of Topics: 8
+RAG Results File: ../output/sudan/ragtec/extraction/sudan_ragtec_topic_results.json
+Classification File: ../output/sudan/ragtec/classification/sudan_ragtec_classification_results.json
+Articles File: ../data/sudan/sudan_articles_formatted.txt
+
+DATA LOADING SUMMARY
+----------------------------------------
+Classification Results: Loaded from ../output/sudan/ragtec/classification/sudan_ragtec_classification_results.json
+Valid Document-Topic Assignments: 109 (multi-topic)
+Excluded Documents: 7 with 'no_match' or invalid topic assignments
+Article Texts: Loaded 117 articles for coherence calculation
+
+MULTI-TOPIC ASSIGNMENT STATISTICS
+----------------------------------------
+Documents with valid topic assignments: 109
+Total topic assignments: 367
+Average topics per document: 3.37
+Topic assignment distribution:
+  3 documents (2.8%) assigned to 1 topic(s)
+  21 documents (19.3%) assigned to 2 topic(s)
+  38 documents (34.9%) assigned to 3 topic(s)
+  30 documents (27.5%) assigned to 4 topic(s)
+  15 documents (13.8%) assigned to 5 topic(s)
+  1 documents (0.9%) assigned to 6 topic(s)
+  1 documents (0.9%) assigned to 7 topic(s)
+
+DATA PREPARATION DETAILS
+----------------------------------------
+Tokenization and Dictionary Building:
+  Original dictionary size: 7785
+  Filtered dictionary size: 7783
+  Removed terms: 2
+  Corpus size: 117 documents
+  Keyword coverage: 98.8%
+
+KEYWORD VALIDATION DETAILS
+----------------------------------------
+Topic Humanitarian Crisis:
+  Keywords (10): humanitarian, crisis, aid, displaced, emergency, needs, suffering, conditions, access, funding
+  Valid in dictionary: 10/10
+
+Topic Conflict Dynamics:
+  Keywords (10): conflict, military, forces, control, violence, attacks, strategies, territory, fighting, escalation
+  Valid in dictionary: 10/10
+
+Topic Displacement Issues:
+  Keywords (10): displacement, refugees, idps, returnees, camps, migration, shelter, crisis, communities, safety
+  Valid in dictionary: 10/10
+
+Topic Health Crisis:
+  Keywords (10): health, crisis, cholera, disease, malnutrition, care, treatment, outbreak, services, access
+  Valid in dictionary: 10/10
+
+Topic Gender-Based Violence:
+  Keywords (10): violence, gender, sexual, abuse, survivors, crimes, assault, trauma, protection, rights
+  Valid in dictionary: 10/10
+
+Topic Climate Change:
+  Keywords (10): climate, change, floods, drought, environment, disasters, resources, vulnerability, adaptation, impact
+  Valid in dictionary: 9/10
+
+Topic International Response:
+  Keywords (10): international, response, aid, diplomacy, funding, support, intervention, cooperation, efforts, challenges
+  Valid in dictionary: 10/10
+
+Topic Food Insecurity:
+  Keywords (10): food, insecurity, hunger, famine, malnutrition, crisis, access, prices, supplies, needs
+  Valid in dictionary: 10/10
+
+Overall Keyword Validation:
+  Total keywords checked: 80
+  Valid keywords: 79
+  Validation rate: 98.8%
+
+COHERENCE CALCULATION DETAILS
+----------------------------------------
+Calculation method: topic-specific documents
+Topics used for coherence: 8
+Topic-specific documents used: 367
+
+QUALITY METRICS SUMMARY
+----------------------------------------
+Coherence Metrics:
+  C_V Coherence Score: 0.391
+    Interpretation: Good
+  UMass Coherence Score: -3.571
+    Interpretation: Poor
+
+Diversity Metrics:
+  Jaccard Diversity Score: 0.972
+    Interpretation: Excellent
+  Unique Word Proportion Score: 0.875
+    Interpretation: Excellent
+
+Statistical Metrics:
+  Average Keywords per Topic: 10.0
+  Average Topic Name Length: 2.0 words
+  Min Keywords per Topic: 10
+  Max Keywords per Topic: 10
+
+TOPIC DOCUMENT DISTRIBUTION
+----------------------------------------
+  Climate Change: 2 documents
+  Conflict Dynamics: 90 documents
+  Displacement Issues: 78 documents
+  Food Insecurity: 40 documents
+  Gender-Based Violence: 37 documents
+  Health Crisis: 25 documents
+  Humanitarian Crisis: 86 documents
+  International Response: 9 documents
+
+ASSESSMENT CONCLUSIONS
+----------------------------------------
+Overall Quality Assessment:
+  Average Quality Score: 0.746
+  Overall Rating: Excellent topic quality
+
+Assessment completed successfully with 8 topics analyzed.

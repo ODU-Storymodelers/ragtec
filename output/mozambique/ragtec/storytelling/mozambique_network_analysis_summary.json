@@ -1,0 +1,219 @@
+{
+  "network_statistics": {
+    "threshold_1": {
+      "nodes": 6,
+      "edges": 10,
+      "density": 0.6666666666666666,
+      "components": 1,
+      "clustering": 0.8055555555555555,
+      "top_degree_centrality": [
+        [
+          "Election Violence",
+          1.0
+        ],
+        [
+          "Insurgency Crisis",
+          0.8
+        ],
+        [
+          "Economic Disparities",
+          0.6000000000000001
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Election Violence",
+          0.35000000000000003
+        ],
+        [
+          "Insurgency Crisis",
+          0.1
+        ],
+        [
+          "Humanitarian Response",
+          0.05
+        ]
+      ]
+    },
+    "threshold_2": {
+      "nodes": 6,
+      "edges": 5,
+      "density": 0.3333333333333333,
+      "components": 1,
+      "clustering": 0.0,
+      "top_degree_centrality": [
+        [
+          "Election Violence",
+          0.8
+        ],
+        [
+          "Humanitarian Response",
+          0.4
+        ],
+        [
+          "Climate Challenges",
+          0.2
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Election Violence",
+          0.9
+        ],
+        [
+          "Humanitarian Response",
+          0.4
+        ],
+        [
+          "Climate Challenges",
+          0.0
+        ]
+      ]
+    },
+    "threshold_3": {
+      "nodes": 6,
+      "edges": 1,
+      "density": 0.06666666666666667,
+      "components": 5,
+      "clustering": 0.0,
+      "top_degree_centrality": [
+        [
+          "Election Violence",
+          0.2
+        ],
+        [
+          "Social Media Restrictions",
+          0.2
+        ],
+        [
+          "Climate Challenges",
+          0.0
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Climate Challenges",
+          0.0
+        ],
+        [
+          "Economic Disparities",
+          0.0
+        ],
+        [
+          "Election Violence",
+          0.0
+        ]
+      ]
+    }
+  },
+  "topic_roles": {
+    "Climate Challenges": {
+      "primary_count": 7,
+      "secondary_count": 1,
+      "total_count": 8,
+      "primary_ratio": 0.875
+    },
+    "Economic Disparities": {
+      "primary_count": 1,
+      "secondary_count": 1,
+      "total_count": 2,
+      "primary_ratio": 0.5
+    },
+    "Election Violence": {
+      "primary_count": 39,
+      "secondary_count": 2,
+      "total_count": 41,
+      "primary_ratio": 0.9512195121951219
+    },
+    "Humanitarian Response": {
+      "primary_count": 0,
+      "secondary_count": 5,
+      "total_count": 5,
+      "primary_ratio": 0.0
+    },
+    "Insurgency Crisis": {
+      "primary_count": 3,
+      "secondary_count": 2,
+      "total_count": 5,
+      "primary_ratio": 0.6
+    },
+    "Social Media Restrictions": {
+      "primary_count": 1,
+      "secondary_count": 7,
+      "total_count": 8,
+      "primary_ratio": 0.125
+    }
+  },
+  "topic_frequencies": {
+    "Election Violence": 41,
+    "Social Media Restrictions": 8,
+    "Insurgency Crisis": 5,
+    "Climate Challenges": 8,
+    "Humanitarian Response": 5,
+    "Economic Disparities": 2
+  },
+  "co_occurrence_matrix": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      2.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      1.0,
+      2.0,
+      0.0,
+      2.0,
+      2.0,
+      8.0
+    ],
+    [
+      2.0,
+      0.0,
+      2.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      2.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    [
+      0.0,
+      1.0,
+      8.0,
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "topic_names": [
+    "Climate Challenges",
+    "Economic Disparities",
+    "Election Violence",
+    "Humanitarian Response",
+    "Insurgency Crisis",
+    "Social Media Restrictions"
+  ],
+  "analysis_metadata": {
+    "total_articles": 51,
+    "total_topics": 6,
+    "size_multiplier": 50.0,
+    "articles_with_multiple_topics": 15
+  }
+}

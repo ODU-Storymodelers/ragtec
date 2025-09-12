@@ -1,0 +1,105 @@
+{
+  "model_info": {
+    "num_topics": 2,
+    "cv_coherence": 0.539,
+    "umass_coherence": -0.568,
+    "jaccard_diversity": 1.0,
+    "uwp_diversity": 1.0
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "0_darfur_sudan_sudans",
+      "Count": 108,
+      "TopWords": [
+        {
+          "word": "darfur",
+          "weight": 1.0
+        },
+        {
+          "word": "sudan",
+          "weight": 1.0
+        },
+        {
+          "word": "sudans",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "khartoum",
+          "weight": 1.0
+        },
+        {
+          "word": "sudanese",
+          "weight": 1.0
+        },
+        {
+          "word": "genocide",
+          "weight": 1.0
+        },
+        {
+          "word": "aid",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "famine",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "1_panic_providing_destroyed",
+      "Count": 8,
+      "TopWords": [
+        {
+          "word": "panic",
+          "weight": 1.0
+        },
+        {
+          "word": "providing",
+          "weight": 1.0
+        },
+        {
+          "word": "destroyed",
+          "weight": 1.0
+        },
+        {
+          "word": "volunteers",
+          "weight": 1.0
+        },
+        {
+          "word": "manifestos",
+          "weight": 1.0
+        },
+        {
+          "word": "dying",
+          "weight": 1.0
+        },
+        {
+          "word": "data",
+          "weight": 1.0
+        },
+        {
+          "word": "sake",
+          "weight": 1.0
+        },
+        {
+          "word": "insight",
+          "weight": 1.0
+        },
+        {
+          "word": "suddenly",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

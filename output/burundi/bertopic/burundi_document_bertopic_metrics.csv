@@ -1,0 +1,15 @@
+OVERALL METRICS
+Number of Topics,6
+CV Coherence,0.470,Higher is better
+UMass Coherence,-4.260,Closer to 0 is better
+Jaccard Diversity,0.823,Higher is better
+Unique Word Proportion,0.617,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+1,1_burundi_bujumbura_africa,15,burundi, bujumbura, africa, nairobi, gatumba, kenya, humanitarian, crisis, ntahangwa, cibitoke
+4,4_burundians_burundis_burundi,7,burundians, burundis, burundi, nkurunziza, tanzania, unrest, african, ndirakobuca, ndayishimiye, crisis
+0,0_burundi_burundis_burundian,19,burundi, burundis, burundian, rwanda, rwandan, congo, refugees, congolese, tanzania, refugee
+-1,-1_burundi_burundians_burundis,15,burundi, burundians, burundis, burundian, rwanda, rwandan, nkurunziza, malaria, congo, african
+3,3_burundi_burundis_burundians,8,burundi, burundis, burundians, burundian, nkurunziza, nkurunzizas, ntibantunganya, government, hutu, authorities
+2,2_burundis_burundi_archiveteamorg,11,burundis, burundi, archiveteamorg, crisis, volunteers, archiveit, government, archive, data, projects

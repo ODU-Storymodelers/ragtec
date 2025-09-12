@@ -1,0 +1,10 @@
+{
+  "input_tokens": 230762,
+  "output_tokens": 72909,
+  "total_tokens": 303671,
+  "input_cost_usd": 0.034614299999999994,
+  "output_cost_usd": 0.0437454,
+  "total_cost_usd": 0.07835969999999999,
+  "model": "gpt-4o-mini",
+  "pricing_date": "2024_rates"
+}

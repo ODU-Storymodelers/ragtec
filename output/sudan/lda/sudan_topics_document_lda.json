@@ -1,0 +1,461 @@
+{
+  "model_info": {
+    "num_topics": 7,
+    "log_likelihood": -7.228,
+    "perplexity": 1377.29,
+    "umass_coherence": -1.16,
+    "cv_coherence": 0.567,
+    "jaccard_diversity": 0.951,
+    "uwp_diversity": 0.8
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "Topic 0: million, humanitarian, displaced, child, country",
+      "Count": 22,
+      "TopWords": [
+        {
+          "word": "million",
+          "weight": 0.017
+        },
+        {
+          "word": "humanitarian",
+          "weight": 0.011
+        },
+        {
+          "word": "displaced",
+          "weight": 0.01
+        },
+        {
+          "word": "child",
+          "weight": 0.01
+        },
+        {
+          "word": "country",
+          "weight": 0.01
+        },
+        {
+          "word": "crisis",
+          "weight": 0.009
+        },
+        {
+          "word": "war",
+          "weight": 0.009
+        },
+        {
+          "word": "conflict",
+          "weight": 0.008
+        },
+        {
+          "word": "darfur",
+          "weight": 0.008
+        },
+        {
+          "word": "violence",
+          "weight": 0.007
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 93,
+          "text": "read time: 6 minutes read time: 6 minutes 30.4 million people in humanitarian need, the largest humanitarian crisis since records began over 12 million people forcibly displaced since april 2023, the ...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 28,
+          "text": "joint statement - two years of war, starvation and global failure: the world must act now for sudan joint statement - two years of war, starvation and global failure: the world must act now for sudan ...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 4,
+          "text": "humanitarian organisations are sounding the alarm over attacks on healthcare facilities in sudan, warning that 70 percent of them are closed or barely operational. in a new report entitled besieged, a...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "Topic 1: rsf, said, attack, war, force",
+      "Count": 30,
+      "TopWords": [
+        {
+          "word": "rsf",
+          "weight": 0.027
+        },
+        {
+          "word": "said",
+          "weight": 0.019
+        },
+        {
+          "word": "attack",
+          "weight": 0.013
+        },
+        {
+          "word": "war",
+          "weight": 0.012
+        },
+        {
+          "word": "force",
+          "weight": 0.009
+        },
+        {
+          "word": "group",
+          "weight": 0.008
+        },
+        {
+          "word": "camp",
+          "weight": 0.008
+        },
+        {
+          "word": "darfur",
+          "weight": 0.008
+        },
+        {
+          "word": "civilian",
+          "weight": 0.008
+        },
+        {
+          "word": "army",
+          "weight": 0.007
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 12,
+          "text": "drone attacks raise stakes in new phase of sudans civil war 15 may 2025 share save barbara plett usher bbc news share save reuters port sudan, which was once considered a relatively safe city, has bee...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 21,
+          "text": "cairo ap umm al-kheir bakheit was 13 when she arrived at zamzam camp in the early 2000s, fleeing the janjaweed, the infamous arab militias terrorizing sudans darfur region. she grew up, married and ha...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 40,
+          "text": "multiple attacks by sudans rapid support forces killed and wounded over 100 people, including 20 children and nine aid workers, according to the un. the rsf has denied responsibility for attacks on ci...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "Topic 2: rsf, army, war, sudanese, country",
+      "Count": 40,
+      "TopWords": [
+        {
+          "word": "rsf",
+          "weight": 0.013
+        },
+        {
+          "word": "army",
+          "weight": 0.013
+        },
+        {
+          "word": "war",
+          "weight": 0.01
+        },
+        {
+          "word": "sudanese",
+          "weight": 0.01
+        },
+        {
+          "word": "country",
+          "weight": 0.009
+        },
+        {
+          "word": "force",
+          "weight": 0.009
+        },
+        {
+          "word": "military",
+          "weight": 0.008
+        },
+        {
+          "word": "government",
+          "weight": 0.007
+        },
+        {
+          "word": "also",
+          "weight": 0.007
+        },
+        {
+          "word": "khartoum",
+          "weight": 0.006
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 41,
+          "text": "after the sudanese army recaptured khartoum, many hoped that sudans war would start winding down. instead, as it enters its third year, the conflict is escalating and likely to expand in scope, unless...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 66,
+          "text": "there has never been a more apt time to push for the dismantling of military hegemony and the installing of fully civilian, democratic governance in sudan. on october 30, millions of people took to th...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 90,
+          "text": "sudan war: a simple guide to what is happening getty images the war in sudan has caused one of the worlds largest displacement crises, the un has said in april last year, sudan was thrown into disarra...",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "Topic 3: team, archive, project, data, site",
+      "Count": 7,
+      "TopWords": [
+        {
+          "word": "team",
+          "weight": 0.021
+        },
+        {
+          "word": "archive",
+          "weight": 0.021
+        },
+        {
+          "word": "project",
+          "weight": 0.014
+        },
+        {
+          "word": "data",
+          "weight": 0.014
+        },
+        {
+          "word": "site",
+          "weight": 0.012
+        },
+        {
+          "word": "history",
+          "weight": 0.011
+        },
+        {
+          "word": "collection",
+          "weight": 0.011
+        },
+        {
+          "word": "volunteer",
+          "weight": 0.01
+        },
+        {
+          "word": "website",
+          "weight": 0.01
+        },
+        {
+          "word": "lost",
+          "weight": 0.008
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 24,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.998
+        },
+        {
+          "doc_idx": 26,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.998
+        },
+        {
+          "doc_idx": 52,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.998
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "Topic 4: water, dam, cholera, camp, doctor",
+      "Count": 6,
+      "TopWords": [
+        {
+          "word": "water",
+          "weight": 0.018
+        },
+        {
+          "word": "dam",
+          "weight": 0.013
+        },
+        {
+          "word": "cholera",
+          "weight": 0.011
+        },
+        {
+          "word": "camp",
+          "weight": 0.01
+        },
+        {
+          "word": "doctor",
+          "weight": 0.009
+        },
+        {
+          "word": "zamzam",
+          "weight": 0.008
+        },
+        {
+          "word": "child",
+          "weight": 0.007
+        },
+        {
+          "word": "nile",
+          "weight": 0.006
+        },
+        {
+          "word": "white",
+          "weight": 0.006
+        },
+        {
+          "word": "outbreak",
+          "weight": 0.006
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 89,
+          "text": "delft, the netherlands when the arbaat dam, 38 kilometres northwest of port sudan, collapsed catastrophically in august, following the unusually heavy rains that have hit sudan this year, it left a sw...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 60,
+          "text": "nicef, partners respond to curb the spread of cholera outbreak more than 500 children are among the 2,700 cholera cases, that have been reported in sudans white nile state between 1 january and 24 feb...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 105,
+          "text": "woman in zamzam camp for the displaced near el fasher, which is about 55 km north of tabit. el fasher zamzam camp new satellite imagery by the yale university humanitarian research centre reveals the ...",
+          "score": 0.828
+        }
+      ]
+    },
+    {
+      "Topic": 5,
+      "Name": "Topic 5: aid, humanitarian, port, health, food",
+      "Count": 8,
+      "TopWords": [
+        {
+          "word": "aid",
+          "weight": 0.01
+        },
+        {
+          "word": "humanitarian",
+          "weight": 0.009
+        },
+        {
+          "word": "port",
+          "weight": 0.007
+        },
+        {
+          "word": "health",
+          "weight": 0.007
+        },
+        {
+          "word": "food",
+          "weight": 0.007
+        },
+        {
+          "word": "day",
+          "weight": 0.007
+        },
+        {
+          "word": "child",
+          "weight": 0.007
+        },
+        {
+          "word": "one",
+          "weight": 0.006
+        },
+        {
+          "word": "get",
+          "weight": 0.005
+        },
+        {
+          "word": "case",
+          "weight": 0.005
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 56,
+          "text": "sudan halima adam constantly hears about the arrival of relief shipments for those affected by the war via ships docked near her camp in port sudan, capital of red sea state in eastern sudan, but she ...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 59,
+          "text": "communities already grappling with the horrors of war face rising tide of cholera file photo. kosti rabak the death toll from the rapidly spreading cholera epidemic in kosti, white nile state, rose to...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 19,
+          "text": "displaced people reaching tawila locality. they mainly come from el fasher and surrounding camps like zamzam and abu shok and report extreme violence, repeated shelling, skyrocketing commodity prices ...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 6,
+      "Name": "Topic 6: video, bomb, mortar, sudanese, weapon",
+      "Count": 3,
+      "TopWords": [
+        {
+          "word": "video",
+          "weight": 0.016
+        },
+        {
+          "word": "bomb",
+          "weight": 0.016
+        },
+        {
+          "word": "mortar",
+          "weight": 0.015
+        },
+        {
+          "word": "sudanese",
+          "weight": 0.013
+        },
+        {
+          "word": "weapon",
+          "weight": 0.013
+        },
+        {
+          "word": "rsf",
+          "weight": 0.012
+        },
+        {
+          "word": "fighter",
+          "weight": 0.01
+        },
+        {
+          "word": "filmed",
+          "weight": 0.009
+        },
+        {
+          "word": "force",
+          "weight": 0.009
+        },
+        {
+          "word": "christian",
+          "weight": 0.008
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 25,
+          "text": "in the sudanese civil war, mortar bombs - like the ones investigated by the france 24 observers team - have largely been used to target civilian infrastructures. fighters with the rapid support forces...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 30,
+          "text": "after capturing a convoy containing mortar bombs on november 21, 2024, sudanese fighters with the joint forces filmed videos showing both the weapons and the passports of two colombian nationals, who ...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 88,
+          "text": "when an arab militia rampaged through maryam suleimans village in the darfur region of sudan last year and lined up men and boys to massacre, the gunmen were blunt about their purpose. we dont want to...",
+          "score": 0.572
+        }
+      ]
+    }
+  ]
+}

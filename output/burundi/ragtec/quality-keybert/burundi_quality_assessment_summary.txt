@@ -1,0 +1,86 @@
+================================================================================
+RAGTEC TOPIC QUALITY ASSESSMENT SUMMARY (KeyBERT)
+================================================================================
+
+CONFIGURATION:
+----------------------------------------
+Model: all-MiniLM-L6-v2
+Keywords per topic: 20
+N-gram range: (1, 1)
+Extraction method: KeyBERT (content-based)
+
+MULTI-TOPIC ASSIGNMENT STATISTICS:
+----------------------------------------
+Total documents: 65
+Total topic assignments: 104
+Average topics per document: 1.60
+Topic assignment distribution:
+  37 documents (56.9%) → 1 topic(s)
+  19 documents (29.2%) → 2 topic(s)
+  7 documents (10.8%) → 3 topic(s)
+  2 documents (3.1%) → 4 topic(s)
+
+TOPIC OVERVIEW:
+----------------------------------------
+Total topics identified: 5
+Average keywords per topic: 20.0
+Average topic name length: 2.0 words
+
+QUALITY METRICS:
+----------------------------------------
+Coherence (Topic Consistency):
+  • C_V Coherence: 0.526 (Excellent)
+  • UMass Coherence: -20.082 (Very Poor)
+
+Diversity (Topic Distinctiveness):
+  • Jaccard Diversity: 0.919 (Excellent)
+  • Unique Word Proportion: 0.740 (Good)
+
+OVERALL ASSESSMENT:
+----------------------------------------
+Quality Rating: Good
+Summary: Well-formed topics with reasonable quality
+
+TOPIC DOCUMENT DISTRIBUTION:
+----------------------------------------
+  Flooding Crisis: 17 documents
+  Humanitarian Aid: 20 documents
+  Political Instability: 48 documents
+  Climate Change: 14 documents
+  Economic Challenges: 5 documents
+
+KEYBERT EXTRACTED KEYWORDS BY TOPIC:
+----------------------------------------
+Flooding Crisis:
+  All Keywords (20): rain, landslides, resilience, rains, refugees, mitigation, rainfall, aid, congo, nairobi, kenya, africa, humanitarian, tanzania, disasters, flooding, floodwaters, flood, floods, burundi
+  Top 10 for Evaluation: rain, landslides, resilience, rains, refugees, mitigation, rainfall, aid, congo, nairobi
+
+Humanitarian Aid:
+  All Keywords (20): camps, asha, plight, fleeing, tanganyika, nkurunziza, atrocities, aid, malaria, kenya, nairobi, africa, refugee, tanzania, humanitarian, refugees, congo, rwanda, burundian, burundi
+  Top 10 for Evaluation: camps, asha, plight, fleeing, tanganyika, nkurunziza, atrocities, aid, malaria, kenya
+
+Political Instability:
+  All Keywords (20): unrest, african, congolese, malaria, rebels, humanitarian, fleeing, refugees, congo, refugee, africa, tanzania, kenya, nairobi, rwandans, rwanda, rwandan, burundian, burundians, burundi
+  Top 10 for Evaluation: unrest, african, congolese, malaria, rebels, humanitarian, fleeing, refugees, congo, refugee
+
+Climate Change:
+  All Keywords (20): river, resilience, climate, crisis, rain, mitigation, rains, landslides, rainfall, bujumbura, nairobi, kenya, africa, tanzania, floodwaters, disasters, flooding, flood, floods, burundi
+  Top 10 for Evaluation: river, resilience, climate, crisis, rain, mitigation, rains, landslides, rainfall, bujumbura
+
+Economic Challenges:
+  All Keywords (20): border, abating, reporting, rehabilitation, crisis, democratic, malnutrition, arm, opposition, humanitarian, atrocities, muac, political, african, karusi, bujumbura, gitaramuka, nkurunziza, gatumba, burundi
+  Top 10 for Evaluation: border, abating, reporting, rehabilitation, crisis, democratic, malnutrition, arm, opposition, humanitarian
+
+PROCESSING NOTES:
+----------------------------------------
+• Keywords extracted using KeyBERT from document content
+• Multi-topic assignment: Documents can belong to multiple topics
+• All metrics use top 10 keywords per topic for fair method comparison
+• Coherence measures topic internal consistency
+• Diversity measures topic distinctiveness
+• Higher coherence = more coherent topics
+• Higher diversity = more distinct topics
+
+================================================================================
+End of Summary
+================================================================================

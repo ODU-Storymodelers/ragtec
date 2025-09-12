@@ -1,0 +1,26 @@
+DRC TOPIC ASSIGNMENT SUMMARY
+Generated on: 2025-08-06 19:36:04
+===================================================
+
+DATASET OVERVIEW:
+- Total articles processed: 243
+- Predefined topics available: 6
+- Topic names: Media Freedom, Humanitarian Crisis, Regional Conflict, Armed Groups, Mineral Wealth, Political Landscape
+
+ALL TOPIC ASSIGNMENTS:
+
+PRIMARY TOPIC DISTRIBUTION:
+
+TOKEN USAGE AND COST SUMMARY:
+- Input tokens: 0
+- Output tokens: 0
+- Total tokens: 559,033
+- Input cost: $0.000000
+- Output cost: $0.000000
+- Total cost: $0.140115
+- Model: gpt-4o-mini
+
+PROCESSING STATISTICS:
+- Successful classifications: 243
+- Failed classifications: 0
+- Success rate: 100.0%

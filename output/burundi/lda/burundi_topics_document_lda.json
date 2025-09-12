@@ -1,0 +1,333 @@
+{
+  "model_info": {
+    "num_topics": 5,
+    "log_likelihood": -6.871,
+    "perplexity": 963.521,
+    "umass_coherence": -0.598,
+    "cv_coherence": 0.698,
+    "jaccard_diversity": 0.894,
+    "uwp_diversity": 0.74
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "Topic 0: said, government, country, people, right",
+      "Count": 38,
+      "TopWords": [
+        {
+          "word": "said",
+          "weight": 0.016
+        },
+        {
+          "word": "government",
+          "weight": 0.011
+        },
+        {
+          "word": "country",
+          "weight": 0.009
+        },
+        {
+          "word": "people",
+          "weight": 0.009
+        },
+        {
+          "word": "right",
+          "weight": 0.008
+        },
+        {
+          "word": "president",
+          "weight": 0.008
+        },
+        {
+          "word": "burundian",
+          "weight": 0.007
+        },
+        {
+          "word": "refugee",
+          "weight": 0.007
+        },
+        {
+          "word": "opposition",
+          "weight": 0.007
+        },
+        {
+          "word": "political",
+          "weight": 0.007
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 55,
+          "text": "spotlight although nkurunziza has suppressed external reporting on burundi, the countrys 4-year-old political and humanitarian crisis shows no signs of abating. mass atrocities and crimes against huma...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 71,
+          "text": "a cartoon can say a truth that we cannot publish in words how cartoonists are challenging burundis media clampdown. bujumbura, burundi scrolling through a folder of his work, burundian cartoonist alif...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 12,
+          "text": "bujumbura, burundi shrouded in darkness, with the journalists and human rights monitors locked in their homes and hotels, unidentified men with machetes, stones, automatic rifles, and grenades mete ou...",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "Topic 1: people, water, flood, flooding, lake",
+      "Count": 10,
+      "TopWords": [
+        {
+          "word": "people",
+          "weight": 0.016
+        },
+        {
+          "word": "water",
+          "weight": 0.015
+        },
+        {
+          "word": "flood",
+          "weight": 0.015
+        },
+        {
+          "word": "flooding",
+          "weight": 0.014
+        },
+        {
+          "word": "lake",
+          "weight": 0.012
+        },
+        {
+          "word": "country",
+          "weight": 0.012
+        },
+        {
+          "word": "displaced",
+          "weight": 0.01
+        },
+        {
+          "word": "bujumbura",
+          "weight": 0.01
+        },
+        {
+          "word": "said",
+          "weight": 0.009
+        },
+        {
+          "word": "affected",
+          "weight": 0.009
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 60,
+          "text": "bujumbura, burundi ap deadly floods are wreaking havoc in many parts of east africa that face torrential rainfall, with burundi calling for international help to deal with the aftermath. lake tanganyi...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 21,
+          "text": "washington, july 1, 2024 a new world bank-financed project will support flood mitigation and resilience in bujumbura, combining high-impact investments for flood risk management, flood resilience, and...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 0,
+          "text": "asha, a mother-of-four, found herself once again donning rubber boots inside her living room the recurring cost of residing near lake tanganyika in burundi, where climate change and relentless floodin...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "Topic 2: said, rwanda, congo, rebel, group",
+      "Count": 11,
+      "TopWords": [
+        {
+          "word": "said",
+          "weight": 0.018
+        },
+        {
+          "word": "rwanda",
+          "weight": 0.017
+        },
+        {
+          "word": "congo",
+          "weight": 0.016
+        },
+        {
+          "word": "rebel",
+          "weight": 0.015
+        },
+        {
+          "word": "group",
+          "weight": 0.014
+        },
+        {
+          "word": "burundian",
+          "weight": 0.014
+        },
+        {
+          "word": "attack",
+          "weight": 0.013
+        },
+        {
+          "word": "border",
+          "weight": 0.012
+        },
+        {
+          "word": "red-tabara",
+          "weight": 0.011
+        },
+        {
+          "word": "government",
+          "weight": 0.01
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 9,
+          "text": "nairobi, kenya ap dozens of burundian troops have been detained for refusing to be deployed to eastern congo in the fight against the m23 rebel group as it advances toward a major border city, accordi...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 37,
+          "text": "nairobi, kenya ap at least 20 people have been killed in burundi following an attack by a rebel group based in the neighboring democratic republic of congo, a burundian government spokesman said satur...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 58,
+          "text": "nairobi, kenya ap at least 20 people have been killed in burundi following an attack by a rebel group based in the neighboring democratic republic of congo, a burundian government spokesman said satur...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "Topic 3: red-tabara, burundian, rebel, group, attack",
+      "Count": 7,
+      "TopWords": [
+        {
+          "word": "red-tabara",
+          "weight": 0.026
+        },
+        {
+          "word": "burundian",
+          "weight": 0.021
+        },
+        {
+          "word": "rebel",
+          "weight": 0.017
+        },
+        {
+          "word": "group",
+          "weight": 0.014
+        },
+        {
+          "word": "attack",
+          "weight": 0.013
+        },
+        {
+          "word": "rwanda",
+          "weight": 0.011
+        },
+        {
+          "word": "drc",
+          "weight": 0.01
+        },
+        {
+          "word": "mai-mai",
+          "weight": 0.009
+        },
+        {
+          "word": "government",
+          "weight": 0.009
+        },
+        {
+          "word": "kivu",
+          "weight": 0.008
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 33,
+          "text": "a map showing the location of burundi and rwanda in relation to the democratic republic of congo. analysis the red-tabara armed group, based in the democratic republic of congo drc, has renewed attack...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 50,
+          "text": "fizi : clashes between red-tabara rebels and the mai-mai yakutumba on wednesday, rebels from the armed group of burundian origin red-tabara attacked different posts of the mai-mai yakutumba located in...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 53,
+          "text": "uvira: new clashes between red-tabara rebels and the fdnb new hostilities broke out between the burundian red-tabara rebels and the fdnb burundi national defense force between december 5 and 7. the re...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "Topic 4: team, archive, project, data, site",
+      "Count": 9,
+      "TopWords": [
+        {
+          "word": "team",
+          "weight": 0.026
+        },
+        {
+          "word": "archive",
+          "weight": 0.026
+        },
+        {
+          "word": "project",
+          "weight": 0.017
+        },
+        {
+          "word": "data",
+          "weight": 0.017
+        },
+        {
+          "word": "site",
+          "weight": 0.013
+        },
+        {
+          "word": "history",
+          "weight": 0.013
+        },
+        {
+          "word": "website",
+          "weight": 0.013
+        },
+        {
+          "word": "collection",
+          "weight": 0.013
+        },
+        {
+          "word": "volunteer",
+          "weight": 0.013
+        },
+        {
+          "word": "future",
+          "weight": 0.009
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 18,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 28,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 30,
+          "text": "formed in 2009, the archive team not to be confused with the archive.org archive-it team is a rogue archivist collective dedicated to saving copies of rapidly dying or deleted websites for the sake of...",
+          "score": 0.999
+        }
+      ]
+    }
+  ]
+}

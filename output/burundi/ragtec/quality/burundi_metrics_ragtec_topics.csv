@@ -1,0 +1,17 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS
+==================================================
+Number of Topics,5
+CV Coherence,0.358,Higher is better (0-1 range)
+UMass Coherence,-4.141,Less negative is better
+Jaccard Diversity,0.966,Higher is better (0-1 range)
+Unique Word Proportion,0.900,Higher is better (0-1 range)
+Avg Keywords per Topic,10.0,
+Avg Topic Name Length,2.0 words,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Flooding Crisis,10,floods, displaced, lake, tanganyika, rainfall, homes, infrastructure, emergency, aid, evacuate
+1,Humanitarian Aid,10,aid, support, un, appeal, resources, humanitarian, assistance, funding, displaced, emergency
+2,Political Instability,10,government, political, crisis, opposition, ndayishimiye, civil, society, repression, elections, violence
+3,Climate Change,10,climate, change, el, nino, environment, impact, weather, extreme, conditions, vulnerable
+4,Economic Challenges,10,economy, shortages, inflation, poverty, trade, exports, imports, aid, development, resources

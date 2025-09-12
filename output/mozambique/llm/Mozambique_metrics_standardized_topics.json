@@ -1,0 +1,387 @@
+{
+  "model_info": {
+    "num_topics": 8,
+    "cv_coherence": 0.393,
+    "umass_coherence": -2.821,
+    "jaccard_diversity": 0.888,
+    "uwp_diversity": 0.688
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "Political Violence",
+      "Count": 29,
+      "TopWords": [
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "fraud",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "corruption",
+          "weight": 1.0
+        },
+        {
+          "word": "tensions",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "Election Irregularities",
+      "Count": 6,
+      "TopWords": [
+        {
+          "word": "fraud",
+          "weight": 1.0
+        },
+        {
+          "word": "opposition",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "eu",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "irregularities",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "results",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "Hunger Crisis",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "southern",
+          "weight": 1.0
+        },
+        {
+          "word": "nino",
+          "weight": 1.0
+        },
+        {
+          "word": "africa",
+          "weight": 1.0
+        },
+        {
+          "word": "el",
+          "weight": 1.0
+        },
+        {
+          "word": "aid",
+          "weight": 1.0
+        },
+        {
+          "word": "malnutrition",
+          "weight": 1.0
+        },
+        {
+          "word": "drought",
+          "weight": 1.0
+        },
+        {
+          "word": "hunger",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "Insurgency Conflict",
+      "Count": 3,
+      "TopWords": [
+        {
+          "word": "cabo",
+          "weight": 1.0
+        },
+        {
+          "word": "governance",
+          "weight": 1.0
+        },
+        {
+          "word": "state",
+          "weight": 1.0
+        },
+        {
+          "word": "insurgency",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "islamic",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "delgado",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "Natural Disasters",
+      "Count": 6,
+      "TopWords": [
+        {
+          "word": "devastation",
+          "weight": 1.0
+        },
+        {
+          "word": "chido",
+          "weight": 1.0
+        },
+        {
+          "word": "infrastructure",
+          "weight": 1.0
+        },
+        {
+          "word": "aid",
+          "weight": 1.0
+        },
+        {
+          "word": "disaster",
+          "weight": 1.0
+        },
+        {
+          "word": "floods",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "climate",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "resilience",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 5,
+      "Name": "Political and Economic Turmoil",
+      "Count": 4,
+      "TopWords": [
+        {
+          "word": "economic",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "demonstrations",
+          "weight": 1.0
+        },
+        {
+          "word": "governance",
+          "weight": 1.0
+        },
+        {
+          "word": "resources",
+          "weight": 1.0
+        },
+        {
+          "word": "political",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "investors",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 6,
+      "Name": "Refugee Crisis",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "food",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "refugees",
+          "weight": 1.0
+        },
+        {
+          "word": "support",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "asylum-seekers",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "election",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 7,
+      "Name": "Public Health Crisis",
+      "Count": 1,
+      "TopWords": [
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "public",
+          "weight": 1.0
+        },
+        {
+          "word": "health",
+          "weight": 1.0
+        },
+        {
+          "word": "cholera",
+          "weight": 1.0
+        },
+        {
+          "word": "sanitation",
+          "weight": 1.0
+        },
+        {
+          "word": "outbreaks",
+          "weight": 1.0
+        },
+        {
+          "word": "violence",
+          "weight": 1.0
+        },
+        {
+          "word": "WHO",
+          "weight": 1.0
+        },
+        {
+          "word": "misinformation",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

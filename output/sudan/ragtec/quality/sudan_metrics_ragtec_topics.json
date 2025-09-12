@@ -1,0 +1,259 @@
+{
+  "assessment_info": {
+    "framework": "RAGTEC_Quality_Assessment",
+    "version": "1.0",
+    "model_type": "RAG_Topic_Modeling",
+    "num_topics": 8,
+    "timestamp": 1754513309.0
+  },
+  "quality_metrics": {
+    "coherence": {
+      "cv_coherence": 0.391,
+      "umass_coherence": -3.571
+    },
+    "diversity": {
+      "jaccard_diversity": 0.972,
+      "uwp_diversity": 0.875
+    },
+    "statistical": {
+      "avg_keywords_per_topic": 10.0,
+      "avg_topic_name_length": 2.0,
+      "min_keywords_per_topic": 10,
+      "max_keywords_per_topic": 10
+    }
+  },
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic_name": "Humanitarian Crisis",
+      "keywords_count": 10,
+      "keywords": [
+        "humanitarian",
+        "crisis",
+        "aid",
+        "displaced",
+        "emergency",
+        "needs",
+        "suffering",
+        "conditions",
+        "access",
+        "funding"
+      ],
+      "all_keywords": [
+        "humanitarian",
+        "crisis",
+        "aid",
+        "displaced",
+        "emergency",
+        "needs",
+        "suffering",
+        "conditions",
+        "access",
+        "funding"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "Conflict Dynamics",
+      "keywords_count": 10,
+      "keywords": [
+        "conflict",
+        "military",
+        "forces",
+        "control",
+        "violence",
+        "attacks",
+        "strategies",
+        "territory",
+        "fighting",
+        "escalation"
+      ],
+      "all_keywords": [
+        "conflict",
+        "military",
+        "forces",
+        "control",
+        "violence",
+        "attacks",
+        "strategies",
+        "territory",
+        "fighting",
+        "escalation"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Displacement Issues",
+      "keywords_count": 10,
+      "keywords": [
+        "displacement",
+        "refugees",
+        "idps",
+        "returnees",
+        "camps",
+        "migration",
+        "shelter",
+        "crisis",
+        "communities",
+        "safety"
+      ],
+      "all_keywords": [
+        "displacement",
+        "refugees",
+        "idps",
+        "returnees",
+        "camps",
+        "migration",
+        "shelter",
+        "crisis",
+        "communities",
+        "safety"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Health Crisis",
+      "keywords_count": 10,
+      "keywords": [
+        "health",
+        "crisis",
+        "cholera",
+        "disease",
+        "malnutrition",
+        "care",
+        "treatment",
+        "outbreak",
+        "services",
+        "access"
+      ],
+      "all_keywords": [
+        "health",
+        "crisis",
+        "cholera",
+        "disease",
+        "malnutrition",
+        "care",
+        "treatment",
+        "outbreak",
+        "services",
+        "access"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Gender-Based Violence",
+      "keywords_count": 10,
+      "keywords": [
+        "violence",
+        "gender",
+        "sexual",
+        "abuse",
+        "survivors",
+        "crimes",
+        "assault",
+        "trauma",
+        "protection",
+        "rights"
+      ],
+      "all_keywords": [
+        "violence",
+        "gender",
+        "sexual",
+        "abuse",
+        "survivors",
+        "crimes",
+        "assault",
+        "trauma",
+        "protection",
+        "rights"
+      ]
+    },
+    {
+      "topic_id": 5,
+      "topic_name": "Climate Change",
+      "keywords_count": 10,
+      "keywords": [
+        "climate",
+        "change",
+        "floods",
+        "drought",
+        "environment",
+        "disasters",
+        "resources",
+        "vulnerability",
+        "adaptation",
+        "impact"
+      ],
+      "all_keywords": [
+        "climate",
+        "change",
+        "floods",
+        "drought",
+        "environment",
+        "disasters",
+        "resources",
+        "vulnerability",
+        "adaptation",
+        "impact"
+      ]
+    },
+    {
+      "topic_id": 6,
+      "topic_name": "International Response",
+      "keywords_count": 10,
+      "keywords": [
+        "international",
+        "response",
+        "aid",
+        "diplomacy",
+        "funding",
+        "support",
+        "intervention",
+        "cooperation",
+        "efforts",
+        "challenges"
+      ],
+      "all_keywords": [
+        "international",
+        "response",
+        "aid",
+        "diplomacy",
+        "funding",
+        "support",
+        "intervention",
+        "cooperation",
+        "efforts",
+        "challenges"
+      ]
+    },
+    {
+      "topic_id": 7,
+      "topic_name": "Food Insecurity",
+      "keywords_count": 10,
+      "keywords": [
+        "food",
+        "insecurity",
+        "hunger",
+        "famine",
+        "malnutrition",
+        "crisis",
+        "access",
+        "prices",
+        "supplies",
+        "needs"
+      ],
+      "all_keywords": [
+        "food",
+        "insecurity",
+        "hunger",
+        "famine",
+        "malnutrition",
+        "crisis",
+        "access",
+        "prices",
+        "supplies",
+        "needs"
+      ]
+    }
+  ]
+}

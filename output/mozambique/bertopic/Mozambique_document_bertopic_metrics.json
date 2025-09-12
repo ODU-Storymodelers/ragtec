@@ -1,0 +1,199 @@
+{
+  "model_info": {
+    "num_topics": 4,
+    "cv_coherence": 0.66,
+    "umass_coherence": -0.707,
+    "jaccard_diversity": 0.812,
+    "uwp_diversity": 0.675
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "0_mozambique_mozambiques_frelimo",
+      "Count": 28,
+      "TopWords": [
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambiques",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "chapo",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimos",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambican",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "elections",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambicans",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "1_mozambique_malawi_cyclone",
+      "Count": 7,
+      "TopWords": [
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclone",
+          "weight": 1.0
+        },
+        {
+          "word": "cyclones",
+          "weight": 1.0
+        },
+        {
+          "word": "tropical",
+          "weight": 1.0
+        },
+        {
+          "word": "africa",
+          "weight": 1.0
+        },
+        {
+          "word": "disasters",
+          "weight": 1.0
+        },
+        {
+          "word": "storms",
+          "weight": 1.0
+        },
+        {
+          "word": "zimbabwe",
+          "weight": 1.0
+        },
+        {
+          "word": "storm",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "2_mozambique_mozambiques_mozambican",
+      "Count": 7,
+      "TopWords": [
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambiques",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambican",
+          "weight": 1.0
+        },
+        {
+          "word": "delgado",
+          "weight": 1.0
+        },
+        {
+          "word": "africa",
+          "weight": 1.0
+        },
+        {
+          "word": "insurgency",
+          "weight": 1.0
+        },
+        {
+          "word": "africas",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "cabo",
+          "weight": 1.0
+        },
+        {
+          "word": "insurgents",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": -1,
+      "Name": "-1_mozambique_mozambiques_unrest",
+      "Count": 9,
+      "TopWords": [
+        {
+          "word": "mozambique",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambiques",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "mozambicans",
+          "weight": 1.0
+        },
+        {
+          "word": "protests",
+          "weight": 1.0
+        },
+        {
+          "word": "malawi",
+          "weight": 1.0
+        },
+        {
+          "word": "fled",
+          "weight": 1.0
+        },
+        {
+          "word": "frelimo",
+          "weight": 1.0
+        },
+        {
+          "word": "maputo",
+          "weight": 1.0
+        },
+        {
+          "word": "refugees",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

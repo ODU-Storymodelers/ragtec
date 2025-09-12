@@ -1,0 +1,94 @@
+RAGTEC EXECUTION SUMMARY
+Generated: 2025-08-05 16:25:11
+Dataset: burundi
+================================================================================
+
+RAGTEC: Retrieval-Augmented Generation for Topic Extraction and Classification
+======================================================================
+
+============================================================
+STARTING RAGTEC TOPIC EXTRACTION
+Retrieval-Augmented Generation for Topic Extraction
+============================================================
+Loading articles from: ../data/burundi/burundi_articles_formatted.txt
+Loaded 77 articles.
+
+Collection Analysis:
+  Total articles: 77
+  Optimal k: 30 articles (39.0% selection)
+  Strategy: Logarithmic Scaling
+  Formula used: k = ⌈28 + log₁₀(|N|)⌉
+Building vector store...
+Vector store created with 77 documents.
+Retrieving 30 most relevant articles...
+Retrieved 30 articles with cosine similarity scores: 0.7987 - 0.8493
+Context built: 22,927 tokens
+Final prompt: 23,412 tokens
+Calling LLM for topic extraction...
+Processing: 100%|████████████████████████████████████████| 1/1 [00:27<00:00, 27.46s/it]
+
+Token Usage Summary:
+  Input tokens: 23,412 ($0.003512)
+  Output tokens: 1,763 ($0.001058)
+  Total cost: $0.004570
+Saved topic extraction results to: ../output/burundi/ragtec/extraction/burundi_ragtec_topic_results.json
+Results saved to: ../output/burundi/ragtec/extraction
+  - burundi_ragtec_complete_results.json
+  - burundi_token_usage_and_cost.json
+  - burundi_retrieved_articles_with_scores.json
+  - burundi_collection_analysis.json
+
+==================================================
+COLLECTION SUMMARY
+==================================================
+Summary: The collection of articles provides a comprehensive overview of the current situation in Burundi, highlighting the severe impacts of climate change, particularly flooding, on the population and infrastructure. It also discusses the humanitarian crisis resulting from displacement, the political landscape characterized by repression and economic challenges, and the regional dynamics involving neighboring countries. The articles reflect the urgent need for international aid and sustainable solutions to address these interconnected issues.
+
+Topics identified: 5
+Approach: The analysis of the articles revealed distinct themes related to climate change, humanitarian crises, political issues, economic challenges, and regional conflicts. Each theme was identified based on recurring keywords and key phrases across multiple articles, ensuring that the topics are distinct and cover different aspects of the situation in Burundi.
+
+Identified Topics:
+  1. Climate Change and Flooding
+  2. Humanitarian Crisis and Displacement
+  3. Political Repression and Governance
+  4. Economic Challenges
+  5. Regional Conflicts and Tensions
+
+TOPIC DETAILS:
+--------------------------------------------------
+
+1. Climate Change and Flooding
+   Description: This topic encompasses the effects of climate change, particularly the flooding caused by rising water levels in Lake Tanganyika and heavy rainfall, which have severely impacted communities in Burundi.
+   Keywords: floods, climate, rain, displaced, water (and 5 more)
+   Representative documents: 1
+
+2. Humanitarian Crisis and Displacement
+   Description: This topic covers the humanitarian challenges faced by the population due to displacement caused by flooding and other disasters, highlighting the urgent need for aid and support.
+   Keywords: aid, displacement, crisis, humanitarian, emergency (and 5 more)
+   Representative documents: 1
+
+3. Political Repression and Governance
+   Description: This topic addresses the political landscape in Burundi, including issues of governance, repression, and the impact of political decisions on the population.
+   Keywords: politics, repression, governance, elections, opposition (and 5 more)
+   Representative documents: 1
+
+4. Economic Challenges
+   Description: This topic highlights the economic difficulties faced by Burundi, including shortages of essential goods, inflation, and the reliance on foreign aid.
+   Keywords: economy, shortages, inflation, aid, trade (and 5 more)
+   Representative documents: 1
+
+5. Regional Conflicts and Tensions
+   Description: This topic discusses the regional dynamics affecting Burundi, including tensions with neighboring countries and the impact of conflicts in the Democratic Republic of Congo.
+   Keywords: conflict, regional, tensions, DRC, Rwanda (and 5 more)
+   Representative documents: 1
+--------------------------------------------------
+
+RAGTEC Pipeline completed successfully!
+Results saved to: ../output/burundi/ragtec/extraction
+
+Summary:
+  Collection size: 77 articles
+  Optimal k used: 30 articles
+  Selection ratio: 39.0%
+  Total cost: $0.004570
+  Total tokens: 25,175
+  Topics extracted: Available in results['parsed_output']

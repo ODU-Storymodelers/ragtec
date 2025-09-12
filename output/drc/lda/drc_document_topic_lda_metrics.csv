@@ -1,0 +1,18 @@
+OVERALL METRICS
+Number of Topics,7
+Log-Likelihood,-7.339,Higher is better (primary optimization metric)
+Perplexity,1539.798,Lower is better
+UMass Coherence,-1.139,Closer to 0 is better
+CV Coherence,0.546,Higher is better
+Jaccard Diversity,0.908,Higher is better
+Unique Word Proportion,0.771,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,Topic 0: mineral; drc; conflict; people; said,20,mineral, drc, conflict, people, said, supply, country, food, need, goma
+1,Topic 1: park; said; virunga; killed; attack,9,park, said, virunga, killed, attack, one, year, two, people, ranger
+2,Topic 2: election; country; said; people; opposition,24,election, country, said, people, opposition, president, congolese, child, kabila, result
+3,Topic 3: m23; rwanda; rebel; said; group,146,m23, rwanda, rebel, said, group, eastern, congolese, force, goma, drc
+4,Topic 4: said; people; goma; one; lake,14,said, people, goma, one, lake, lumumba, eruption, city, would, volcano
+5,Topic 5: mpox; health; disease; outbreak; case,19,mpox, health, disease, outbreak, case, said, people, africa, vaccine, country
+6,Topic 6: archive; team; data; project; history,11,archive, team, data, project, history, collection, site, website, volunteer, well

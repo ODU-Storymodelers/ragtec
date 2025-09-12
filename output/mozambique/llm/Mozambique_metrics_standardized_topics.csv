@@ -1,0 +1,17 @@
+OVERALL METRICS
+Number of Main Topics,8
+CV Coherence,0.393,Higher is better
+UMass Coherence,-2.821,Closer to 0 is better
+Jaccard Diversity,0.888,Higher is better
+Unique Word Proportion,0.688,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,Political Violence,29,government, fraud, opposition, protests, unrest, corruption, tensions, violence, mozambique, election
+1,Election Irregularities,6,fraud, opposition, protests, eu, unrest, irregularities, violence, mozambique, results, election
+2,Hunger Crisis,1,southern, nino, africa, el, aid, malnutrition, drought, hunger, climate, crisis
+3,Insurgency Conflict,3,cabo, governance, state, insurgency, violence, mozambique, islamic, humanitarian, crisis, delgado
+4,Natural Disasters,6,devastation, chido, infrastructure, aid, disaster, floods, cyclone, climate, mozambique, resilience
+5,Political and Economic Turmoil,4,economic, protests, elections, demonstrations, governance, resources, political, mozambique, crisis, investors
+6,Refugee Crisis,1,food, malawi, refugees, support, violence, mozambique, humanitarian, asylum-seekers, crisis, election
+7,Public Health Crisis,1,protests, public, health, cholera, sanitation, outbreaks, violence, WHO, misinformation, mozambique

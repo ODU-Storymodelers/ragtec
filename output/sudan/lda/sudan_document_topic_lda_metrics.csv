@@ -1,0 +1,18 @@
+OVERALL METRICS
+Number of Topics,7
+Log-Likelihood,-7.228,Higher is better (primary optimization metric)
+Perplexity,1377.290,Lower is better
+UMass Coherence,-1.160,Closer to 0 is better
+CV Coherence,0.567,Higher is better
+Jaccard Diversity,0.951,Higher is better
+Unique Word Proportion,0.800,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,Topic 0: million; humanitarian; displaced; child; country,22,million, humanitarian, displaced, child, country, crisis, war, conflict, darfur, violence
+1,Topic 1: rsf; said; attack; war; force,30,rsf, said, attack, war, force, group, camp, darfur, civilian, army
+2,Topic 2: rsf; army; war; sudanese; country,40,rsf, army, war, sudanese, country, force, military, government, also, khartoum
+3,Topic 3: team; archive; project; data; site,7,team, archive, project, data, site, history, collection, volunteer, website, lost
+4,Topic 4: water; dam; cholera; camp; doctor,6,water, dam, cholera, camp, doctor, zamzam, child, nile, white, outbreak
+5,Topic 5: aid; humanitarian; port; health; food,8,aid, humanitarian, port, health, food, day, child, one, get, case
+6,Topic 6: video; bomb; mortar; sudanese; weapon,3,video, bomb, mortar, sudanese, weapon, rsf, fighter, filmed, force, christian

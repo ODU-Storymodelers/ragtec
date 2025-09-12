@@ -1,0 +1,113 @@
+RAGTEC EXECUTION SUMMARY
+Generated: 2025-08-06 14:20:27
+Dataset: sudan
+================================================================================
+
+RAGTEC: Retrieval-Augmented Generation for Topic Extraction and Classification
+======================================================================
+Using optimal k formula
+
+============================================================
+STARTING RAGTEC TOPIC EXTRACTION
+Retrieval-Augmented Generation for Topic Extraction
+============================================================
+Loading articles from: ../data/sudan/sudan_articles_formatted.txt
+Loaded 117 articles.
+
+Collection Analysis:
+  Total articles: 117
+  Optimal k: 31 articles (26.5% selection)
+  Strategy: Logarithmic Scaling
+  Formula used: k = ⌈28 + log₁₀(|N|)⌉
+Building vector store...
+Vector store created with 117 documents.
+Retrieving 31 most relevant articles...
+Retrieved 31 articles with cosine similarity scores: 0.7843 - 0.8214
+Context built: 38,218 tokens
+Final prompt: 38,766 tokens
+Calling LLM for topic extraction...
+Processing: 100%|██████████████████████████████████████████| 1/1 [01:00<00:00, 60.22s/it]
+
+Token Usage Summary:
+  Input tokens: 38,766 ($0.005815)
+  Output tokens: 2,604 ($0.001562)
+  Total cost: $0.007377
+Saved topic extraction results to: ../output/sudan/ragtec/extraction/sudan_ragtec_topic_results.json
+Results saved to: ../output/sudan/ragtec/extraction
+  - sudan_ragtec_complete_results.json
+  - sudan_token_usage_and_cost.json
+  - sudan_retrieved_articles_with_scores.json
+  - sudan_collection_analysis.json
+
+==================================================
+COLLECTION SUMMARY
+==================================================
+Summary: The collection of articles provides a comprehensive overview of the humanitarian crisis in Sudan, highlighting the devastating effects of the ongoing civil war, the resulting displacement of millions, and the challenges faced by aid organizations. Key issues include violence, food insecurity, health crises, and the impact of climate change, all contributing to a dire situation for the Sudanese population.
+
+Topics identified: 8
+Approach: The analysis of the articles revealed distinct themes related to the ongoing crisis in Sudan, including humanitarian issues, conflict dynamics, and the impact of climate change. Each topic was identified based on recurring themes and keywords across the articles, ensuring that they are distinct yet interconnected.
+
+Identified Topics:
+  1. Humanitarian Crisis
+  2. Conflict Dynamics
+  3. Displacement Issues
+  4. Health Crisis
+  5. Food Insecurity
+  6. Climate Change
+  7. Gender-Based Violence
+  8. International Response
+
+TOPIC DETAILS:
+--------------------------------------------------
+
+1. Humanitarian Crisis
+   Description: This topic encompasses the overall humanitarian situation in Sudan, detailing the scale of suffering and the urgent need for aid.
+   Keywords: humanitarian, crisis, aid, suffering, emergency (and 5 more)
+   Representative documents: 1
+
+2. Conflict Dynamics
+   Description: This topic covers the ongoing conflict between the Sudanese Armed Forces and the Rapid Support Forces, including the power struggle and military actions.
+   Keywords: conflict, military, RSF, SAF, violence (and 5 more)
+   Representative documents: 1
+
+3. Displacement Issues
+   Description: This topic highlights the massive displacement crisis in Sudan, detailing the numbers of people forced to flee their homes and the conditions they face.
+   Keywords: displacement, refugees, IDPs, migration, camps (and 5 more)
+   Representative documents: 1
+
+4. Health Crisis
+   Description: This topic addresses the health challenges faced by the population, including disease outbreaks and the collapse of healthcare systems.
+   Keywords: health, cholera, disease, malnutrition, care (and 5 more)
+   Representative documents: 1
+
+5. Food Insecurity
+   Description: This topic highlights the severe food shortages and hunger crisis affecting millions in Sudan due to the ongoing conflict.
+   Keywords: food, hunger, insecurity, famine, nutrition (and 5 more)
+   Representative documents: 1
+
+6. Climate Change
+   Description: This topic addresses the impact of climate change on Sudan, particularly in relation to the humanitarian crisis and conflict.
+   Keywords: climate, change, flooding, drought, environment (and 5 more)
+   Representative documents: 1
+
+7. Gender-Based Violence
+   Description: This topic focuses on the rise of gender-based violence, particularly sexual violence, in the context of the conflict.
+   Keywords: gender, violence, rape, abuse, survivors (and 5 more)
+   Representative documents: 1
+
+8. International Response
+   Description: This topic examines the international community's response to the crisis in Sudan, including humanitarian aid and diplomatic efforts.
+   Keywords: international, response, aid, diplomacy, funding (and 5 more)
+   Representative documents: 1
+--------------------------------------------------
+
+RAGTEC Pipeline completed successfully!
+Results saved to: ../output/sudan/ragtec/extraction
+
+Summary:
+  Collection size: 117 articles
+  Optimal k used: 31 articles
+  Selection ratio: 26.5%
+  Total cost: $0.007377
+  Total tokens: 41,370
+  Topics extracted: Available in results['parsed_output']

@@ -1,0 +1,219 @@
+{
+  "network_statistics": {
+    "threshold_1": {
+      "nodes": 6,
+      "edges": 13,
+      "density": 0.8666666666666667,
+      "components": 1,
+      "clustering": 0.9,
+      "top_degree_centrality": [
+        [
+          "Armed Groups",
+          1.0
+        ],
+        [
+          "Humanitarian Crisis",
+          1.0
+        ],
+        [
+          "Political Landscape",
+          1.0
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Armed Groups",
+          0.06666666666666667
+        ],
+        [
+          "Humanitarian Crisis",
+          0.06666666666666667
+        ],
+        [
+          "Political Landscape",
+          0.06666666666666667
+        ]
+      ]
+    },
+    "threshold_2": {
+      "nodes": 6,
+      "edges": 12,
+      "density": 0.8,
+      "components": 1,
+      "clustering": 0.9,
+      "top_degree_centrality": [
+        [
+          "Armed Groups",
+          1.0
+        ],
+        [
+          "Humanitarian Crisis",
+          1.0
+        ],
+        [
+          "Mineral Wealth",
+          0.8
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Armed Groups",
+          0.15000000000000002
+        ],
+        [
+          "Humanitarian Crisis",
+          0.15000000000000002
+        ],
+        [
+          "Media Freedom",
+          0.0
+        ]
+      ]
+    },
+    "threshold_3": {
+      "nodes": 6,
+      "edges": 12,
+      "density": 0.8,
+      "components": 1,
+      "clustering": 0.9,
+      "top_degree_centrality": [
+        [
+          "Armed Groups",
+          1.0
+        ],
+        [
+          "Humanitarian Crisis",
+          1.0
+        ],
+        [
+          "Mineral Wealth",
+          0.8
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Armed Groups",
+          0.15000000000000002
+        ],
+        [
+          "Humanitarian Crisis",
+          0.15000000000000002
+        ],
+        [
+          "Media Freedom",
+          0.0
+        ]
+      ]
+    }
+  },
+  "topic_roles": {
+    "Armed Groups": {
+      "primary_count": 86,
+      "secondary_count": 95,
+      "total_count": 181,
+      "primary_ratio": 0.47513812154696133
+    },
+    "Humanitarian Crisis": {
+      "primary_count": 76,
+      "secondary_count": 88,
+      "total_count": 164,
+      "primary_ratio": 0.4634146341463415
+    },
+    "Media Freedom": {
+      "primary_count": 3,
+      "secondary_count": 3,
+      "total_count": 6,
+      "primary_ratio": 0.5
+    },
+    "Mineral Wealth": {
+      "primary_count": 6,
+      "secondary_count": 44,
+      "total_count": 50,
+      "primary_ratio": 0.12
+    },
+    "Political Landscape": {
+      "primary_count": 20,
+      "secondary_count": 19,
+      "total_count": 39,
+      "primary_ratio": 0.5128205128205128
+    },
+    "Regional Conflict": {
+      "primary_count": 41,
+      "secondary_count": 100,
+      "total_count": 141,
+      "primary_ratio": 0.2907801418439716
+    }
+  },
+  "topic_frequencies": {
+    "Armed Groups": 181,
+    "Humanitarian Crisis": 164,
+    "Regional Conflict": 141,
+    "Political Landscape": 39,
+    "Mineral Wealth": 50,
+    "Media Freedom": 6
+  },
+  "co_occurrence_matrix": [
+    [
+      0.0,
+      131.0,
+      3.0,
+      44.0,
+      21.0,
+      135.0
+    ],
+    [
+      131.0,
+      0.0,
+      4.0,
+      29.0,
+      11.0,
+      99.0
+    ],
+    [
+      3.0,
+      4.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      44.0,
+      29.0,
+      0.0,
+      0.0,
+      5.0,
+      38.0
+    ],
+    [
+      21.0,
+      11.0,
+      1.0,
+      5.0,
+      0.0,
+      14.0
+    ],
+    [
+      135.0,
+      99.0,
+      0.0,
+      38.0,
+      14.0,
+      0.0
+    ]
+  ],
+  "topic_names": [
+    "Armed Groups",
+    "Humanitarian Crisis",
+    "Media Freedom",
+    "Mineral Wealth",
+    "Political Landscape",
+    "Regional Conflict"
+  ],
+  "analysis_metadata": {
+    "total_articles": 243,
+    "total_topics": 6,
+    "size_multiplier": 50.0,
+    "articles_with_multiple_topics": 191
+  }
+}

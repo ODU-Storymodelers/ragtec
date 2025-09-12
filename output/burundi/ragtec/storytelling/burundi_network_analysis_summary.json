@@ -1,0 +1,198 @@
+{
+  "network_statistics": {
+    "threshold_1": {
+      "nodes": 5,
+      "edges": 8,
+      "density": 0.8,
+      "components": 1,
+      "clustering": 0.8666666666666666,
+      "top_degree_centrality": [
+        [
+          "Humanitarian Aid",
+          1.0
+        ],
+        [
+          "Political Instability",
+          1.0
+        ],
+        [
+          "Climate Change",
+          0.75
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Humanitarian Aid",
+          0.16666666666666666
+        ],
+        [
+          "Political Instability",
+          0.16666666666666666
+        ],
+        [
+          "Climate Change",
+          0.0
+        ]
+      ]
+    },
+    "threshold_2": {
+      "nodes": 5,
+      "edges": 8,
+      "density": 0.8,
+      "components": 1,
+      "clustering": 0.8666666666666666,
+      "top_degree_centrality": [
+        [
+          "Humanitarian Aid",
+          1.0
+        ],
+        [
+          "Political Instability",
+          1.0
+        ],
+        [
+          "Climate Change",
+          0.75
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Humanitarian Aid",
+          0.16666666666666666
+        ],
+        [
+          "Political Instability",
+          0.16666666666666666
+        ],
+        [
+          "Climate Change",
+          0.0
+        ]
+      ]
+    },
+    "threshold_3": {
+      "nodes": 5,
+      "edges": 5,
+      "density": 0.5,
+      "components": 1,
+      "clustering": 0.4666666666666667,
+      "top_degree_centrality": [
+        [
+          "Humanitarian Aid",
+          0.75
+        ],
+        [
+          "Climate Change",
+          0.5
+        ],
+        [
+          "Flooding Crisis",
+          0.5
+        ]
+      ],
+      "top_betweenness_centrality": [
+        [
+          "Humanitarian Aid",
+          0.6666666666666666
+        ],
+        [
+          "Political Instability",
+          0.5
+        ],
+        [
+          "Climate Change",
+          0.0
+        ]
+      ]
+    }
+  },
+  "topic_roles": {
+    "Climate Change": {
+      "primary_count": 0,
+      "secondary_count": 14,
+      "total_count": 14,
+      "primary_ratio": 0.0
+    },
+    "Economic Challenges": {
+      "primary_count": 2,
+      "secondary_count": 3,
+      "total_count": 5,
+      "primary_ratio": 0.4
+    },
+    "Flooding Crisis": {
+      "primary_count": 14,
+      "secondary_count": 3,
+      "total_count": 17,
+      "primary_ratio": 0.8235294117647058
+    },
+    "Humanitarian Aid": {
+      "primary_count": 6,
+      "secondary_count": 14,
+      "total_count": 20,
+      "primary_ratio": 0.3
+    },
+    "Political Instability": {
+      "primary_count": 43,
+      "secondary_count": 5,
+      "total_count": 48,
+      "primary_ratio": 0.8958333333333334
+    }
+  },
+  "topic_frequencies": {
+    "Flooding Crisis": 17,
+    "Climate Change": 14,
+    "Humanitarian Aid": 20,
+    "Political Instability": 48,
+    "Economic Challenges": 5
+  },
+  "co_occurrence_matrix": [
+    [
+      0.0,
+      0.0,
+      14.0,
+      8.0,
+      2.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      2.0,
+      3.0
+    ],
+    [
+      14.0,
+      0.0,
+      0.0,
+      11.0,
+      2.0
+    ],
+    [
+      8.0,
+      2.0,
+      11.0,
+      0.0,
+      10.0
+    ],
+    [
+      2.0,
+      3.0,
+      2.0,
+      10.0,
+      0.0
+    ]
+  ],
+  "topic_names": [
+    "Climate Change",
+    "Economic Challenges",
+    "Flooding Crisis",
+    "Humanitarian Aid",
+    "Political Instability"
+  ],
+  "analysis_metadata": {
+    "total_articles": 75,
+    "total_topics": 5,
+    "size_multiplier": 50.0,
+    "articles_with_multiple_topics": 28
+  }
+}

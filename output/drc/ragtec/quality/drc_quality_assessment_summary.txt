@@ -1,0 +1,113 @@
+RAGTEC TOPIC QUALITY ASSESSMENT - DETAILED EXECUTION SUMMARY
+================================================================================
+
+ASSESSMENT INFORMATION
+----------------------------------------
+Framework: RAGTEC Quality Assessment
+Assessment Type: RAG-Generated Topics with LLM Keywords
+Number of Topics: 6
+RAG Results File: ../output/drc/ragtec/extraction/drc_ragtec_topic_results.json
+Classification File: ../output/drc/ragtec/classification/drc_ragtec_classification_results.json
+Articles File: ../data/drc/drc_articles_formatted.txt
+
+DATA LOADING SUMMARY
+----------------------------------------
+Classification Results: Loaded from ../output/drc/ragtec/classification/drc_ragtec_classification_results.json
+Valid Document-Topic Assignments: 232 (multi-topic)
+Excluded Documents: 11 with 'no_match' or invalid topic assignments
+Article Texts: Loaded 243 articles for coherence calculation
+
+MULTI-TOPIC ASSIGNMENT STATISTICS
+----------------------------------------
+Documents with valid topic assignments: 232
+Total topic assignments: 581
+Average topics per document: 2.50
+Topic assignment distribution:
+  41 documents (17.7%) assigned to 1 topic(s)
+  60 documents (25.9%) assigned to 2 topic(s)
+  105 documents (45.3%) assigned to 3 topic(s)
+  25 documents (10.8%) assigned to 4 topic(s)
+  1 documents (0.4%) assigned to 5 topic(s)
+
+DATA PREPARATION DETAILS
+----------------------------------------
+Tokenization and Dictionary Building:
+  Original dictionary size: 11110
+  Filtered dictionary size: 11107
+  Removed terms: 3
+  Corpus size: 243 documents
+  Keyword coverage: 100.0%
+
+KEYWORD VALIDATION DETAILS
+----------------------------------------
+Topic Media Freedom:
+  Keywords (10): journalists, reporting, silence, media, goma, crisis, information, attacks, freedom, violence
+  Valid in dictionary: 10/10
+
+Topic Humanitarian Crisis:
+  Keywords (10): displacement, food, crisis, health, violence, humanitarian, emergency, injuries, access, suffering
+  Valid in dictionary: 10/10
+
+Topic Regional Conflict:
+  Keywords (10): rwanda, uganda, regional, conflict, military, intervention, tensions, diplomacy, peace, alliances
+  Valid in dictionary: 10/10
+
+Topic Armed Groups:
+  Keywords (10): m23, rebels, violence, militia, conflict, control, attacks, civilians, power, territory
+  Valid in dictionary: 10/10
+
+Topic Mineral Wealth:
+  Keywords (10): minerals, wealth, exploitation, resources, cobalt, coltan, gold, conflict, trade, economy
+  Valid in dictionary: 10/10
+
+Topic Political Landscape:
+  Keywords (10): elections, governance, politics, tshisekedi, protests, democracy, international, community, response, stability
+  Valid in dictionary: 10/10
+
+Overall Keyword Validation:
+  Total keywords checked: 60
+  Valid keywords: 60
+  Validation rate: 100.0%
+
+COHERENCE CALCULATION DETAILS
+----------------------------------------
+Calculation method: topic-specific documents
+Topics used for coherence: 6
+Topic-specific documents used: 581
+
+QUALITY METRICS SUMMARY
+----------------------------------------
+Coherence Metrics:
+  C_V Coherence Score: 0.384
+    Interpretation: Good
+  UMass Coherence Score: -2.160
+    Interpretation: Poor
+
+Diversity Metrics:
+  Jaccard Diversity Score: 0.971
+    Interpretation: Excellent
+  Unique Word Proportion Score: 0.900
+    Interpretation: Excellent
+
+Statistical Metrics:
+  Average Keywords per Topic: 10.0
+  Average Topic Name Length: 2.0 words
+  Min Keywords per Topic: 10
+  Max Keywords per Topic: 10
+
+TOPIC DOCUMENT DISTRIBUTION
+----------------------------------------
+  Armed Groups: 181 documents
+  Humanitarian Crisis: 164 documents
+  Media Freedom: 6 documents
+  Mineral Wealth: 50 documents
+  Political Landscape: 39 documents
+  Regional Conflict: 141 documents
+
+ASSESSMENT CONCLUSIONS
+----------------------------------------
+Overall Quality Assessment:
+  Average Quality Score: 0.752
+  Overall Rating: Excellent topic quality
+
+Assessment completed successfully with 6 topics analyzed.

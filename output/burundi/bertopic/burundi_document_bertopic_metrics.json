@@ -1,0 +1,293 @@
+{
+  "model_info": {
+    "num_topics": 6,
+    "cv_coherence": 0.47,
+    "umass_coherence": -4.26,
+    "jaccard_diversity": 0.823,
+    "uwp_diversity": 0.617
+  },
+  "topics": [
+    {
+      "Topic": 1,
+      "Name": "1_burundi_bujumbura_africa",
+      "Count": 15,
+      "TopWords": [
+        {
+          "word": "burundi",
+          "weight": 1.0
+        },
+        {
+          "word": "bujumbura",
+          "weight": 1.0
+        },
+        {
+          "word": "africa",
+          "weight": 1.0
+        },
+        {
+          "word": "nairobi",
+          "weight": 1.0
+        },
+        {
+          "word": "gatumba",
+          "weight": 1.0
+        },
+        {
+          "word": "kenya",
+          "weight": 1.0
+        },
+        {
+          "word": "humanitarian",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "ntahangwa",
+          "weight": 1.0
+        },
+        {
+          "word": "cibitoke",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "4_burundians_burundis_burundi",
+      "Count": 7,
+      "TopWords": [
+        {
+          "word": "burundians",
+          "weight": 1.0
+        },
+        {
+          "word": "burundis",
+          "weight": 1.0
+        },
+        {
+          "word": "burundi",
+          "weight": 1.0
+        },
+        {
+          "word": "nkurunziza",
+          "weight": 1.0
+        },
+        {
+          "word": "tanzania",
+          "weight": 1.0
+        },
+        {
+          "word": "unrest",
+          "weight": 1.0
+        },
+        {
+          "word": "african",
+          "weight": 1.0
+        },
+        {
+          "word": "ndirakobuca",
+          "weight": 1.0
+        },
+        {
+          "word": "ndayishimiye",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 0,
+      "Name": "0_burundi_burundis_burundian",
+      "Count": 19,
+      "TopWords": [
+        {
+          "word": "burundi",
+          "weight": 1.0
+        },
+        {
+          "word": "burundis",
+          "weight": 1.0
+        },
+        {
+          "word": "burundian",
+          "weight": 1.0
+        },
+        {
+          "word": "rwanda",
+          "weight": 1.0
+        },
+        {
+          "word": "rwandan",
+          "weight": 1.0
+        },
+        {
+          "word": "congo",
+          "weight": 1.0
+        },
+        {
+          "word": "refugees",
+          "weight": 1.0
+        },
+        {
+          "word": "congolese",
+          "weight": 1.0
+        },
+        {
+          "word": "tanzania",
+          "weight": 1.0
+        },
+        {
+          "word": "refugee",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": -1,
+      "Name": "-1_burundi_burundians_burundis",
+      "Count": 15,
+      "TopWords": [
+        {
+          "word": "burundi",
+          "weight": 1.0
+        },
+        {
+          "word": "burundians",
+          "weight": 1.0
+        },
+        {
+          "word": "burundis",
+          "weight": 1.0
+        },
+        {
+          "word": "burundian",
+          "weight": 1.0
+        },
+        {
+          "word": "rwanda",
+          "weight": 1.0
+        },
+        {
+          "word": "rwandan",
+          "weight": 1.0
+        },
+        {
+          "word": "nkurunziza",
+          "weight": 1.0
+        },
+        {
+          "word": "malaria",
+          "weight": 1.0
+        },
+        {
+          "word": "congo",
+          "weight": 1.0
+        },
+        {
+          "word": "african",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "3_burundi_burundis_burundians",
+      "Count": 8,
+      "TopWords": [
+        {
+          "word": "burundi",
+          "weight": 1.0
+        },
+        {
+          "word": "burundis",
+          "weight": 1.0
+        },
+        {
+          "word": "burundians",
+          "weight": 1.0
+        },
+        {
+          "word": "burundian",
+          "weight": 1.0
+        },
+        {
+          "word": "nkurunziza",
+          "weight": 1.0
+        },
+        {
+          "word": "nkurunzizas",
+          "weight": 1.0
+        },
+        {
+          "word": "ntibantunganya",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "hutu",
+          "weight": 1.0
+        },
+        {
+          "word": "authorities",
+          "weight": 1.0
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "2_burundis_burundi_archiveteamorg",
+      "Count": 11,
+      "TopWords": [
+        {
+          "word": "burundis",
+          "weight": 1.0
+        },
+        {
+          "word": "burundi",
+          "weight": 1.0
+        },
+        {
+          "word": "archiveteamorg",
+          "weight": 1.0
+        },
+        {
+          "word": "crisis",
+          "weight": 1.0
+        },
+        {
+          "word": "volunteers",
+          "weight": 1.0
+        },
+        {
+          "word": "archiveit",
+          "weight": 1.0
+        },
+        {
+          "word": "government",
+          "weight": 1.0
+        },
+        {
+          "word": "archive",
+          "weight": 1.0
+        },
+        {
+          "word": "data",
+          "weight": 1.0
+        },
+        {
+          "word": "projects",
+          "weight": 1.0
+        }
+      ]
+    }
+  ]
+}

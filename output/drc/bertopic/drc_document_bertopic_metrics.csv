@@ -1,0 +1,12 @@
+OVERALL METRICS
+Number of Topics,3
+CV Coherence,0.628,Higher is better
+UMass Coherence,-1.076,Closer to 0 is better
+Jaccard Diversity,0.963,Higher is better
+Unique Word Proportion,0.933,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,0_congo_congos_rwandan,212,congo, congos, rwandan, rwanda, rwandas, ceasefire, uganda, congolese, humanitarian, rebels
+2,2_volunteers_volunteer_failures,12,volunteers, volunteer, failures, providing, dying, projects, destroyed, manifestos, wayside, crashes
+1,1_congo_congos_africa,19,congo, congos, africa, organization, unicef, authorities, million, response, african, democratic

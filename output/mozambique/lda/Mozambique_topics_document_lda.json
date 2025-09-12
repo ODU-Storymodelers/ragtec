@@ -1,0 +1,333 @@
+{
+  "model_info": {
+    "num_topics": 5,
+    "log_likelihood": -7.005,
+    "perplexity": 1102.35,
+    "umass_coherence": -0.753,
+    "cv_coherence": 0.518,
+    "jaccard_diversity": 0.857,
+    "uwp_diversity": 0.7
+  },
+  "topics": [
+    {
+      "Topic": 0,
+      "Name": "Topic 0: election, frelimo, mondlane, december, electoral",
+      "Count": 2,
+      "TopWords": [
+        {
+          "word": "election",
+          "weight": 0.011
+        },
+        {
+          "word": "frelimo",
+          "weight": 0.011
+        },
+        {
+          "word": "mondlane",
+          "weight": 0.011
+        },
+        {
+          "word": "december",
+          "weight": 0.009
+        },
+        {
+          "word": "electoral",
+          "weight": 0.008
+        },
+        {
+          "word": "south",
+          "weight": 0.007
+        },
+        {
+          "word": "result",
+          "weight": 0.006
+        },
+        {
+          "word": "local",
+          "weight": 0.006
+        },
+        {
+          "word": "year",
+          "weight": 0.006
+        },
+        {
+          "word": "could",
+          "weight": 0.006
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 24,
+          "text": "demonstrations cost big projects 1.7 bn but give local people more power, and may encourage renegotiation mozambique has become an extractive economy, with foreign owned mines and industries exporting...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 23,
+          "text": "after riot police dispersed a mob from the vicinity of frelimos local headquarters, people set up burning barricades to block traffic. maputo mozambican presidential candidate venancio mondlane has ag...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 38,
+          "text": "134 dead in 4 days in the four days 23-26 december, 134 people have been killed by police or in demonstration related incidents. this brings the death toll for the 66 days of demonstration to 261, acc...",
+          "score": 0.277
+        }
+      ]
+    },
+    {
+      "Topic": 1,
+      "Name": "Topic 1: said, election, opposition, protest, violence",
+      "Count": 6,
+      "TopWords": [
+        {
+          "word": "said",
+          "weight": 0.011
+        },
+        {
+          "word": "election",
+          "weight": 0.011
+        },
+        {
+          "word": "opposition",
+          "weight": 0.008
+        },
+        {
+          "word": "protest",
+          "weight": 0.008
+        },
+        {
+          "word": "violence",
+          "weight": 0.007
+        },
+        {
+          "word": "police",
+          "weight": 0.006
+        },
+        {
+          "word": "government",
+          "weight": 0.006
+        },
+        {
+          "word": "frelimo",
+          "weight": 0.006
+        },
+        {
+          "word": "mondlane",
+          "weight": 0.005
+        },
+        {
+          "word": "simao",
+          "weight": 0.005
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 29,
+          "text": "metuge district, cabo delgado mozambicans go to the polls tomorrow in presidential and legislative elections that are almost certain to extend the ruling frelimo partys half century in power, despite ...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 34,
+          "text": "post-election violence has spread across mozambique, paralyzing cities and disrupting daily life. as the chaos escalates, the united nations has called for calm and a peaceful resolution. major cities...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 35,
+          "text": "as political violence in mozambique continues, thousands of families are crossing the border into malawi, with officials warning the situation is dire. thousands have fled mozambique to neighboring ma...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 2,
+      "Name": "Topic 2: delgado, cabo, police, frelimo, said",
+      "Count": 5,
+      "TopWords": [
+        {
+          "word": "delgado",
+          "weight": 0.009
+        },
+        {
+          "word": "cabo",
+          "weight": 0.009
+        },
+        {
+          "word": "police",
+          "weight": 0.009
+        },
+        {
+          "word": "frelimo",
+          "weight": 0.009
+        },
+        {
+          "word": "said",
+          "weight": 0.008
+        },
+        {
+          "word": "government",
+          "weight": 0.008
+        },
+        {
+          "word": "group",
+          "weight": 0.007
+        },
+        {
+          "word": "one",
+          "weight": 0.007
+        },
+        {
+          "word": "demonstrator",
+          "weight": 0.006
+        },
+        {
+          "word": "crisis",
+          "weight": 0.006
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 13,
+          "text": "the many roots of mozambiques deadly insurgency new field research in cabo delgado sheds light on one of africas least understood violent conflicts. published on 08 september 2022 in iss today by lies...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 44,
+          "text": "mozambique: is cabo delgado the latest islamic state outpost? islamic state has been behind the growing wave of violence in northern mozambique a simmering islamist rebellion in a remote corner of moz...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 11,
+          "text": "plainclothes hit squads to kill demonstrators were ordered to be established last week by the general commander of the police, bernardino rafael, in a video conference he held with provincial commande...",
+          "score": 0.988
+        }
+      ]
+    },
+    {
+      "Topic": 3,
+      "Name": "Topic 3: cyclone, malawi, said, africa, chido",
+      "Count": 10,
+      "TopWords": [
+        {
+          "word": "cyclone",
+          "weight": 0.02
+        },
+        {
+          "word": "malawi",
+          "weight": 0.012
+        },
+        {
+          "word": "said",
+          "weight": 0.012
+        },
+        {
+          "word": "africa",
+          "weight": 0.008
+        },
+        {
+          "word": "chido",
+          "weight": 0.007
+        },
+        {
+          "word": "affected",
+          "weight": 0.007
+        },
+        {
+          "word": "food",
+          "weight": 0.006
+        },
+        {
+          "word": "southern",
+          "weight": 0.006
+        },
+        {
+          "word": "disaster",
+          "weight": 0.006
+        },
+        {
+          "word": "storm",
+          "weight": 0.006
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 20,
+          "text": "cyclone chido has wreaked havoc in parts of mozambique and malawi. building more resilience in advance of major storms that will no doubt follow is important, experts say. cyclone chido has brought wi...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 6,
+          "text": "months of drought in southern africa triggered by the el niño weather phenomenon have had a devastating impact on more than 27 million people and caused the regions worst hunger crisis in decades, the...",
+          "score": 0.999
+        },
+        {
+          "doc_idx": 17,
+          "text": "on monday, pemba, mozambique, began a rebuilding and cleanup effort following the devastation caused by cyclone chido, which struck the southwestern indian ocean on friday and saturday. the cyclone, c...",
+          "score": 0.999
+        }
+      ]
+    },
+    {
+      "Topic": 4,
+      "Name": "Topic 4: election, party, protest, result, frelimo",
+      "Count": 28,
+      "TopWords": [
+        {
+          "word": "election",
+          "weight": 0.023
+        },
+        {
+          "word": "party",
+          "weight": 0.016
+        },
+        {
+          "word": "protest",
+          "weight": 0.015
+        },
+        {
+          "word": "result",
+          "weight": 0.013
+        },
+        {
+          "word": "frelimo",
+          "weight": 0.012
+        },
+        {
+          "word": "country",
+          "weight": 0.011
+        },
+        {
+          "word": "opposition",
+          "weight": 0.011
+        },
+        {
+          "word": "chapo",
+          "weight": 0.011
+        },
+        {
+          "word": "mondlane",
+          "weight": 0.01
+        },
+        {
+          "word": "said",
+          "weight": 0.01
+        }
+      ],
+      "Representative_Docs": [
+        {
+          "doc_idx": 28,
+          "text": "after riot police dispersed a mob from the vicinity of frelimos local headquarters, people set up burning barricades to block traffic. maputo mozambiques top court has declared election victory for th...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 10,
+          "text": "maputo, mozambique in a state of the nation address late tuesday, outgoing mozambican president filipe nyusi invited the four presidential candidates for a dialogue as part of a bid to end post-electi...",
+          "score": 1.0
+        },
+        {
+          "doc_idx": 5,
+          "text": "mozambiques president-elect struck a conciliatory tone thursday oct. 24 as he spoke shortly after the results of disputed polls were announced. daniel chapo dominated 3 opponents to secure 70.67 of th...",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}

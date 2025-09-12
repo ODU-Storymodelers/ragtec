@@ -1,0 +1,18 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS
+==================================================
+Number of Topics,6
+CV Coherence,0.363,Higher is better (0-1 range)
+UMass Coherence,-1.699,Less negative is better
+Jaccard Diversity,0.944,Higher is better (0-1 range)
+Unique Word Proportion,0.817,Higher is better (0-1 range)
+Avg Keywords per Topic,10.0,
+Avg Topic Name Length,2.2 words,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Election Violence,10,election, violence, protests, frelimo, mondlane, results, deaths, police, demonstrators, unrest
+1,Climate Challenges,10,climate, cyclone, chido, devastation, displaced, rain, infrastructure, humanitarian, resilience, disease
+2,Insurgency Crisis,10,insurgency, cabo, delgado, violence, displaced, militants, humanitarian, conflict, terrorism, resources
+3,Social Media Restrictions,10,social, media, restrictions, internet, protests, frelimo, mondlane, access, communication, violence
+4,Economic Disparities,10,economic, disparities, resources, protests, inequality, local, demands, development, extraction, grievances
+5,Humanitarian Response,10,humanitarian, response, aid, displaced, emergency, relief, needs, assistance, food, water

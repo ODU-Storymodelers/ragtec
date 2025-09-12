@@ -1,0 +1,55 @@
+================================================================================
+RAGTEC TOPIC QUALITY ASSESSMENT SUMMARY (KeyBERT)
+================================================================================
+
+CONFIGURATION:
+----------------------------------------
+Model: all-MiniLM-L6-v2
+Keywords per topic: 10
+N-gram range: (1, 1)
+Extraction method: KeyBERT (content-based)
+
+MULTI-TOPIC ASSIGNMENT STATISTICS:
+----------------------------------------
+Total documents: 65
+Total topic assignments: 104
+Average topics per document: 1.60
+Topic assignment distribution:
+  37 documents (56.9%) → 1 topic(s)
+  19 documents (29.2%) → 2 topic(s)
+  7 documents (10.8%) → 3 topic(s)
+  2 documents (3.1%) → 4 topic(s)
+
+TOPIC OVERVIEW:
+----------------------------------------
+Total topics identified: 5
+Average keywords per topic: 5.0
+Average topic name length: 2.0 words
+
+QUALITY METRICS:
+----------------------------------------
+Coherence (Topic Consistency):
+  • C_V Coherence: 0.335 (Fair)
+  • UMass Coherence: -18.996 (Very Poor)
+
+Diversity (Topic Distinctiveness):
+  • Jaccard Diversity: 0.921 (Excellent)
+  • Unique Word Proportion: 0.760 (Good)
+
+OVERALL ASSESSMENT:
+----------------------------------------
+Quality Rating: Good
+Summary: Well-formed topics with reasonable quality
+
+PROCESSING NOTES:
+----------------------------------------
+• Keywords extracted using KeyBERT from document content
+• Multi-topic assignment: Documents can belong to multiple topics
+• Coherence measures topic internal consistency
+• Diversity measures topic distinctiveness
+• Higher coherence = more coherent topics
+• Higher diversity = more distinct topics
+
+================================================================================
+End of Summary
+================================================================================

@@ -1,0 +1,11 @@
+# Ignore docs folder
+docs/
+
+# Ignore code/__pycache__ folders
+code/**/__pycache__/
+
+# Ignore code/lib folder
+code/lib/
+
+# Ignore test folder
+test/

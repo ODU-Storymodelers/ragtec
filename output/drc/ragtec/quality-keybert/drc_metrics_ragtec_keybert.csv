@@ -1,0 +1,21 @@
+RAGTEC TOPIC QUALITY ASSESSMENT RESULTS (KEYBERT)
+============================================================
+Number of Topics,6
+CV Coherence,0.567,Higher is better (0-1 range)
+UMass Coherence,-20.491,Less negative is better
+Jaccard Diversity,0.936,Higher is better (0-1 range)
+Unique Word Proportion,0.767,Higher is better (0-1 range)
+Avg Keywords per Topic,20.0,
+Avg Topic Name Length,2.0 words,
+KeyBERT Model,all-MiniLM-L6-v2,
+N-gram Range,(1, 1),
+Keywords per Topic,20,
+
+INDIVIDUAL TOPIC DETAILS
+Topic ID,Topic Name,Keywords Count,Top Keywords
+0,Media Freedom,20,goma, rukirabashaija, won, protest, protests, emmanuel, muia, journalists, erupts, fled
+1,Humanitarian Crisis,20,burundian, amnesty, kenyatta, tanzanian, peacekeepers, rebels, burundi, tanzania, nairobi, congole
+2,Regional Conflict,20,angola, humanitarian, kenya, burundian, congolese, togo, burundi, tanzanian, kampala, ugandan
+3,Armed Groups,20,zimbabwe, truce, malawi, tanzanian, congole, angola, tanzania, kampala, kenya, congolese
+4,Mineral Wealth,20,saharan, militants, congolese, humanitarian, mwangangi, rebellion, africa, rebel, nairobi, ceasefire
+5,Political Landscape,20,presidential, sworn, suspended, immunity, patrice, africa, fayulu, tshisekedi, kabila, gabonese

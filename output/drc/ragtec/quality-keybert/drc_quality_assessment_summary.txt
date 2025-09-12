@@ -1,0 +1,92 @@
+================================================================================
+RAGTEC TOPIC QUALITY ASSESSMENT SUMMARY (KeyBERT)
+================================================================================
+
+CONFIGURATION:
+----------------------------------------
+Model: all-MiniLM-L6-v2
+Keywords per topic: 20
+N-gram range: (1, 1)
+Extraction method: KeyBERT (content-based)
+
+MULTI-TOPIC ASSIGNMENT STATISTICS:
+----------------------------------------
+Total documents: 232
+Total topic assignments: 581
+Average topics per document: 2.50
+Topic assignment distribution:
+  41 documents (17.7%) → 1 topic(s)
+  60 documents (25.9%) → 2 topic(s)
+  105 documents (45.3%) → 3 topic(s)
+  25 documents (10.8%) → 4 topic(s)
+  1 documents (0.4%) → 5 topic(s)
+
+TOPIC OVERVIEW:
+----------------------------------------
+Total topics identified: 6
+Average keywords per topic: 20.0
+Average topic name length: 2.0 words
+
+QUALITY METRICS:
+----------------------------------------
+Coherence (Topic Consistency):
+  • C_V Coherence: 0.567 (Excellent)
+  • UMass Coherence: -20.491 (Very Poor)
+
+Diversity (Topic Distinctiveness):
+  • Jaccard Diversity: 0.936 (Excellent)
+  • Unique Word Proportion: 0.767 (Good)
+
+OVERALL ASSESSMENT:
+----------------------------------------
+Quality Rating: Good
+Summary: Well-formed topics with reasonable quality
+
+TOPIC DOCUMENT DISTRIBUTION:
+----------------------------------------
+  Media Freedom: 6 documents
+  Humanitarian Crisis: 164 documents
+  Regional Conflict: 141 documents
+  Armed Groups: 181 documents
+  Mineral Wealth: 50 documents
+  Political Landscape: 39 documents
+
+KEYBERT EXTRACTED KEYWORDS BY TOPIC:
+----------------------------------------
+Media Freedom:
+  All Keywords (20): goma, rukirabashaija, won, protest, protests, emmanuel, muia, journalists, erupts, fled, volcano, barbarian, museveni, nyiragongo, mikombe, denis, nobel, nairobi, ugandan, congo
+  Top 10 for Evaluation: goma, rukirabashaija, won, protest, protests, emmanuel, muia, journalists, erupts, fled
+
+Humanitarian Crisis:
+  All Keywords (20): burundian, amnesty, kenyatta, tanzanian, peacekeepers, rebels, burundi, tanzania, nairobi, congole, angola, kenya, ugandan, congolese, humanitarian, ceasefire, congo, rwanda, rwandan, peacekeeping
+  Top 10 for Evaluation: burundian, amnesty, kenyatta, tanzanian, peacekeepers, rebels, burundi, tanzania, nairobi, congole
+
+Regional Conflict:
+  All Keywords (20): angola, humanitarian, kenya, burundian, congolese, togo, burundi, tanzanian, kampala, ugandan, congole, ceasefire, tanzania, malawi, peacekeeping, uganda, congo, rwandan, rwanda, rwandair
+  Top 10 for Evaluation: angola, humanitarian, kenya, burundian, congolese, togo, burundi, tanzanian, kampala, ugandan
+
+Armed Groups:
+  All Keywords (20): zimbabwe, truce, malawi, tanzanian, congole, angola, tanzania, kampala, kenya, congolese, nairobi, rebels, humanitarian, rwanda, ugandan, rwandan, uganda, peacekeeping, congo, ceasefire
+  Top 10 for Evaluation: zimbabwe, truce, malawi, tanzanian, congole, angola, tanzania, kampala, kenya, congolese
+
+Mineral Wealth:
+  All Keywords (20): saharan, militants, congolese, humanitarian, mwangangi, rebellion, africa, rebel, nairobi, ceasefire, angola, kampala, m23, congo, ugandan, rwandan, rebels, rwanda, peacekeeping, uganda
+  Top 10 for Evaluation: saharan, militants, congolese, humanitarian, mwangangi, rebellion, africa, rebel, nairobi, ceasefire
+
+Political Landscape:
+  All Keywords (20): presidential, sworn, suspended, immunity, patrice, africa, fayulu, tshisekedi, kabila, gabonese, leopold, humanitarian, nairobi, ugandan, uganda, angola, congolese, rwanda, rwandan, congo
+  Top 10 for Evaluation: presidential, sworn, suspended, immunity, patrice, africa, fayulu, tshisekedi, kabila, gabonese
+
+PROCESSING NOTES:
+----------------------------------------
+• Keywords extracted using KeyBERT from document content
+• Multi-topic assignment: Documents can belong to multiple topics
+• All metrics use top 10 keywords per topic for fair method comparison
+• Coherence measures topic internal consistency
+• Diversity measures topic distinctiveness
+• Higher coherence = more coherent topics
+• Higher diversity = more distinct topics
+
+================================================================================
+End of Summary
+================================================================================

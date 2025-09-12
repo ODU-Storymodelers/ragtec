@@ -1,0 +1,172 @@
+{
+  "assessment_info": {
+    "framework": "RAGTEC_Quality_Assessment",
+    "version": "1.0",
+    "model_type": "RAG_Topic_Modeling",
+    "num_topics": 5,
+    "timestamp": 1754511957.0
+  },
+  "quality_metrics": {
+    "coherence": {
+      "cv_coherence": 0.358,
+      "umass_coherence": -4.141
+    },
+    "diversity": {
+      "jaccard_diversity": 0.966,
+      "uwp_diversity": 0.9
+    },
+    "statistical": {
+      "avg_keywords_per_topic": 10.0,
+      "avg_topic_name_length": 2.0,
+      "min_keywords_per_topic": 10,
+      "max_keywords_per_topic": 10
+    }
+  },
+  "topics": [
+    {
+      "topic_id": 0,
+      "topic_name": "Flooding Crisis",
+      "keywords_count": 10,
+      "keywords": [
+        "floods",
+        "displaced",
+        "lake",
+        "tanganyika",
+        "rainfall",
+        "homes",
+        "infrastructure",
+        "emergency",
+        "aid",
+        "evacuate"
+      ],
+      "all_keywords": [
+        "floods",
+        "displaced",
+        "lake",
+        "tanganyika",
+        "rainfall",
+        "homes",
+        "infrastructure",
+        "emergency",
+        "aid",
+        "evacuate"
+      ]
+    },
+    {
+      "topic_id": 1,
+      "topic_name": "Humanitarian Aid",
+      "keywords_count": 10,
+      "keywords": [
+        "aid",
+        "support",
+        "un",
+        "appeal",
+        "resources",
+        "humanitarian",
+        "assistance",
+        "funding",
+        "displaced",
+        "emergency"
+      ],
+      "all_keywords": [
+        "aid",
+        "support",
+        "un",
+        "appeal",
+        "resources",
+        "humanitarian",
+        "assistance",
+        "funding",
+        "displaced",
+        "emergency"
+      ]
+    },
+    {
+      "topic_id": 2,
+      "topic_name": "Political Instability",
+      "keywords_count": 10,
+      "keywords": [
+        "government",
+        "political",
+        "crisis",
+        "opposition",
+        "ndayishimiye",
+        "civil",
+        "society",
+        "repression",
+        "elections",
+        "violence"
+      ],
+      "all_keywords": [
+        "government",
+        "political",
+        "crisis",
+        "opposition",
+        "ndayishimiye",
+        "civil",
+        "society",
+        "repression",
+        "elections",
+        "violence"
+      ]
+    },
+    {
+      "topic_id": 3,
+      "topic_name": "Climate Change",
+      "keywords_count": 10,
+      "keywords": [
+        "climate",
+        "change",
+        "el",
+        "nino",
+        "environment",
+        "impact",
+        "weather",
+        "extreme",
+        "conditions",
+        "vulnerable"
+      ],
+      "all_keywords": [
+        "climate",
+        "change",
+        "el",
+        "nino",
+        "environment",
+        "impact",
+        "weather",
+        "extreme",
+        "conditions",
+        "vulnerable"
+      ]
+    },
+    {
+      "topic_id": 4,
+      "topic_name": "Economic Challenges",
+      "keywords_count": 10,
+      "keywords": [
+        "economy",
+        "shortages",
+        "inflation",
+        "poverty",
+        "trade",
+        "exports",
+        "imports",
+        "aid",
+        "development",
+        "resources"
+      ],
+      "all_keywords": [
+        "economy",
+        "shortages",
+        "inflation",
+        "poverty",
+        "trade",
+        "exports",
+        "imports",
+        "aid",
+        "development",
+        "resources"
+      ]
+    }
+  ]
+}

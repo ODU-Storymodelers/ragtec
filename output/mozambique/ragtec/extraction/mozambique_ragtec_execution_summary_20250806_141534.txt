@@ -1,0 +1,102 @@
+RAGTEC EXECUTION SUMMARY
+Generated: 2025-08-06 14:15:34
+Dataset: mozambique
+================================================================================
+
+RAGTEC: Retrieval-Augmented Generation for Topic Extraction and Classification
+======================================================================
+Using optimal k formula
+
+============================================================
+STARTING RAGTEC TOPIC EXTRACTION
+Retrieval-Augmented Generation for Topic Extraction
+============================================================
+Loading articles from: ../data/mozambique/mozambique_articles_formatted.txt
+Loaded 51 articles.
+
+Collection Analysis:
+  Total articles: 51
+  Optimal k: 30 articles (58.8% selection)
+  Strategy: Logarithmic Scaling
+  Formula used: k = ⌈28 + log₁₀(|N|)⌉
+Building vector store...
+Vector store created with 51 documents.
+Retrieving 30 most relevant articles...
+Retrieved 30 articles with cosine similarity scores: 0.7810 - 0.8083
+Context built: 26,982 tokens
+Final prompt: 27,532 tokens
+Calling LLM for topic extraction...
+Processing: 100%|██████████████████████████████████████████| 1/1 [00:46<00:00, 46.09s/it]
+
+Token Usage Summary:
+  Input tokens: 27,532 ($0.004130)
+  Output tokens: 1,912 ($0.001147)
+  Total cost: $0.005277
+Saved topic extraction results to: ../output/mozambique/ragtec/extraction/mozambique_ragtec_topic_results.json
+Results saved to: ../output/mozambique/ragtec/extraction
+  - mozambique_ragtec_complete_results.json
+  - mozambique_token_usage_and_cost.json
+  - mozambique_retrieved_articles_with_scores.json
+  - mozambique_collection_analysis.json
+
+==================================================
+COLLECTION SUMMARY
+==================================================
+Summary: The collection of articles provides a comprehensive overview of the current situation in Mozambique, highlighting the political unrest following disputed elections, the impact of climate change and natural disasters, and the ongoing humanitarian crisis due to insurgency and economic challenges. The articles reflect the struggles of the Mozambican people amidst government repression, calls for political change, and the urgent need for humanitarian assistance.
+
+Topics identified: 6
+Approach: The analysis of the articles revealed distinct themes related to Mozambique's current socio-political climate, particularly focusing on the aftermath of the recent elections, climate challenges, and the ongoing insurgency. Each topic was identified based on recurring themes and keywords across the articles, ensuring that they are distinct yet interconnected.
+
+Identified Topics:
+  1. Election Violence
+  2. Climate Change
+  3. Insurgency Crisis
+  4. Social Media Restrictions
+  5. Economic Disparities
+  6. Humanitarian Response
+
+TOPIC DETAILS:
+--------------------------------------------------
+
+1. Election Violence
+   Description: This topic encompasses the violent protests and unrest following the disputed presidential election results in Mozambique, highlighting the tensions between the ruling party and opposition supporters.
+   Keywords: violence, election, protests, Frelimo, Mondlane (and 5 more)
+   Representative documents: 1
+
+2. Climate Change
+   Description: This topic addresses the challenges Mozambique faces due to climate change, particularly the impact of cyclones and extreme weather events on the population and infrastructure.
+   Keywords: climate, cyclone, Chido, disaster, resilience (and 5 more)
+   Representative documents: 1
+
+3. Insurgency Crisis
+   Description: This topic covers the ongoing insurgency in Cabo Delgado, its roots, and the humanitarian crisis it has created, including displacement and violence.
+   Keywords: insurgency, Cabo, Delgado, violence, displacement (and 5 more)
+   Representative documents: 1
+
+4. Social Media Restrictions
+   Description: This topic highlights the restrictions on social media and internet access in Mozambique, particularly during times of political unrest and protests.
+   Keywords: social, media, restrictions, internet, protests (and 5 more)
+   Representative documents: 1
+
+5. Economic Disparities
+   Description: This topic discusses the economic inequalities in Mozambique, particularly in relation to resource extraction and the impact on local communities.
+   Keywords: economy, disparities, resources, inequality, poverty (and 5 more)
+   Representative documents: 1
+
+6. Humanitarian Response
+   Description: This topic focuses on the humanitarian efforts and challenges in Mozambique, particularly in response to natural disasters and the ongoing insurgency.
+   Keywords: humanitarian, response, aid, relief, needs (and 5 more)
+   Representative documents: 1
+--------------------------------------------------
+
+
+RAGTEC Pipeline completed successfully!
+Results saved to: ../output/mozambique/ragtec/extraction
+
+Summary:
+  Collection size: 51 articles
+  Optimal k used: 30 articles
+  Selection ratio: 58.8%
+  Total cost: $0.005277
+  Total tokens: 29,444
+  Topics extracted: Available in results['parsed_output']

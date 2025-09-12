@@ -1,0 +1,11 @@
+OVERALL METRICS
+Number of Topics,2
+CV Coherence,0.539,Higher is better
+UMass Coherence,-0.568,Closer to 0 is better
+Jaccard Diversity,1.000,Higher is better
+Unique Word Proportion,1.000,Higher is better
+
+INDIVIDUAL TOPIC METRICS
+Topic ID,Topic Name,Document Count,Top Words
+0,0_darfur_sudan_sudans,108,darfur, sudan, sudans, humanitarian, khartoum, sudanese, genocide, aid, crisis, famine
+1,1_panic_providing_destroyed,8,panic, providing, destroyed, volunteers, manifestos, dying, data, sake, insight, suddenly
