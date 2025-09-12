@@ -22,11 +22,11 @@ Curate news collections by manually selecting URLs from diverse outlets (e.g., R
 
 ### Topic Extraction
 
-Perform context-aware topic extraction using retrieval-augmented LLMs and utility functions (`utils/ragtec_topic_extraction.py`) to identify meaningful topics with reduced redundancy.
+Perform context-aware topic extraction using retrieval-augmented LLMs, utility functions (`utils/ragtec_topic_extraction.py`), and custom prompt templates (`prompts/topic_extraction_prompt.txt`, `prompts/docs_retrieve_query.txt`) to identify meaningful topics with reduced redundancy.
 
 ### Topic Classification
 
-Assign multiple topics per document with multi-topic classification techniques and supporting utilities (`utils/ragtec_topic_classification.py`) to capture complex thematic structures.
+Assign multiple topics per document with multi-topic classification techniques, supporting utilities (`utils/ragtec_topic_classification.py`), and tailored prompt templates (`prompts/topic_classification_prompt.txt`) to capture complex thematic structures.
 
 ### Topic Quality
 
