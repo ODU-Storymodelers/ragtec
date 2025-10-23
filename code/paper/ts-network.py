@@ -104,7 +104,7 @@ def export_network_square():
     cb.set_ticks([0.0, 0.2, 0.4, 0.6, 0.8, 1.0])
     cb.set_ticklabels(["0%", "20%", "40%", "60%", "80%", "100%"])
 
-    fig.savefig(OUT_PATH)
+    fig.savefig(OUT_PATH, dpi=300)
     plt.close(fig)
 
 if __name__ == "__main__":

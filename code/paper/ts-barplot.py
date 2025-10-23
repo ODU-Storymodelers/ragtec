@@ -77,7 +77,7 @@ def export_distribution(csv_path, out_png):
     ax.legend(frameon=False, loc="best")
     # No title; legend moved to caption; keep labels short
     fig.subplots_adjust(left=LEFT, right=RIGHT, bottom=BOTTOM, top=TOP)
-    fig.savefig(out_png)   # No bbox_inches='tight'
+    fig.savefig(out_png, dpi=300)   # No bbox_inches='tight'
     plt.close(fig)
 
 def export_importance(csv_path, out_png):
@@ -123,7 +123,7 @@ def export_importance(csv_path, out_png):
     cbar.ax.yaxis.set_major_formatter(mpl.ticker.PercentFormatter(xmax=100, decimals=0, symbol='%'))
 
     fig.subplots_adjust(left=LEFT, right=RIGHT, bottom=BOTTOM, top=TOP)
-    fig.savefig(out_png)
+    fig.savefig(out_png, dpi=300)
     plt.close(fig)
 
 if __name__ == "__main__":
